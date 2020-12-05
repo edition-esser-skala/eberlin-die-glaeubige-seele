@@ -680,6 +680,12 @@ tocLabelLong = #(define-music-function
 tempoItztKomm = \tempoMarkup "Adagio"
 
 
+scriptAllOut = \override Script.avoid-slur = #'outside
+markDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "da capo" }
+}
+
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
 \include "notes/ob1.ly"

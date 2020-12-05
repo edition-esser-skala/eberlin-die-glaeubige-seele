@@ -17,10 +17,10 @@
 		\header {
 			genre = "A R I A"
 			number = "1"
-			title = "Itzt komm, o rauher Sünder"
+			title = "Izt komm, o rauher Sünder"
 		}
 		\paper { indent = 3\cm }
-		\tocLabelLong "itztkomm" "1" "Aria" "Itzt komm, o rauher Sünder"
+		\tocLabelLong "iztkomm" "1" "Aria" "Izt komm, o rauher Sünder"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -39,7 +39,7 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "Corno I, II" "in C" }
-						\ItztKommCornoI \ItztKommCornoII
+						\partcombine \ItztKommCornoI \ItztKommCornoII
 					>>
 				>>
 				\new StaffGroup <<
@@ -78,7 +78,7 @@
 				\new FiguredBass { \ItztKommBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 75 }
 		}
 	}
 }
