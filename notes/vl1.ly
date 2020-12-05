@@ -120,6 +120,164 @@ ItztKommViolinoI = {
 	}
 }
 
+WeintMitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/8 \tempoWeintMit
+		R4.
+		r16 d'(\p cis c h b)
+		a8-! r r
+		r16 d(\pp cis c h b)
+		a8 r r %5
+		R4.
+		r8 d,\pE b
+		es d r
+		r es( es')
+		r d( b') %10
+		R4.*2
+		r16 d,\f cis(\decresc d) c( d)\!
+		h(\pE c) b( c) a( b)
+		as(\ppE b) g( a) fis( a) %15
+		b(\f h c cis d32[ es e fis])
+		g4.~
+		g16 b32 g b([ g fis g)] g( es d es)
+		d( cis d c) c([ b d b)] b( a) a( g)
+		a[ b c b] \appoggiatura d16 c8 b16 a %20
+		g a a4\trill \noBreak
+		g r8 \bar "S-S"
+		R4. \noBreak
+		r16 d'(\pE cis c h b)
+		a8 r r %25
+		r16 d( cis c h b)
+		a8 r r
+		R4.
+		r8 f'( b)
+		g f r %30
+		r es,\pp es
+		r d d
+		r c c
+		r des'(\pE b)
+		r b( ges) %35
+		r16 ges f es des c
+		b4 r8
+		R4.*2
+		r8 es( es) %40
+		r des( des)
+		e e e
+		f4 r8
+		R4.
+		r8 f'(\f ges) %45
+		r es(\decresc f)
+		des4.\pE
+		c\ppE
+		b8-! ges-! e-!
+		f r r %50
+		R4.\fermataMarkup
+		R
+		r8 a16\pE b c d
+		es8 es es
+		d!16 es f8 r %55
+		r f f
+		r g g
+		r g g
+		r a16(\f f g a)
+		b8 r r %60
+		r r f\pE
+		r r f
+		R4.*2
+		g4. %65
+		f16( d) c4
+		b8 r r
+		r16 f'( e es d des)
+		c8 r r
+		r16 b a32([ b h c)] d( es f fis) %70
+		g8 r r
+		R4.
+		r8 f f
+		f16(\f as g fis f e)
+		f8\p f f %75
+		es!16(\f g f e es d)
+		es8\p es es
+		d4 r8
+		R4.*2 %80
+		r8 c,( c)
+		r b( b)
+		r a' a
+		r b( g)
+		r g( es) %85
+		r16 es d c b a
+		g4 r8
+		g''16 g g g g g
+		as as as as as as
+		d, d d d d d %90
+		es4 r8
+		R4.*4 %95
+		r8 g( es)
+		r f( d)
+		es c-! fis,-!
+		g d d
+		d4 r8 %100
+		R4.
+		r16 g( as a b h)
+		c8 r r
+		r16 g( as a b h)
+		c8 r r %105
+		R4.
+		g'4.(
+		\scriptOut fis8)-! r g(\f
+		fis) r r
+		R4. %110
+		g,8\pE fis d
+		g, b c
+		d4.
+		r16 d'( cis d c d)
+		h(\decresc c) b( c) a( b) %115
+		as(\ppE b) g( a) fis( a)
+		g32(\f as a b) h([ c cis d)] es( e f fis)
+		g8 r r
+		R4.
+		r16 d(\pE cis c h b) %120
+		a8 r r
+		es\f d cis
+		d4 r8
+		r d( es)
+		r c( d) %125
+		b b b \noBreak
+		b4 r8\fermata \bar "||"
+		R4. \noBreak
+		r16 es(\pE f g as b)
+		c8 r r %130
+		r16 es,( f g as b)
+		c8 r r
+		R4.
+		r8 des,( des)
+		r c( c) %135
+		r es( es)
+		r d!( d)
+		d' d d
+		d c c
+		d d c %140
+		b b b
+		\appoggiatura d cis4.\fp
+		d8 r r
+		R4.
+		r8 d( es) %145
+		r c( d)
+		b4.
+		d
+		es8 es es
+		es d r %150
+		R4.*9 %159
+		r8 es16(\fE c a! g) %160
+		fis4 g8
+		r a16( fis d c)
+		b8 r r
+		r16 d'( cis c h b)
+		a8 r r %165
+		R4.*3 \bar "S-S" %168 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

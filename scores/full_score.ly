@@ -81,39 +81,90 @@
 	% 		\midi { \tempo 4 = 75 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "R E C I T A T I V O"
+	% 		number = "2"
+	% 		title = "Mein Sohn! o Gottes Sohn!"
+	% 	}
+	% 	\paper {
+	% 		indent = 2\cm
+	% 		system-system-spacing.basic-distance = #23
+	% 		system-system-spacing.minimum-distance = #23
+	% 		systems-per-page = #4
+	% 	}
+	% 	\tocLabelLong "meinsohn" "2" "Recitativo" "Mein Sohn! o Gottes Sohn!"
+	% 	\score {
+	% 		<<
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "Maria, die" "Mutter Jeſus" }
+	% 					\new Voice = "Alto" { \dynamicUp \MeinSohnAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \MeinSohnAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\MeinSohnOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \MeinSohnBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "R E C I T A T I V O"
-			number = "2"
-			title = "Mein Sohn! o Gottes Sohn!"
+			genre = "A R I A"
+			number = "3"
+			title = "Weint mit mir, ihr frommen Seelen"
 		}
 		\paper {
-			indent = 2\cm
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
-		\tocLabelLong "meinsohn" "2" "Recitativo" "Mein Sohn! o Gottes Sohn!"
+		\tocLabelLong "weintmit" "3" "Aria" "Weint mit mir, ihr frommen Seelen"
 		\score {
 			<<
+				\new Staff {
+					\set Staff.instrumentName = "trb"
+					\WeintMitTromboneI
+				}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\WeintMitViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\WeintMitViolinoII
+						}
+					>>
+				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Maria, die" "Mutter Jeſus" }
-						\new Voice = "Alto" { \dynamicUp \MeinSohnAltoNotes }
+						\set Staff.instrumentName = "Maria"
+						\new Voice = "Alto" { \dynamicUp \WeintMitAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \MeinSohnAltoLyrics
+					\new Lyrics \lyricsto Alto \WeintMitAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\MeinSohnOrgano
+						\WeintMitOrgano
 					}
 				>>
-				\new FiguredBass { \MeinSohnBassFigures }
+				\new FiguredBass { \WeintMitBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4. = 55 }
 		}
 	}
 }

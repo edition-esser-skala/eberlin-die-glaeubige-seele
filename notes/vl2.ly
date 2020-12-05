@@ -119,3 +119,161 @@ ItztKommViolinoII = {
 		h4.\fermata \markDaCapo \bar "S-S" %109 finis
 	}
 }
+
+WeintMitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/8 \tempoWeintMit
+		R4.
+		r16 d'(\p cis c h b)
+		a8-! r r
+		r16 d(\pp cis c h b)
+		a8 r r %5
+		R4.
+		r8 d,\pE b
+		es d r
+		r g( c)
+		r \once \slurDashed b( d) %10
+		R4.*2
+		b8\fE e,\decresc fis
+		g4.\p
+		es4\ppE d8 %15
+		b'16(\f h c cis d32[ es e fis])
+		g4.~
+		g16 b32( g) b([ g fis g)] g( es d es)
+		d( cis d c) c([ b d b)] b( a) a( g)
+		fis[ g a g] \appoggiatura b16 a8 g16 fis %20
+		g4 fis8 \noBreak
+		g4 r8 \bar "S-S"
+		R4. \noBreak
+		r16 d'(\pE cis c h b)
+		a8 r r %25
+		r16 d( cis c h b)
+		a8 r r
+		R4.
+		r8 b( d)
+		es d r %30
+		r c,\pp c
+		r b b
+		r a a
+		r b'(\pE ges)
+		r ges( es) %35
+		r16 es des c b a
+		b4 r8
+		R4.*2
+		r8 c( c) %40
+		r b( b)
+		b b b
+		a4 r8
+		R4.
+		r8 des'(\f es) %45
+		r c(\decresc des)
+		b4.\pE
+		a\ppE
+		b8-! ges-! e-!
+		f r r %50
+		R4.\fermataMarkup
+		R
+		r8 f16\pE g a b
+		c8 c c
+		b16 c d!8 r %55
+		r d d
+		r es es
+		r e e
+		r c16(\f a b c)
+		d8 r r %60
+		r r d\pE
+		r r d
+		R4.*2
+		es4. %65
+		d16( b) \appoggiatura b8 a4
+		b8 r r
+		r16 f'( e es d des)
+		c8 r r
+		r16 b a32([ b h c)] d( es f fis) %70
+		g8 r r
+		R4.
+		r8 d d
+		f16(\f as g fis f e)
+		d8\p d d %75
+		es16(\f g f e es d)
+		c8\p c c
+		b4 r8
+		R4.*2 %80
+		r8 \slurDashed a,( a)
+		r g( g) \slurSolid
+		r fis' fis
+		r g( es)
+		r es( c) %85
+		r16 c b a g a
+		g4 r8
+		b'16 b b b b b
+		c c c c c c
+		h h h h h h %90
+		c4 r8
+		R4.*4 %95
+		r8 es( c)
+		r d( h)
+		c as-! fis-!
+		g h, h
+		h4 r8 %100
+		R4.
+		r16 g'( as a b h)
+		c8 r r
+		r16 g( as a b h)
+		c8 r r %105
+		R4.
+		cis4.(
+		\scriptOut d8)-! r cis(\f
+		d) r r
+		R4. %110
+		g,8\pE fis d
+		g, b c
+		d4.
+		r16 d'( cis d c d)
+		h(\decresc c) b( c) a( b) %115
+		as(\ppE b) g( a) fis( a)
+		g32(\f as a b) h([ c cis d)] es( e f fis)
+		g8 r r
+		R4.
+		r16 d(\pE cis c h b) %120
+		a8 r r
+		es\f d cis
+		d4 r8
+		r b( c)
+		r a( b) %125
+		g g g \noBreak
+		g4 r8\fermata \bar "||"
+		R4. \noBreak
+		r16 es'(\pE f g as b)
+		c8 r r %130
+		r16 es,( f g as b)
+		c8 r r
+		R4.
+		r8 b,( b)
+		r as( as) %135
+		r c( c)
+		r b( b)
+		b' b b
+		g g g
+		fis fis fis %140
+		fis fis fis
+		g4.\fp
+		fis8 r r
+		R4.
+		r8 b( c) %145
+		r a( b)
+		g4.
+		h
+		c8 c c
+		c h r %150
+		R4.*9 %159
+		r8 es16(\fE c a! g) %160
+		fis4 g8
+		r a16( fis d c)
+		b8 r r
+		r16 d'( cis c h b)
+		a8 r r %165
+		R4.*3 \bar "S-S" %168 finis
+	}
+}

@@ -280,6 +280,349 @@ MeinSohnBassFigures = \figuremode {
 	r1 %24 finis
 }
 
+WeintMitOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/8 \tempoWeintMit
+		g'8\pE g, r
+		R4.
+		c8 d d
+		g4 r8
+		c,\ppE d d %5
+		g4 r8
+		R4.*2
+		r8 c,(\pE a)
+		r b'( g) %10
+		es c f
+		b, b' a
+		\mvTr g4.~\fE-\tasto
+		g\p
+		c,4\pp d8 %15
+		g r r
+		b,16(\f h c cis) d32([ es e fis)]
+		g8 g g
+		a16 fis g8 g,
+		d' d d %20
+		d d d \noBreak
+		g,4 r8 \bar "S-S"
+		g'8\pE g, r \noBreak
+		R4.
+		c8 a d %25
+		g r r
+		c, a d
+		g r r
+		r d b
+		es b r %30
+		r c(\ppE a)
+		r b'( g)
+		es c f
+		ges\pE r r
+		es r r %35
+		f f f
+		b,4 r8
+		r des b
+		es b r
+		r c( a) %40
+		r b'( ges)
+		ges ges ges
+		f r r
+		f r r
+		f\f r r %45
+		f r r
+		r f(\p ges)
+		r es(\pp f)
+		des ges-! e-!
+		f r r %50
+		R4.\fermataMarkup
+		f8\pE f f
+		f f f
+		f f f
+		b, b r %55
+		r b b
+		r es es
+		r c c
+		r f\fE es
+		d b r %60
+		b\pE r r
+		b r r
+		R4.
+		b8 c d
+		es d c %65
+		f f f
+		b,4 r8
+		R4.
+		es8 c f
+		d4 r8 %70
+		es c f
+		b,4 r8
+		r b b
+		h\fE h h
+		h\pE h h %75
+		c\fE c c
+		a\pE a a
+		b4 r8
+		g4.
+		g4 r8 %80
+		r a( fis)
+		r g'( es)
+		c a d
+		g r r
+		es r r %85
+		c d d
+		g,4 r8
+		g'16 g g g g g
+		g g g g g g
+		f f f f f f %90
+		es4 r8
+		g r r
+		g r r
+		g r r
+		g r r %95
+		r g( as)
+		r f( g)
+		es as-! fis-!
+		g g g
+		g4 r8 %100
+		g g, r
+		g' r r
+		c, a d
+		g,4 r8
+		c a d %105
+		g, r r
+		es'4.(
+		d8) r es(\f
+		d) r r
+		R4. %110
+		g8\pE fis d
+		g, b c
+		d4.
+		g,~-\tastoE
+		g %115
+		c4\pp d8
+		g, r r
+		g32(\f as a b) h([ c cis d)] es( e f fis)
+		g8 g, r
+		R4. %120
+		c8\p a d
+		es\f d cis
+		d4.
+		g,8 r r
+		g r r %125
+		g g g \noBreak
+		g\fermata g'8[ f] \bar "||"
+		es\p es, r \noBreak
+		es' es, r
+		as' f b %130
+		es, r r
+		as f b
+		es,4 r8
+		r g( es)
+		r as( es) %135
+		r a( f)
+		r b( as)
+		g g g
+		es es es
+		d d d %140
+		d d d
+		es\fpE es es
+		d r r
+		d r r
+		d r r %145
+		d r r
+		r g( as)
+		r f!( g)
+		es \parOn as-\parenthesize-! \parOff fis-\parenthesize-!
+		g4 f8 %150
+		es c r
+		g r r
+		g r r
+		g g g
+		g4.~-\tastoE %155
+		g~
+		g~
+		g~
+		g
+		c8 r r %160
+		d\fE c b
+		fis r r
+		g r r
+		R4.
+		c8 d d %165
+		g es es
+		d4.
+		g,4 r8 \markDaCapo \bar "S-S" %168 finis
+	}
+}
+
+WeintMitBassFigures = \figuremode {
+	r4.
+	r
+	<6>8 <7 _+>4
+	r4.
+	<6>8 <7 _+>4 %5
+	r4.*3
+	r4 <6 5>8
+	r4. %10
+	<6>
+	r4 <6\\>8
+	r4.
+	r
+	r %15
+	r
+	r
+	<5>4 <6>8
+	<6\\>16 <6 5> r4
+	<_+>4. %20
+	<6 4>8 <5 \t> <\t _+>
+	r4.
+	r
+	r
+	<6>4 <_+>8 %25
+	r4.
+	<6>4 <_+>8
+	r4.
+	r8 <6>4
+	r4. %30
+	r4 <6 5>8
+	r4.
+	<6>
+	<5->
+	<_-> %35
+	r
+	<_->
+	r8 <6> <_->
+	q q4
+	r4 <6 5>8 %40
+	r <_-> <5->
+	<6! 5->4.
+	r
+	<7 5>
+	<8 6-> %45
+	<7 5>
+	r8 <6- 4> <\t \t>
+	r <2>4
+	<6>8 <1> q
+	q4. %50
+	r
+	r
+	<7>
+	<\t>
+	<_!> %55
+	r
+	r
+	r8 <_!>4
+	r <2>8
+	<6>4. %60
+	r
+	r
+	r
+	r8 <7> <6>
+	r4. %65
+	<6 4>8 <5 \t> <\t 3>
+	r4.
+	r
+	<6>
+	q %70
+	q
+	r
+	r
+	<7->
+	<\t> %75
+	r
+	<7 5>4 <6 \t>8
+	r4.
+	<5 3>
+	<6 4>8 <5 3>4 %80
+	r8 <6\\> <6>
+	r4.
+	<6>8 <6\\> <_+>
+	r4.
+	r %85
+	r8 <_+>4
+	r4.
+	r
+	<7 4 2->
+	<6 4! 2> %90
+	<6>
+	<8 6>
+	<7 5>
+	<6 4>
+	<5 _!> %95
+	r8 <6 4> <5>
+	r <6 5> <_!>
+	<6>8 <1> q
+	q <_!>4
+	r4. %100
+	<_->
+	r
+	<6>4 <_+>8
+	r4.
+	<6>4 <_+>8 %105
+	r4.
+	<6\\>
+	<_+>4 <6\\>8
+	<_+>4.
+	r %110
+	r8 <6 5> <7 _+>
+	r <6>4
+	<6 4>4 <5 _+>8
+	r4.
+	r %115
+	r
+	r
+	r
+	r
+	r %120
+	<6>4 <7 _+>8
+	<5 3> <\t \t> <7 _!>
+	<6 4>4 <5 _+>8
+	r4.
+	r %125
+	r
+	r4 <6 _->8
+	r4.
+	r
+	<6>8 <_->4 %130
+	r4.
+	<6>8 <_->4
+	r4.
+	r8 <6 5-> <\t \t>
+	r <5 3> <\t \t> %135
+	r <6 5> <\t \t>
+	r <5 3> <\t \t>
+	<5 3>4.
+	<7>8 <6>4
+	<8 _+>4 <7 \t>8 %140
+	<6 _+>4.
+	<7>8 <6\\>4
+	<_+>4.
+	<7 5>
+	<8 6> %145
+	<7 5>
+	r4 <6!>8
+	r <4! 2> <_!>
+	<6> <5 3> <7 _!>
+	<6 4> <5 _!> <\t \t> %150
+	<6>4.
+	<7 5>
+	<6 4>
+	<\t \t>8 <5 _!>4
+	r4. %155
+	r
+	r
+	<6 4>
+	<5 _!>
+	r %160
+	<_+>8 <\t> <6>
+	<6 5>4.
+	r
+	r
+	<6>8 <_+>4 %165
+	r4.
+	<_+>
+	r %168 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
