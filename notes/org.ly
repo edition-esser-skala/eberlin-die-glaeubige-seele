@@ -222,6 +222,64 @@ ItztKommBassFigures = \figuremode {
 	<_!>4. %109 finis
 }
 
+MeinSohnOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoMeinSohn
+		cis1
+		d2 es
+		d fis
+		g b
+		as f %5
+		es1
+		des2 c
+		b a!
+		gis1
+		c2 cis~ %10
+		cis d~
+		d \once \tieDashed c~
+		c b~
+		b h~
+		h c %15
+		b1
+		a~
+		a2 b
+		g1~
+		g %20
+		ces
+		es
+		d2 es
+		f4 b, r2\fermata \bar "|." %24 finis
+	}
+}
+
+MeinSohnBassFigures = \figuremode {
+	<6>1
+	r2 q
+	<_+>2 <7->
+	<_-> <2>
+	<6> <4!> %5
+	<6>1
+	<6->2 <_!>
+	<2> <6>
+	<6 _!>1
+	<6>2 <7-> %10
+	r1
+	r2 <4+ 2>
+	r <6>
+	r <7->
+	r <_-> %15
+	<4! 2>1
+	<6>2 <7- 5->
+	r <_->
+	<6- _->1
+	<7- 5- _->2 <6- \t \t> %20
+	<6- _->1
+	<6! 4! 2>
+	<6->2 <5->
+	r1 %24 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

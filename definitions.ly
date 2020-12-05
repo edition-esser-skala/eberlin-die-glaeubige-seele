@@ -678,9 +678,9 @@ tocLabelLong = #(define-music-function
 
 
 tempoItztKomm = \tempoMarkup "Adagio"
+tempoMeinSohn = \tempoMarkup "Recitativo"
 
 
-scriptAllOut = \override Script.avoid-slur = #'outside
 markDaCapo = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remark "da capo" }
