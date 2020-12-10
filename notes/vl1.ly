@@ -278,6 +278,173 @@ WeintMitViolinoI = {
 	}
 }
 
+SobaldDieViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSobaldDie
+		R1*5 %5
+		r2 d8-! f-! cis-! d-!
+		b4( a) gis32( h d f gis h d e) f4
+		R1
+		g,8-! b-! e,-! g-! cis,4( d)
+		b32( g' b d) g8 r4 r2 %10
+		r f
+		r8 g,\p g32\cresc g g g g g g g as as as as as as as as h! h h h h h h h\!
+		c c c c d d d d es es es es f f f f g4 r
+		r r16 c,32 c c c c c c4 r
+		r2 r4 r16 b c des %15
+		r a!32 c c16( b) r es, f ges des4( c)
+		h!2 r8 d'16. d32 d4
+		r2 es~
+		es des~
+		des1 %20
+		r8 as es c a16-! c-! f-! a-! c8-! r
+		R1
+		r2 ges'
+		r8 b,( a! b) ces( a! b d!)
+		es2 r %25
+		r8 r16 f\f f16. f32 f16. f32 as4 r
+		r2 ges,~
+		ges f~
+		f1~
+		f2 des'~ %30
+		des r8 c d4\fermata \bar "|." %31 finis
+	}
+}
+
+MoerderdazenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoMoerderdazen
+		b'4.\fE es16( b) b8 as r4
+		as4. f'16( as,) as8 g r4
+		es8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! b'4 es16( c) b( a)
+		b4 es16( c) b( a) b( d) c( b) es( c) b( a) %5
+		b( d) c( b) es( c) b( a) b( c) d( es) f( g) as?( b)
+		c4 d,, es a,\p
+		b8-! ces-! b-! a-! b-! ces-! b-! a-!
+		b2 f''\trill\f
+		es16( b) c( as) b( g) as( f) g8 as'16( f) g( es) f( d) %10
+		<g b, es,>4 q8. q16 q4 r
+		b,4.\p es16( b) b( g) as( b) c(\f es) d( es)
+		f4.\p as,8 as16( f) g( as) b(\f c) d( es)
+		es,8.(\pE g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! d c b4 %15
+		es8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! b'2
+		r8 g' r g r b b g
+		b2. as4
+		r8 as r as r as as f %20
+		as2. g4
+		r8 g r g r g g es
+		r4 b\f r d
+		r f\pE es8 r d r
+		c r b r a f g es %25
+		f16\f f f f f4 es16 es es es es4
+		d d8. d16 d4 r
+		r des'(\p es des)
+		r f,( ges f)
+		es'2. ces?4 %30
+		a!1
+		b4 r ges( f)
+		r des'( es des)
+		es8 es es es es es es es
+		es16\f es es es es es es es es es es es es es es es %35
+		d!2 d4. d8
+		d1
+		b4\pE es16( c) b( a) b( d) c( b) es( c) b( a)
+		b( d) c( b) es( c) b( a) b c d\f es f g a b
+		b,\p b b b b b b b c c c c c c c c %40
+		d\f d d d d d d d es4 r
+		g\pE r r c,
+		r c d r
+		r b r b
+		es16\f es es es es es es es es2\p %45
+		d4 f c es
+		d f c es
+		d8 c b a g f es d
+		g16 g g g a a a a b4 r8 es
+		es4 a, b16(\f d) c( b) c es d c %50
+		g' g g g c, c c c b f g a? b c d es
+		f4. b16 f f8 es r4
+		es4. c'16 es, es8 d r4
+		b8.( d16) d( f) f( b) b( f) f( d) d( b) b( f)
+		d4 c b r %55
+		d'16\pE d d d d d d d es es es es es es es es
+		f f f f f f f f es4 r
+		g f es r8 g,
+		f-! es-! d-! c-! g'2
+		r8 es' r es r g g es %60
+		g2. f4
+		r8 f r f r f f d
+		f2. es4
+		r d r es
+		des8 des des des c c c c %65
+		b b b b as as as as
+		g g g g f4 f8. f16
+		f4 r r es'
+		as( g) r es,
+		as( g) as8 g f es %70
+		b'4 r as8 g f es
+		b'4 f8. f16 f4 d8. d16
+		d1
+		es'4 as16( f) es( d) es( g) f( es) as( f) es( d)
+		es( g) f( es) as( f) es( d) es es, f g as b c d %75
+		es c c c c c c c d d d d d d d d
+		f f f f h, h h h c c c c c c c c
+		c4 r r g'
+		r g( g) r
+		r c, r c %80
+		f r r b,
+		r es es16 es es es es es es es
+		es es es es es es es es es es es es es es es es
+		es es es es es es es es c8 b as g
+		as g f es c'16 c c c d d d d %85
+		es f g as b g es d c\f c c c d d d d
+		es g g g g g g g g g g g g g g g
+		g4 r r2
+		es,8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! b'4 es16( c) b( a) %90
+		b4 es16( c) b( a) b( d) c( b) es( c) b( a)
+		b( d) c( b) \slurDashed es( c) b( a) \slurSolid b c d es f g as? b
+		c4 d,, es a,\p
+		b8-! ces-! b-! a-! b-! ces-! b-! a-!
+		b2 f''\f %95
+		es16( b) c( as) b( g) as( f) g8 as'16( f) g( es) f( d) \noBreak
+		es4 <b es, g,>8. q16 q4 r\fermata \bar "||"
+		\time 3/8 es4.\p \noBreak
+		des8 r r
+		r c b %100
+		as r r
+		es'4.
+		des8 r r
+		r c b
+		as r r %105
+		c4.
+		h8. c16 d es
+		f4.
+		es8 d c
+		c4. %110
+		h8 h h
+		h4 r8
+		r c( es)
+		r d( f)
+		f es d %115
+		c4.
+		d
+		es16( f) g( f) g8-!
+		r c, c
+		h4 r8 %120
+		r c( es)
+		r d( f)
+		f es d
+		es16\f es es es es es
+		es8 r r %125
+		R4. \markDaCapo \bar "||" %126 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

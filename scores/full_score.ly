@@ -116,55 +116,158 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A R I A"
+	% 		number = "3"
+	% 		title = "Weint mit mir, ihr frommen Seelen"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "weintmit" "3" "Aria" "Weint mit mir, ihr frommen Seelen"
+	% 	\score {
+	% 		<<
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "trb"
+	% 				\WeintMitTromboneI
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WeintMitViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WeintMitViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Maria"
+	% 					\new Voice = "Alto" { \dynamicUp \WeintMitAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \WeintMitAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\WeintMitOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \WeintMitBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4. = 55 }
+	% 	}
+	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A C C O M P A G N A T O"
+	% 		number = "4"
+	% 		title = "Sobald die Juden nun auf Golgatha gekommen"
+	% 	}
+	% 	\paper {
+	% 		indent = 2\cm
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "sobalddie" "4" "Accompagnato" "Sobald die Juden nun auf Golgatha gekommen"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SobaldDieViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SobaldDieViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\SobaldDieViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "Evangelist" "Die gläubige Seele" }
+	% 					\new Voice = "Tenore" { \dynamicUp \SobaldDieTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SobaldDieTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SobaldDieOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SobaldDieBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
 			genre = "A R I A"
-			number = "3"
-			title = "Weint mit mir, ihr frommen Seelen"
+			number = "5"
+			title = "Mörderdazen, Mörderklauen"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "weintmit" "3" "Aria" "Weint mit mir, ihr frommen Seelen"
+		\tocLabelLong "moerderdazen" "5" "Aria" "Mörderdazen, Mörderklauen"
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "trb"
-					\WeintMitTromboneI
-				}
 				\new StaffGroup <<
-					\new GrandStaff <<
+					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\WeintMitViolinoI
+							\MoerderdazenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\WeintMitViolinoII
+							\MoerderdazenViolinoII
 						}
 					>>
+					\new Staff {
+						\set Staff.instrumentName = "vla"
+						\MoerderdazenViola
+					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Maria"
-						\new Voice = "Alto" { \dynamicUp \WeintMitAltoNotes }
+						\set Staff.instrumentName = "Seele"
+						\new Voice = "Tenore" { \dynamicUp \MoerderdazenTenoreNotes }
 					}
-					\new Lyrics \lyricsto Alto \WeintMitAltoLyrics
+					\new Lyrics \lyricsto Tenore \MoerderdazenTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\WeintMitOrgano
+						\MoerderdazenOrgano
 					}
 				>>
-				\new FiguredBass { \WeintMitBassFigures }
+				\new FiguredBass { \MoerderdazenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 55 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

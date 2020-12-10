@@ -678,8 +678,10 @@ tocLabelLong = #(define-music-function
 
 
 tempoItztKomm = \tempoMarkup "Adagio"
-tempoMeinSohn = \tempoMarkup "Recitativo"
+tempoMeinSohn = \tempoMarkup "[Tempo deest]"
 tempoWeintMit = \tempoMarkup "[Tempo deest]"
+tempoSobaldDie = \tempoMarkup "[Tempo deest]"
+tempoMoerderdazen = \tempoMarkup "Allegro molto"
 
 
 markDaCapo = {

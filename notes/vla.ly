@@ -115,3 +115,170 @@ ItztKommViola = {
 		d4.\fermata \markDaCapo \bar "S-S" %109 finis
 	}
 }
+
+SobaldDieViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoSobaldDie
+		R1*5 %5
+		r2 d8-! f-! cis-! d-!
+		b4( a) gis2
+		R1
+		\parOn g'8-\parenthesize-! b-! e,-! \parOff g-\parenthesize-! cis,4( d)
+		b2\trill r %10
+		r as'
+		r8 d,\p d16\cresc d d d es es es es d d d d\!
+		c c g' g g g as as b4 r
+		r r16 f32 f f f f f f4 r
+		r2 r4 des8 r %15
+		es f ges r f,2
+		f r8 g'16. f32 g4
+		r2 a~
+		a es~
+		es1 %20
+		r8 as es c a2
+		R1
+		r2 c
+		r8 des( c des) es( f ges f)
+		es2 r %25
+		r8 r16 b'\f b16. as32 as16. g32 f4 r
+		r2 es8( ges) d!( es)
+		ces4 b c?2~
+		\once \tieDashed c1~
+		c2 g~ %30
+		g r8 f' f4\fermata \bar "|." %31 finis
+	}
+}
+
+MoerderdazenViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 4/4 \tempoMoerderdazen
+		g'8\fE g g4 r8 c, f as
+		f es d4 r8 b es f
+		g4 es es r8 b'
+		as-! g-! f-! es-! f4 es
+		d es f es %5
+		d8 f g f f f d d
+		c4 b b a\p
+		b8-! ces-! b-! a-! b-! ces-! b-! a-!
+		b b b\f b b b b b
+		es4 r es r %10
+		es es8. es16 es4 r
+		es8\p es es4 r8 c f as
+		b,2 r8 b es as
+		g4 g g r8 b
+		as-! g-! f-! es-! d c b4 %15
+		b8 b b b b b b b
+		as'-! g-! f-! es-! f es d c
+		b b b b b b b b
+		b b b b b b b b
+		b b b b b b b b %20
+		b b b b b b b b
+		b b b b b b b b
+		r4 b\f r b
+		r d'\pE c8 a b g
+		a f g es f d es c %25
+		d16\f d c c b4 c16 c b b a4
+		b b8. b16 b4 r
+		r f'(\p ges f)
+		r b,( a b)
+		r ges'( f es) %30
+		r c( f es)
+		des r a( b)
+		r b( a b)
+		ces8 ces ces ces ces ces ces ces
+		ces16\f ces ces ces ces ces ces ces ces ces ces ces ces ces ces ces %35
+		b2 f'4. f8
+		f1
+		d4\pE c b c
+		d8 f g f d f\f d d
+		d\p d d d g g g g %40
+		b,16\f b b b b b b b b4 r
+		b\p r r f'
+		r f f r
+		r es r es
+		g16\f g g g g g g g a2\p %45
+		b8 b d, d a a c c
+		b b d d a a c c
+		b4 r g'8 f es d
+		es4 f g r
+		es f g r %50
+		es16\f es es es f f f f b,4 r
+		d8 d d4 r8 g c c
+		c b a4 r8 f f es
+		d f b f d b b b
+		b4 a b r %55
+		b16\pE b b b b b b b c c c c c c c c
+		d d d d d d d d es4 r
+		es f g r8 g
+		f-! es-! d-! c-! d c h h
+		g g g g g g g g %60
+		g g g g g g g g
+		g g g g g g g g
+		g g g g g g g g
+		r4 g r g
+		es'8 es es es es es es es %65
+		es2 c8 c b b
+		b b b b b4 b8. b16
+		b4 r r g'
+		c( b) r b,
+		c( b) as'8 g f es %70
+		b'4 r as8 g f es
+		b4 b8. b16 b4 f8. f16
+		f1
+		es'4 f g f
+		es8 g f b, es es es es %75
+		f16 f f f f f f f f f f f f f f f
+		f8 f g as es16 es es es es es es es
+		e4 r r c
+		r des( des) r
+		r f r f %80
+		f r r es
+		r es as8 as c c
+		g g b b as as c c
+		g g b b as4 r
+		as8 g f es f16 f f f f f f f %85
+		es4 r f16\f f f f f f f f
+		es es es es es es es es c' c c c c c c c
+		b4 r r2
+		g4 g g r8 b
+		as-! g-! f-! es-! f4 es %90
+		d es f es
+		d8 f g f f f d d
+		es4 f b, a\p
+		b8-! ces-! b-! a-! b-! ces-! b-! a-!
+		b b b\f b b b b b %95
+		es4 r es r \noBreak
+		es es8. es16 es4 r\fermata \bar "||"
+		\time 3/8 c8\p des es \noBreak
+		f r r
+		r es es %100
+		es r r
+		c des es
+		f r r
+		r es es
+		es r r %105
+		es d! c
+		g' f es
+		d c h
+		c r r
+		as4. %110
+		g8 g g
+		g4 r8
+		r es'( c)
+		r h( g)
+		R4. %115
+		c8 d es
+		f g f
+		es d c
+		as as as
+		g4 r8 %120
+		r es'( c)
+		r h( g)
+		R4.
+		as'16\f as g g fis fis
+		g4. %125
+		c,4 r8 \markDaCapo \bar "||" %126 finis
+	}
+}

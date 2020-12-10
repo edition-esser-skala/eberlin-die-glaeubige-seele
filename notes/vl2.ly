@@ -277,3 +277,170 @@ WeintMitViolinoII = {
 		R4.*3 \bar "S-S" %168 finis
 	}
 }
+
+SobaldDieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSobaldDie
+		R1*5 %5
+		r2 d8-! f-! cis-! d-!
+		b4( a) gis32( h d f gis h d e) f4
+		R1
+		g,8-! b-! e,-! g-! cis,4( d)
+		b32( g' b d) g8 r4 r2 %10
+		r c,
+		r8 g\p g32\cresc g g g g g g g g g g g g g g g f f f f f f f f\!
+		es es es es h'! h h h c c c c d d d d es4 r
+		r r16 a,!32 a a a a a a4 r
+		r2 r4 r16 b c des %15
+		r a!32 c c16( b) r es, f ges des4( c)
+		d2 r8 h'16. h32 h4
+		r2 c~
+		c b~
+		b1 %20
+		r8 as es c a16-! c-! f-! a-! c8-! r
+		R1
+		r2 a
+		r8 \slurDashed f( es f) ges( f es as) \slurSolid
+		ges2 r %25
+		r8 r16 d'!\f d16. d32 d16. d32 f4 r
+		r2 es,~
+		es1~
+		\once \tieDashed es~
+		es2 b'~ %30
+		b r8 a b4\fermata \bar "|." %31 finis
+	}
+}
+
+MoerderdazenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoMoerderdazen
+		b'4.\fE es16( b) b8 as r4
+		as4. f'16( as,) as8 g r4
+		es8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! b'4 es16( c) b( a)
+		b4 es16( c) b( a) b( d) c( b) es( c) b( a) %5
+		b( d) c( b) es( c) b( a) b( c) d( es) f( g) as?( b)
+		c4 d,, es a,\p
+		b8-! ces-! b-! a-! b-! ces-! b-! a-!
+		b4 es'2\f d4
+		es16( g,) as( f) g( es) f( d) es8 \slurDashed c'16( as) b( g) as( f) \slurSolid %10
+		<g' b, es,>4 q8. q16 q4 r
+		g,4.\p \once \slurDashed b16( g) g8 f r4
+		as4. f8 f es r4
+		es8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! d c b4 %15
+		es8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! b'2
+		r8 es r es r g g es
+		g2. f4
+		r8 f r f r f f d %20
+		f2. es4
+		r8 es r es r es es g,
+		r4 d\f r b'
+		r f'\pE es8 r d r
+		c r b r a f g es %25
+		f16\f f es es d4 es16 es d d c4
+		b b8. b16 b4 r
+		r b'(\p c b)
+		r des,( es des)
+		r b'( as ges)
+		f es des c %30
+		b r es( des)
+		r b'( c b)
+		a8 a a a a a a a
+		a16\f a a a a a a a a a a a a a a a
+		b2 b4. b8 %35
+		b1
+		b4\pE es16( c) b( a) b( d) c( b) es( c) b( a)
+		b( d) c( b) es( c) b( a) b c d\f es f g a b
+		b,\p b b b b b b b es, es es es es es es es %40
+		f\f f f f f f f f g4 r
+		es'\pE r r a,
+		r a b r
+		r g r g
+		c16\f c c c c c c c c2\p %45
+		b16 f' f f f f f f f f f f f f f f
+		f f f f f f f f f f f f f f f f
+		d8 c b a g f es d
+		es16 es es es es es es es d4 r
+		g f8 es d4 r %50
+		b'16\f b b b a a a a b f g a b c d es
+		f4. b16 f f8 es r4
+		es4. c'16 es, es8 d r4
+		b8.( d16) d( f) f( b) b( f) f( d) d( b) b( f)
+		d4 c b r %55
+		b'16\pE b b b b b b b b a a a a a a a
+		as as as as as as as as as8 g r4
+		es' d c r8 g
+		f-! es-! d-! c-! g'2
+		r8 c r c r es es c %60
+		es2. d4
+		r8 d r d r d d h
+		d2. c4
+		r h r c
+		b8 b b b as as as as %65
+		g g g g f f f f
+		es es es es d4 d8. d16
+		d4 r r b'
+		f'( es) r es,
+		f( es) as8 g f es %70
+		b'4 r as8 g f es
+		b'4 d,8. d16 d4 b8. b16
+		b1
+		es'4 as16( f) es( d) es( g) f( es) as( f) es( d)
+		es( g) f( es) as( f) es( d) es es, f g as b c d %75
+		es a, a a a a a a b b b b b b b b
+		d d d d d d d d g, g g g g g g g
+		g4 r r e'
+		r b( b) r
+		r as r as %80
+		as r r g
+		r b c as
+		b des c as
+		b des c8 b as g
+		as g f es as16 as as as as as as as %85
+		g4 r8 g as16\f as as as as as as as
+		g es' es es es es es es es es es es es es es es
+		es4 r r2
+		es,8.( g16) g( b) b( es) es( g) g( b) b8 b,
+		as-! g-! f-! es-! b'4 es16( c) b( a) %90
+		b4 es16( c) b( a) b( d) c( b) es( c) b( a)
+		b( d) c( b) \slurDashed es( c) b( a) \slurSolid b c d es f g as? b
+		c4 d,, es a,\p
+		b8-! ces-! b-! a-! b-! ces-! b-! a-!
+		b4 es'2\f d4 %95
+		es16( g,) as( f) g( es) f( d) es8 c'16( as) b( g) as( f) \noBreak
+		g4 <b es, g,>8. q16 q4 r\fermata \bar "||"
+		\time 3/8 c4.\p \noBreak
+		b8 r r
+		r as g %100
+		as r r
+		c4.
+		b8 r r
+		r as g
+		as r r %105
+		g f es
+		d g16 a h c
+		d4.
+		c8 r r
+		fis,4. %110
+		g8 d d
+		d4 r8
+		r g( c)
+		r g( d')
+		d c h %115
+		c4.~
+		c8 h4
+		\slurDashed c16( d) es( d) \slurSolid es8-\parenthesize-!
+		r fis, fis
+		g4 r8 %120
+		r \once \slurDashed g( c)
+		r g( d')
+		d c h
+		c16\f c c c c c
+		c8 r r %125
+		R4. \markDaCapo \bar "||" %126 finis
+	}
+}
