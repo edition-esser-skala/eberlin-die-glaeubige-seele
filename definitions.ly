@@ -687,6 +687,7 @@ tempoKaumAls = \tempoMarkup "[Accompagnato]"
 	tempoKaumAlsC = \tempoMarkup "[a tempo]"
 	tempoEySeht = \tempoMarkup "[Coro]"
 	tempoUndEine = \tempoMarkup "[Accompagnato]"
+tempoWieDerHirsch = \tempoMarkup "[Tempo deest]"
 
 
 markDaCapo = {

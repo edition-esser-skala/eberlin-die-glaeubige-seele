@@ -67,3 +67,86 @@ ItztKommOboeII = {
 		R4.\fermataMarkup \markDaCapo \bar "S-S" %109 finis
 	}
 }
+
+WieDerHirschOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoWieDerHirsch
+		f2\fE f
+		a4 a \once \slurDashed a4.( c8)
+		a r r4 a8 a a a
+		a([ c)] a-! r a a a a
+		a2( g) %5
+		f4 r b b8 b
+		b d16( b) b8 r a4 a8 a
+		a c16 a a8 d\pE c-! b-! a-! g-!
+		f4\f f'\p e8-! d-! c-! b-!
+		a4\f b'\p a8 g f e %10
+		f\fE c c c c2
+		f e\trill
+		f4 r r2
+		r8 f f f e2
+		f8 \once \slurDashed a,16( f) a( f) a( f) f8 a16( f) a( f) a( f) \noBreak %15
+		f8 f f f f4 r \bar "S-S"
+		R1*5 %21
+		r2 b~\p
+		b a~
+		a4 r r2
+		r r8 e' f d %25
+		e4 r r8 c h c
+		r2 r8 g f g
+		R1*6 %33
+		c16(\fE h) d( c) e( d) f( d) c2~
+		c4 h c2 %35
+		c e4 e
+		e4.( g8) e r r4
+		e8 e e e e([ g)] e-! r
+		e e e e e2(
+		d) c4 r %40
+		R1
+		r2 r8 c\fE h h
+		c4 r r8 e e e
+		f4 r r2
+		R1 %45
+		r2 r8 a,\pE g g
+		f4 r r2
+		r \once \tieDashed d'~\fp
+		d4 r r2
+		r r4 f,\fE %50
+		e8 f g a f f g e
+		f d e4 d r
+		R1
+		r2 r8 e'\pE e f
+		e r r4 r8 f f4 %55
+		e8 r r4 r2
+		R1*10 %66
+		r2 b\fpE
+		a4 f'~\fE f8 f f f
+		f4 r r2
+		b,4 b8 b b d16( b) b8 r %70
+		a4 a8 a a c16( a) a8 d
+		c-! b-! a-! g-! f4 f'
+		e8-! d-! c-! b-! a4 b'
+		\parOn a8-\parenthesize-! g-! f-! \parOff e-\parenthesize-! f c c c
+		c2 f %75
+		e \tuplet 3/2 8 { f16 g f } \parOn c8-\parenthesize-! \tuplet 3/2 8 { f16 g f } c8-!
+		a8-! a-! a-! a-! \tuplet 3/2 8 { a16 b a } f8-! \tuplet 3/2 8 { a16 b a } f8-! \noBreak
+		f-! f-! f-! \parOff f-\parenthesize-! f4\fermata r \bar "||"
+		R1*4 %82
+		gis2\pE a4 r
+		r2 fis
+		g4 r r2 %85
+		r8 cis cis8.(\trill h?32 cis) d8 r r4
+		R1*2
+		r2 r8 f, g e
+		f4 r r2 %90
+		r r4 d'\fE
+		c8-!\p b-! a-! g-! f4\f f'
+		e8-!\p d-! c-! b-! a4\f b'
+		a8-!\p g-! f-! e-! f\fE c c c
+		c c c c f2 %95
+		e\trill \tuplet 3/2 8 { f16 g f } \parOn c8-\parenthesize-! \tuplet 3/2 8 { f16 g f } c8-!
+		a8-! a-! a-! a-! \tuplet 3/2 8 { a16 b a } f8-! \tuplet 3/2 8 { a16 b a } f8-!
+		f-! f-! f-! \parOff f-\parenthesize-! f4 r \markDaCapo \bar "||" %98 finis
+	}
+}

@@ -482,3 +482,108 @@ KaumAlsViolinoII = {
 		R1\fermataMarkup \bar "|." %44 finis
 	}
 }
+
+WieDerHirschViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoWieDerHirsch
+		f16(\fE c) f( c) f( c) f( c) f( c) f( c) f( c) f( c)
+		a'( f) a( f) a( f) a( f) a( f) a( f) a( f) a( f)
+		a( f) a( f) a( f) a( f) a( f) a( f) a( f) a( f)
+		a( f) a( f) a( f) a( f) a( f) a( f) a( f) a( f)
+		a( f) a( f) a( f) a( f) g( e) g( e) g( e) g( e) %5
+		f( a) e( f) g( a) b( a) b( f) b( f) \slurDashed b( f) b( f)
+		b( f) d'( b) \slurSolid b( f) b( f) a( f) a( f) a( f) a( f)
+		a( f) c'( a) a8 d\p c-! b-! a-! g-!
+		f4\f f'\p e8-! d-! c-! b-!
+		a4\f b'\p a8 g f e %10
+		f16(\f e) g( f) a( g) b( a) f( e) g( f) a( g) b( a)
+		f2 e
+		f16(\p e) g( f) a( g) b( a) f( e) g( f) a( g) b( a)
+		f2\f e
+		f8 \once \slurDashed a,16( f) a( f) a( f) f8 a16( f) a( f) a( f) \noBreak %15
+		f8 f f f f4 r \bar "S-S"
+		c16(\p a) c( a) c( a) c( a) f'( c) f( c) f( c) f( c) \noBreak
+		a'( f) a( f) a( f) a( f) a( f) a( f) \slurDashed a( f) a( f)
+		a( f) a( f) \slurSolid a( f) a( f) a( f) c'( a) a( f) c'( a)
+		a8([ c)] a8 r a16( f) c'( a) a( f) c'( a) %20
+		a( f) a( f) a( f) a( f) g( e) g( e) g( e) g( e)
+		\slurDashed f(\f a) e( f) \slurSolid g( a) b( a) b(\p f) d'( b) b( f) d'( b)
+		b( f) d'( b) b4 a16( f) c'( a) a( f) c'( a)
+		\slurDashed a( f) c'( a) \slurSolid a8 d c b a g
+		f4. a16 f f8 e r4 %25
+		c'16( h) d( c) e( d) f( e) f8 e r4
+		c16( h) d( c) e( d) f( e) f8 e r4
+		a, a8 h c e16 d c8 e
+		e4 r r8 e r e
+		e-! e-! e-! e-! f4 r %30
+		r8 f r f f-! f-! f-! f-!
+		h,-!\cresc c-! d-! e-!\! f-! g-! a-! h-!
+		c4 c,\p c16( h) d( c) e( d) f( e)
+		c(\f h) d( c) e( d) f( d) c2~
+		c4 h c16( g) c( g) c( g) c( g) %35
+		c( g) c( g) c( g) c( g) e'( c) e( c) e( c) e( c)
+		e( c) e( c) e( c) e( c) e( c) e( c) e( c) e( c)
+		e( c) e( c) e( c) e( c) e( c) e( c) e( c) e( c)
+		e( c) e( c) e( c) e( c) e( c) e( c) e( c) e( c)
+		d( h) d( h) d( h) d( h) c4 r %40
+		e,16(\p c) e( c) e( c) e( c) g'( e) g( e) g( e) g( e)
+		c4 r r8 c'\f g16 f e d
+		c8 r r4 r8 c' c16 b! a g
+		a16(\p f) c'( a) a( f) c'( a) \once \slurDashed a8([ c)] a8-! r
+		a16( f) c'( a) a( f) c'( a) a( f) a( f) a( f) a( f) %45
+		g( e) g( e) g( e) g( e) f8 f g4
+		f g8 a g f r4
+		r8 e d4~\f d8 f'\p f f
+		gis, gis gis gis a4 r8 f
+		e f g a f16( a) f( a) f(\f a) f( a) %50
+		e8 f g a d, f g e
+		f d e cis d4 d'
+		c!8-!\p b-! a-! g-! \appoggiatura g4 f4. a8
+		\appoggiatura b a4. g16 f e4 r
+		g16( f) a( g) b( a) d( c) b8 a r4 %55
+		g16( f) a( g) b( a) d( c) b8 a r4
+		b b8 b b d16 c b8 e
+		e4 r r8 e r e
+		e-! e-! e-! e-! f4 r
+		r8 d r d d d d d %60
+		es4 r r8 c r c
+		c c c c fis,-! g-! a-! b-!
+		c-! d-! e!-! fis-! g-! a-! b-! b,
+		g16( f) a( g) g( f) a( g) f( e) g( f) \slurDashed f( e) g( f) \slurSolid
+		e4 r a8 a a a %65
+		a\fp a a b b2\fp
+		a4 r b2\fp
+		a4 d~\f d8 d d d
+		c,4 r f8 g16 a b( a) b( a)
+		b( f) b( f) b( f) b( f) b( f) d'( b) b( f) b( f) %70
+		a( f) a( f) a( f) a( f) a( f) c'( a) a8 d
+		c-! b-! a-! g-! f4 f'
+		e8-! d-! c-! b-! a4 b'
+		a8-! g-! f-! e-! f16( e) g( f) a( g) b( a)
+		f( e) g( f) a( g) b( a) f2 %75
+		e\trill \tuplet 3/2 8 { f16 g f } c8-! \tuplet 3/2 8 { f16 g f } c8-!
+		a-! a-! a-! a-! \tuplet 3/2 8 { a16 b a } f8-! \tuplet 3/2 8 { a16 b a } f8-! \noBreak
+		f-! f-! f-! f-! f4\fermata r \bar "||"
+		r8 f(\p g f) r a16( f) e8( f) \noBreak
+		f16( d) a'( f) f( d) a'( f) f( d) a'( f) f( d) a'( f) %80
+		f4 r f16( d) a'( f) f( d) a'( f)
+		f8( a) f4 a8 a a h
+		gis gis gis gis a16( h) c( h) c( h) c( h)
+		c8 c c a fis fis fis fis
+		g4 r r8 f a f %85
+		r e'16( g) \appoggiatura d8 cis4 d r
+		r8 a a a \appoggiatura a4 g2
+		f4 r f r
+		f-! g-! f-! r
+		f r f8\f g16( f) f8 f %90
+		f4 r r d'\f
+		c8-!\p b-! a-! g-! f4\f f'
+		e8-!\p d-! c-! b-! a4\f b'
+		a8-!\p g-! f-! e-! f16(\f e) g( f) a( g) b( a)
+		f( e) g( f) a( g) b( a) f2 %95
+		e\trill \tuplet 3/2 8 { f16 g f } c8-! \tuplet 3/2 8 { f16 g f } c8-!
+		a-! a-! a-! a-! \tuplet 3/2 8 { a16 b a } f8-! \tuplet 3/2 8 { a16 b a } f8-!
+		f-! f-! f-! f-! f4 r \markDaCapo \bar "||" %98 finis
+	}
+}

@@ -1055,6 +1055,212 @@ KaumAlsBassFigures = \figuremode {
 	<6 4>8 <5 3> r2. %44 finis
 }
 
+WieDerHirschOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoWieDerHirsch
+		f8\fE f f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		c c c c c c c c %5
+		f f f f f f f f
+		f f f f f f f f
+		f f f f\pE c4 r
+		c\fE r r2
+		c4 r r2 %10
+		f8 a e f f a e f
+		c c c c c c c c
+		f\p a e f f a e f
+		c\f c c c c c c c
+		f, f f f f f f f \noBreak %15
+		f f f f f4 r \bar "S-S"
+		f'8\p f f f f f f f \noBreak
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %20
+		c c c c c c c c
+		f f f f f f f f
+		f f f f f f f f
+		f f f f c2~
+		c8 c c c c c c c %25
+		c4 r r8 c d e
+		r2 r8 c d e
+		f e d g c,4 r
+		c r c8 r c r
+		c-! c-! c-! c-! f4 r %30
+		f8 r f r f-! f-! f-! f-!
+		g2( f)\f
+		e4 r c\p r
+		c\f r r8 c d e
+		f d g g, c c c c %35
+		c c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		c c c c g g g g
+		g g g g c4 r %40
+		c8\p c c c c c c c
+		c4 r r8 c'\f g16 f e d
+		c4 r r8 c' c16 b! a g
+		f8\p f f f f f f f
+		f f f f c c c c %45
+		c c c c f f f e
+		d4 r r8 d( cis4)
+		r8 c( h4)\f b8 b\p b b
+		b b b b a a' f d
+		a2 d8 d f\f d %50
+		a2 d4 r
+		d r d r
+		r2 c!8 c c c
+		c c c c c4 r
+		r2 r8 f a b %55
+		c4 r r8 f, f e
+		d d d d c c c c
+		c4 r c8 r c r
+		c c c c f4 r
+		b,8 r b r b b b b %60
+		es4 r a,!8 r a r
+		a a a a d2
+		c b8 a g f!
+		e d c c c c c c
+		c4 r f'8 f f f %65
+		f\fp f f f e2\fp
+		f4 r e2\fp
+		f8 e d\f c b b h h
+		c2 f,8 f f f
+		f f f f f f f f %70
+		f f f f f f f f
+		c'4 r c r
+		r2 c4 r
+		r2 f8 a e f
+		f a e f r a, g f %75
+		c' c c c f r f r
+		f4 r f8 r f r \noBreak
+		f-! f-! f-! f-! f4\fermata f8 e \bar "||"
+		d\p d d d d d d d \noBreak
+		d d d d d d d d %80
+		d d d d d d d d
+		d d d d d d d d
+		d d d d c! c c c
+		c c c c c c c c
+		b a g4 r8 d' f d %85
+		r a' g a f e d4
+		r8 a' g f g e cis4
+		d r d r
+		d cis d r
+		d r d8\f e16 d d8 d %90
+		a'2 d,4 r
+		r2 c!4\fE r
+		r2 c4 r
+		r2 f8 a e f
+		f a e f r a, g f %95
+		c' c c c f r f r
+		f4 r f8 r f r
+		f f f f f4 r \markDaCapo \bar "S-S" %98 finis
+	}
+}
+
+WieDerHirschBassFigures = \figuremode {
+	r1
+	r
+	r
+	r
+	<8 6>2 <7 5 4>4 <\t \t 3> %5
+	<5 3>2 <6 4>
+	<\t \t> <5 3>
+	r1
+	<6 4>
+	<\t \t> %10
+	r8 <6> q4. q8 q4
+	<6 4>2 <5 3>
+	r8 <6> q4. q8 q4
+	<6 4>2 <5 3>
+	r1 %15
+	r
+	r
+	r
+	r
+	r %20
+	<8 6>2 <7 5 4>4 <\t \t 3>
+	<5 3>2 <6 4>
+	<\t \t> <5 3>
+	r <5 3>
+	<6 4> <\t \t>8 <5 3> <6 4> <7! 2> %25
+	<8 3>2. <6!>8 <6>
+	r2. <6!>8 <6>
+	r4. <_!>8 r2
+	r1
+	r %30
+	r2 <6>
+	<_!> <\t>
+	<6>1
+	r2. <7>8 <6>
+	<6 5>4 <_!>2. %35
+	r1
+	r
+	r
+	r2 <8 6>
+	<7 5 _!>1 %40
+	r1
+	r2. <_!>4
+	r1
+	r
+	r2 <8 6> %45
+	<7 5 4>4 <\t \t 3>2 <4! 2>8 <6\\>
+	r2. <6>4
+	r8 <6> <7>4 <5>2
+	<6\\> <_+>4 <6>
+	<_+>2. <6>4 %50
+	<_+>1
+	r
+	r2 <7 5>4 <6 4>
+	<\t \t>2 <5 3>
+	r2. <6>4 %55
+	r1
+	<6>2 <7>
+	<\t>1
+	r1
+	r %60
+	r2 <5->
+	<\t> <_+>
+	<\t> <6>8 <6\\> r <2>
+	<6 5>2 <6 4>
+	<5 3>1 %65
+	q4. <6 4>8 <7>2
+	r <7>
+	<8 3>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6 4>4 <5 3>2.
+	<6 4>1 %70
+	<5 3>
+	r2 <6 4>
+	r <\t \t>
+	r r8 <6> q4
+	r8 q q2. %75
+	r1
+	r
+	r2.. <6\\>8
+	r1
+	r %80
+	r
+	r2 <5>4. <6!>8
+	<6! 4+ 2>2 <6>
+	<6 4+ _-> <\t \t 2>
+	<6>2. q4 %85
+	r8 <_+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2
+	r8 <_+> <\t> <6> <9 4!> <\t \t> <7>4
+	r1
+	r4 <7>2.
+	r1 %90
+	<6 4>4 <5 _+>2.
+	r2 <6 4>
+	r <\t \t>
+	r r8 <6> q4
+	r8 q q2. %95
+	r1
+	r1
+	r %98 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

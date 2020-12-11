@@ -483,6 +483,111 @@ KaumAlsViolinoI = {
 	}
 }
 
+WieDerHirschViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoWieDerHirsch
+		f2\fE a
+		c4 c c4.( f8)
+		c8 r r4 c16( a) f'( c) c( a) f'( c)
+		c8([ f)] c-! r c16( a) f'( c) c( a) f'( c)
+		c2( b) %5
+		a16( f) g( a) b( c) d( cis) d4 d8 d
+		d16( b) f'( d) d8-! r c4 c8 c
+		c16( a) f'( c) c8 f\p e-! d-! c-! b-!
+		a4\f a'\p g8-! f-! e-! d-!
+		c4\f d'\p c8 b a g %10
+		f16(\f e) g( f) a( g) b( a) f( e) g( f) a( g) b( a)
+		f2 g\trill
+		f16(\p e) g( f) a( g) b( a) f( e) g( f) a( g) b( a)
+		f2\f g\trill
+		f8 \once \slurDashed c16( a) c( a) c( a) a8 c16( a) c( a) c( a) \noBreak %15
+		a8 a a a a4 r \bar "S-S"
+		f16(\p c) f( c) f( c) f( c) a'( f) a( f) a( f) a( f) \noBreak
+		c'( a) c( a) c( a) c( a) c4. f8
+		c r r4 c16( a) f'( c) c( a) f'( c)
+		c8([ f)] c8 r c16( a) f'( c) c( a) f'( c) %20
+		c2( b)
+		a16(\f f) g( a) b( c) d( cis) d(\p b) f'( d) d( b) f'( d)
+		d( b) f'( d) d4 c16( a) f'( c) c( a) f'( c)
+		\slurDashed c( a) f'( c) \slurSolid c8 f e d c b
+		a4. c16 a a8 g r4 %25
+		c16( h) d( c) e( d) f( e) f8 e r4
+		c16( h) d( c) e( d) f( e) f8 e r4
+		a, a8 h c e16 d c8 e
+		g4 r r8 g r g
+		g-! g-! g-! g-! a4 r %30
+		r8 a r a a-! a-! a-! a-!
+		h,-!\cresc c-! d-! e-!\! f-! g-! a-! h-!
+		c4 c,\p c16( h) d( c) e( d) f( e)
+		c(\f h) d( c) e( d) f( d) c2
+		d\trill c %35
+		e g4 g
+		g4.( c8) g8 r r4
+		g16( e) c'( g) g( e) c'( g) g8([ c)] g-! r
+		g16( e) c'( g) g( e) c'( g) g2(
+		f)\trill e4 r %40
+		g,16(\p e) g( e) g( e) g( e) c'( g) c( g) c( g) c( g)
+		e'( c) f( d) g8 e c4 r8 c
+		e16( c) f( d) g8 e c4 r
+		c16( a) f'( c) c( a) f'( c) c8([ f)] c-! r
+		c16( a) f'( c) c( a) f'( c) c2( %45
+		b) a8 a h cis
+		d4 cis8 d b a r4
+		r8 a d4~\f d8 d\p d d
+		d d d d cis4 d
+		cis8 d e f d16( f) d( f) d(\f f) a( d,) %50
+		cis8 d e f d a b g
+		a f g e d4 f'
+		e8-!\p d-! c!-! b-! \appoggiatura b4 a4. c8
+		\appoggiatura d c4. b16 a g4 r
+		g16( f) a( g) b( a) d( c) b8 a r4 %55
+		g16( f) a( g) b( a) d( c) b8 a r4
+		b b8 b b d16 c b8 e
+		g4 r r8 g r g
+		g-! g-! g-! g-! a4 r
+		r8 f r f f f f f %60
+		g4 r r8 es r es es es es es
+		fis,-! g-! a-! b-!
+		c-! d-! e-! fis-! g-! a-! b-! b,
+		b16( a) c( b) b( a) c( b) a( g) b( a) a( g) b( a)
+		g4 r c8 c c c %65
+		c\fp c c d d2\fp
+		c4 r d2\fp
+		c4 f~\f f8 f f f
+		c,4 r f8 g16 a b( c) d( cis)
+		d4 d8 d d16( b) f'( d) d8 r %70
+		c4 c8 c c16( a) f'( c) c8 f
+		e-! d-! c-! b-! a4 a'
+		g8-! f-! e-! d-! c4 d'
+		c8-! b-! a-! g-! f16( e) g( f) a( g) b( a)
+		f( e) g( f) a( g) b( a) f2 %75
+		g\trill \tuplet 3/2 8 { f16 g f } c8-! \tuplet 3/2 8 { f16 g f } c8-!
+		a-! a-! a-! a-! \tuplet 3/2 8 { a16 b a } f8-! \tuplet 3/2 8 { a16 b a } f8-! \noBreak
+		f-! f-! f-! f-! f4\fermata r \bar "||"
+		r8 a(\p b a) r f'16( d) cis8( d) \noBreak
+		a16( f) d'( a) a( f) d'( a) a4.( d8) %80
+		a4 r a16( f) d'( a) a( f) d'( a)
+		a8( d) a4 f'8 f f f
+		h, h h h c16( d) es( d) es( d) es( d)
+		es8 es es es a, a a a
+		b4 r d4. f16( d) %85
+		cis8 r r4 d4. f16( d)
+		cis8 cis cis d \appoggiatura c4 b2
+		a4 r a8 b16 a a8 d
+		a4-! b-! a-! r
+		a8 b16 a a8 a d\f d d d %90
+		d4 r r f\f
+		e8-!\p d-! c-! b-! a4\f a'
+		g8-!\p f-! e-! d-! c4\f d'
+		c8-!\p b-! a-! g-! f16(\f e) g( f) a( g) b( a)
+		f( e) g( f) a( g) b( a) f2 %95
+		g\trill \tuplet 3/2 8 { f16 g f } c8-! \tuplet 3/2 8 { f16 g f } c8-!
+		a-! a-! a-! a-! \tuplet 3/2 8 { a16 b a } f8-! \tuplet 3/2 8 { a16 b a } f8-!
+		f-! f-! f-! f-! f4 r \markDaCapo \bar "||" %98 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -193,6 +193,145 @@ KaumAlsSopranoLyrics = \lyricmode {
 	er ihm hel -- fen kann. %28 finis
 }
 
+WieDerHirschSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoWieDerHirsch
+		R1*16 \bar "S-S" %16
+		f2 a
+		c4 c c4.( f8)
+		c8 r r4 c16([ a)] f'([ c)] c[( a)] f'([ c)]
+		c8([ f)] c8 r c16([ a)] f'([ c)] c[( a)] f'([ c)] %20
+		c2( b)
+		a4 r d d8 d
+		d f16([ d)] d4 c c8 c
+		c f16([ c)] c8 f e d c b
+		a4. c16([ a)] a8 g r4 %25
+		c16[( h)] d([ c)] e([ d)] f([ e)] f8 e r4
+		c16[( h)] d([ c)] e([ d)] f([ e)] f8 e r4
+		a, a8 h c e16([ d)] c8([ e)]
+		g[-! g-! g-! g-!] \tuplet 3/2 8 { g16[ a g } e8] \tuplet 3/2 8 { g16[ a g } e8]
+		g16[ f e d] c[ b! a g] a8[ a'-! a-! a-!] %30
+		a[ f a f] a16[ g f e] d[ c h a]
+		h8[-! c-! d-! e-!] f[-! g-! a-! h-!]
+		c4 c, c16[ h d c] e[ d f e]
+		c4 c c2
+		d c4 r %35
+		R1*5 %40
+		c4 c c r8 c
+		e16([ c f d] g8[ e)] c4 r8 c
+		e16([ c f d] g8[ e)] c4 r
+		c16([ a)] f'([ c)] c([ a)] f'([ c)] c8([ f)] c8 r
+		c16([ a)] f'([ c)] c([ a)] f'([ c)] c2( %45
+		b) a4 r
+		d cis8 d b a r a
+		b a d2 d8 b
+		gis4. gis8 a4 d
+		cis8 d e f d4 d %50
+		cis8 d e f d4 r
+		r2 r4 f
+		e8 d c! b \appoggiatura b4 a4. c8
+		\appoggiatura d8 c4._( b16[ a]) g4 r
+		g16([ f)] a([ g)] b([ a)] d([ c)] b8 a r4 %55
+		g16([ f)] a([ g)] b([ a)] d([ c)] b8 a r4
+		b b8 b b d16([ c)] b8([ e)]
+		g[-! g-! g-! g-!] \tuplet 3/2 8 { g16[ a g } e8] \tuplet 3/2 8 { g16[ a g } e8]
+		g16[ f e d] c[ b a g] a8[ f'-! f-! f-!]
+		f[ d f d] f16[ es d c] b[ as g f] %60
+		g8[ es' es es] es[ c es c]
+		es16[ d c b] a![ g fis e] fis8-![ g-! a-! b-!]
+		c-![ d-! e-! fis-!] g4 b,
+		b b a4. a8
+		g4 r8 f' f4. e16([ d)] %65
+		c4 r8 d d4. c16([ b)]
+		a([ b)] c8 r f d4. c16([ b)]
+		a1~
+		a4 g f r
+		R1*8 \noBreak %77
+		r2 r4\fermata r \bar "||"
+		d2 f \noBreak
+		a8 a a a a4.( d8) %80
+		a4 a8 a a16([ f)] d'([ a)] a([ f)] d'([ a)]
+		a8([ d)] a4 f'4. d16([ h)]
+		\appoggiatura a gis8 gis gis gis a4 r
+		es'4. c16([ a)] fis8 fis fis fis
+		g4 r d'4. f16([ d)] %85
+		cis8 r r4 d4. f16([ d)]
+		cis8 cis cis d \appoggiatura c4 b2
+		a4 r a8 b16([ a)] a8 d
+		a4 b a r
+		a8 b16([ a)] a8 a d2~ %90
+		d4 e d r
+		R1*7 \markDaCapo \bar "||" %98 finis
+	}
+}
+
+WieDerHirschSopranoLyrics = \lyricmode {
+	Wie der %17
+	Hirſch ganz ſchnel --
+	le zu der Wa -- ßer --
+	quel -- le, zu der Wa -- ßer -- %20
+	quel --
+	le, die ihm ſein
+	Schmach -- ten heilt, mit gro -- ßen
+	Schrit -- ten eilt, ſo dürſ -- tet dich nach
+	mei -- ner See -- le, %25
+	wie der Hirſch ganz ſchnel -- le
+	zu der Wa -- ßer -- quel -- le
+	mit gro -- ßen Schrit -- ten eilt, __
+	_ _ _
+	_ _ _ %30
+	_ _ _
+	_ _
+	_ mit gro -- _
+	_ ßen Schrit --
+	ten eilt. %35
+
+	Wie der Hirſch ganz %41
+	ſchnel -- le, ganz
+	ſchnel -- le
+	zu der Wa -- ßer -- quel -- le,
+	zu der Wa -- ßer -- quel -- %45
+	le,
+	die ihm ſein Schmach -- ten, ſein
+	Schmach -- ten, die ihm ſein
+	Schmach -- ten heilt, mit
+	fro -- hen Schrit -- ten eilt, mit %50
+	fro -- hen Schrit -- ten eilt,
+	ſo
+	dürſ -- tet dich nach mei -- ner
+	See -- le,
+	wie der Hirſch ganz ſchnel -- le %55
+	zu der Wa -- ßer -- quel -- le
+	mit fro -- hen Schrit -- ten eilt, __
+	_ _ _
+	_ _ _
+	_ _ _ %60
+	_ _
+	_ _ _
+	_ _ mit
+	fro -- hen Schrit -- ten
+	eilt, ſo dürſ -- tet %65
+	dich nach mei -- ner
+	See -- le, nach mei -- ner
+	See --
+	_ le.
+
+	Doch du %79
+	haſt ſie ſchon ge -- fun -- %80
+	den, doch du haſt ſie ſchon ge --
+	fun -- den, mei -- ne
+	See -- le zei -- get ſich,
+	mei -- ne See -- le zei -- get
+	ſich, trin -- ke %85
+	nun, trin -- ke
+	nun aus dei -- nen Wun --
+	den, denn in dir ver --
+	berg ich mich,
+	denn in dir ver -- berg __ %90
+	ich mich. %91 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

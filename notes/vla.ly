@@ -325,3 +325,108 @@ KaumAlsViola = {
 		f2 g4 c, r2\fermata \bar "|." %44 finis
 	}
 }
+
+WieDerHirschViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 4/4 \tempoWieDerHirsch
+		c16(\fE a) c( a) c( a) c( a) c( a) c( a) c( a) c( a)
+		f'( a) f( a) f( a) f( a) f( a) f( a) f( a) f( a)
+		f( a) f( a) f( a) f( a) f( a) f( a) f( a) f( a)
+		f( a) f( a) f( a) f( a) f( a) f( a) f( a) f( a)
+		f( a) f( a) f( a) f( a) f( g) f( g) e( g) e( g) %5
+		f8 f f f f16( d) f( d) f( d) f( d)
+		\slurDashed f( d) b'( f) \slurSolid f( d) f( d) f( a) f( a) f( a) f( a)
+		f( c) a'( f) f8 f\pE c4 r
+		c\fE r r2
+		c4 r r2 %10
+		a'8 c c16 c c c c c c c c c c c
+		c8 c, c c c c c c
+		c16\p c c c c c c c c c c c c c c c
+		c8\f c c c c c c c
+		c4 r c r \noBreak %15
+		c8 c c c c4 r \bar "S-S"
+		a16(\p f) a( f) a( f) a( f) c'( a) c( a) c( a) c( a) \noBreak
+		f'( c) f( c) f( c) f( c) f( a) f( a) f( a) f( a)
+		f( a) f( a) f( a) f( a) f( c) a'( f) f( c) a'( f)
+		f8([ a)] f r f16( c) a'( f) f( c) a'( f) %20
+		f( a) f( a) f( a) f( a) f( g) f( g) e( g) e( g)
+		f4 r f16( d) b'( f) \slurDashed f( d) b'( f) \slurSolid
+		f( d) b'( f) f4 f16( c) a'( f) f( c) a'( f)
+		f( c) a'( f) f8 f c2~
+		c8 c c c c c c c %25
+		r c h c d c r4
+		r8 c h c d c r4
+		c8 d16 e f8 d e g16 f e8 c
+		c4 r r8 c r c
+		c-! c-! c-! c-! c4 r %30
+		r8 f r f \parOn d-\parenthesize-! d-! d-! \parOff d-\parenthesize-!
+		d1\crescE
+		g,4 r c\pE r
+		e r r8 e f g
+		a4 g g16( e) g( e) g( e) g( e) %35
+		g( e) g( e) g( e) g( e) c'( g) c( g) c( g) c( g)
+		g( e) g( e) g( e) g( e) g( e) g( e) g( e) g( e)
+		c( e) c( e) c( e) c( e) c( e) c( e) c( e) c( e)
+		c( e) g( e) c( e) g( e) \slurDashed c( e) g( e) c( e) g( e) \slurSolid
+		h( d) h( d) h( d) h( d) c4 r %40
+		c8\p c c c e16( c) e( c) e( c) e( c)
+		c4 r r8 c'\f g16 f e d
+		c8 r r4 r8 c' c16 b! a g
+		f8\p f f f f f f f
+		f f f f f16( a) f( a) f( a) f( a) %45
+		f( g) f( g) e( g) e( g) f8 f d e
+		a, d e f g d r4
+		r8 c!( h4)\fE b8 b\pE b b
+		b b b b a a' f d
+		a2 d8 d f\f d %50
+		a2 d4 r
+		d r d r
+		r2 c!8 c c c
+		c c c c c4 r
+		c8 c c c c f r4 %55
+		c8 c c c c f r4
+		f8 f f f e b'16 a g8 g
+		c,4 r r8 c r c
+		\parOn c-\parenthesize-! c-! c-! \parOff c-\parenthesize-! f4 r
+		r8 b, r b b b b b %60
+		es4 r r8 a,! r a
+		a a a a d2
+		c b8 a g f!
+		c' c c c c c c c
+		c4 r f8 f f f %65
+		f\fp f f f e2\fp
+		f4 r e2\fp
+		f8 e d\f c b b h h
+		c4 r f8 f f f
+		f16( d) f( d) f( d) f( d) f( d) b( d) f( d) f( d) %70
+		f( a) f( a) f( a) f( a) f( c) a'( f) f4
+		c r c r
+		r2 c4 r
+		r2 c'16 c c c c c c c
+		c c c c c c c c a8 c, f4 %75
+		c8 c c c r a' r a
+		f-! f-! f-! f-! r f r f \noBreak
+		\parOn f-\parenthesize-! f-! f-! \parOff f-\parenthesize-! f4\fermata r \bar "||"
+		d8\p d d d d d d d \noBreak
+		d16( a) f'( d) d( a) f'( d) d( a) f'( d) d( a) f'( d) %80
+		d4 r d8 d d d
+		d d d d d d d d
+		e e e e e c! a a
+		a a a c d d d d
+		d4 r r8 d f d %85
+		r a' g a f e d4
+		r8 a' g f g e cis4
+		d r d r
+		d cis d r
+		d r d8\f e16 d d8 d %90
+		a'2 d,4 r
+		r2 c!4\fE r
+		r2 c4 r
+		r2 c'16 c c c c c c c
+		c c c c c c c c a8 c, f4 %95
+		c8 c c c r a' r a
+		f4 r r8 f r f
+		\parOn f-\parenthesize-! f-! f-! \parOff f-\parenthesize-! f4 r \markDaCapo \bar "S-S" %98 finis
+	}
+}

@@ -8,7 +8,7 @@ SobaldDieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoSobaldDie
-		r8 b^\markup \remark "Evangelist" b c d16 d d8 r d
+		r8 b^\markup \remark "Evangelium" b c d16 d d8 r d
 		d d d c c c r c
 		c c c b b b b a
 		a a r a d d d c

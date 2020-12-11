@@ -201,7 +201,7 @@
 	% 			>>
 	% 			\new ChoirStaff <<
 	% 				\new Staff {
-	% 					\set Staff.instrumentName = \markup \center-column { "Evangelist" "Die gläubige Seele" }
+	% 					\set Staff.instrumentName = \markup \center-column { "Evangelium" "Die gläubige Seele" }
 	% 					\new Voice = "Tenore" { \dynamicUp \SobaldDieTenoreNotes }
 	% 				}
 	% 				\new Lyrics \lyricsto Tenore \SobaldDieTenoreLyrics
@@ -270,27 +270,119 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A C C O M P A G N A T O   /   C O R O"
+	% 		number = "7"
+	% 		title = "Kaum als das Kreuzigen vorüber war"
+	% 	}
+	% 	\paper { indent = 2\cm }
+	% 	\tocLabelLong "kaumals" "7" "Accompagnato/Coro" "Kaum als das Kreuzigen vorüber war"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "trb"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\KaumAlsTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\KaumAlsTromboneII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\KaumAlsViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\KaumAlsViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\KaumAlsViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \KaumAlsSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \KaumAlsSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \KaumAlsAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \KaumAlsAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \KaumAlsTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \KaumAlsTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \KaumAlsBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \KaumAlsBassoLyrics
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Evangelium"
+	% 					\new Voice = "Evangelium" { \dynamicUp \KaumAlsEvangeliumNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Evangelium \KaumAlsEvangeliumLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\KaumAlsOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \KaumAlsBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A C C O M P A G N A T O   /   C O R O"
-			number = "7"
-			title = "Kaum als das Kreuzigen vorüber war"
+			genre = "A R I A"
+			number = "8"
+			title = "Wie der Hirſch ganz ſchnelle"
 		}
-		\paper { indent = 2\cm }
-		\tocLabelLong "kaumals" "7" "Accompagnato/Coro" "Kaum als das Kreuzigen vorüber war"
+		\paper { indent = 1.5\cm }
+		\tocLabelLong "wiederhirsch" "8" "Aria" "Wie der Hirſch ganz ſchnelle"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "trb"
+						\set GrandStaff.instrumentName = "ob"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\KaumAlsTromboneI
+							\WieDerHirschOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\KaumAlsTromboneII
+							\WieDerHirschOboeII
 						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+						% \transpose c f,
+						\partcombine \WieDerHirschCornoI \WieDerHirschCornoII
 					>>
 				>>
 				\new StaffGroup <<
@@ -298,61 +390,36 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\KaumAlsViolinoI
+							\WieDerHirschViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\KaumAlsViolinoII
+							\WieDerHirschViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\KaumAlsViola
+						\WieDerHirschViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \KaumAlsSopranoNotes }
+						\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
+						\new Voice = "Soprano" { \dynamicUp \WieDerHirschSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \KaumAlsSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \KaumAlsAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \KaumAlsAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \KaumAlsTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \KaumAlsTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \KaumAlsBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \KaumAlsBassoLyrics
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Evangelium"
-						\new Voice = "Evangelium" { \dynamicUp \KaumAlsEvangeliumNotes }
-					}
-					\new Lyrics \lyricsto Evangelium \KaumAlsEvangeliumLyrics
+					\new Lyrics \lyricsto Soprano \WieDerHirschSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\KaumAlsOrgano
+						\WieDerHirschOrgano
 					}
 				>>
-				\new FiguredBass { \KaumAlsBassFigures }
+				\new FiguredBass { \WieDerHirschBassFigures }
 			>>
 			\layout { }
-			% \midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }
