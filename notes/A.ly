@@ -298,6 +298,46 @@ WeintMitAltoLyrics = \lyricmode {
 	legt. %160 finis
 }
 
+KaumAlsAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoKaumAls
+		R1*15 \bar "|" %15
+		\key d \major \tempoEySeht r8 fis g a g4 e \noBreak
+		d r r8 cis d e
+		fis4 fis e r8 e
+		fis g g a a4 r8 fis
+		gis a a h h4 r %20
+		gis r a r8 gis
+		gis gis gis gis a4 cis
+		h8 a gis fis e4 r
+		r2 r4 cis'
+		h r a r8 a %25
+		g! a g g fis4 a
+		g r a r8 h
+		h a g g fis4 r \noBreak
+		R1 \bar "|"
+		\key c \major \tempoKaumAls R1*14 %43
+		R1\fermataMarkup \bar "|." %44 finis
+	}
+}
+
+KaumAlsAltoLyrics = \lyricmode {
+	\xE Ey ſeht den Kö -- nig %16
+	an, \x ey ſeht den
+	Kö -- nig an! Du
+	\xE biſt ja Got -- tes Sohn, du
+	biſt ja Got -- tes Sohn, %20
+	du, du, du
+	biſt ja Got -- tes Sohn, ſo
+	ſteig vom Keuz he -- rab.
+	\x Ach
+	ſeht, ſeht, \xE wie %25
+	er ihm hel -- fen kann, ach
+	ſeht, ſeht, wie
+	er ihm hel -- fen kann. %28 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

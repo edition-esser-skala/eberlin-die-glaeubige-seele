@@ -219,55 +219,140 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A R I A"
+	% 		number = "5"
+	% 		title = "Mörderdazen, Mörderklauen"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "moerderdazen" "5" "Aria" "Mörderdazen, Mörderklauen"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\MoerderdazenViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\MoerderdazenViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\MoerderdazenViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Seele"
+	% 					\new Voice = "Tenore" { \dynamicUp \MoerderdazenTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \MoerderdazenTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\MoerderdazenOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \MoerderdazenBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 120 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A R I A"
-			number = "5"
-			title = "Mörderdazen, Mörderklauen"
+			genre = "A C C O M P A G N A T O   /   C O R O"
+			number = "7"
+			title = "Kaum als das Kreuzigen vorüber war"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
-		\tocLabelLong "moerderdazen" "5" "Aria" "Mörderdazen, Mörderklauen"
+		\paper { indent = 2\cm }
+		\tocLabelLong "kaumals" "7" "Accompagnato/Coro" "Kaum als das Kreuzigen vorüber war"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "trb"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\KaumAlsTromboneI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\KaumAlsTromboneII
+						}
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\MoerderdazenViolinoI
+							\KaumAlsViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\MoerderdazenViolinoII
+							\KaumAlsViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\MoerderdazenViola
+						\KaumAlsViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Seele"
-						\new Voice = "Tenore" { \dynamicUp \MoerderdazenTenoreNotes }
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \KaumAlsSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \MoerderdazenTenoreLyrics
+					\new Lyrics \lyricsto Soprano \KaumAlsSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \KaumAlsAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \KaumAlsAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \KaumAlsTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \KaumAlsTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \KaumAlsBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \KaumAlsBassoLyrics
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Evangelium"
+						\new Voice = "Evangelium" { \dynamicUp \KaumAlsEvangeliumNotes }
+					}
+					\new Lyrics \lyricsto Evangelium \KaumAlsEvangeliumLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\MoerderdazenOrgano
+						\KaumAlsOrgano
 					}
 				>>
-				\new FiguredBass { \MoerderdazenBassFigures }
+				\new FiguredBass { \KaumAlsBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			% \midi { \tempo 4 = 70 }
 		}
 	}
 }

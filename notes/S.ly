@@ -153,6 +153,46 @@ ItztKommSopranoLyrics = \lyricmode {
 	Izt %109 finis
 }
 
+KaumAlsSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoKaumAls
+		R1*15 \bar "|" %15
+		\key d \major \tempoEySeht r8 d' d a h4 cis \noBreak
+		d fis e r8 e
+		d fis d d cis4 r8 a
+		h h cis cis d4 r8 h
+		cis cis dis dis e4 r %20
+		d r cis r8 d
+		d d d d cis4 e
+		d8 cis h a gis4 r
+		r2 r4 e'
+		d r cis r8 d %25
+		h d g! e d4 fis
+		e r fis r8 d
+		h d g e d4 r \noBreak
+		R1 \bar "|"
+		\key c \major \tempoKaumAls R1*14 %43
+		R1\fermataMarkup \bar "|." %44 finis
+	}
+}
+
+KaumAlsSopranoLyrics = \lyricmode {
+	Ey ſeht den Kö -- nig %16
+	an, ey ſeht, ey
+	ſeht den Kö -- nig an! Du
+	biſt ja Got -- tes Sohn, du
+	biſt ja Got -- tes Sohn, %20
+	du, du, du
+	biſt ja Got -- tes Sohn, ſo
+	ſteig vom Keuz he -- rab.
+	Ach
+	ſeht, ſeht, wie %25
+	er ihm hel -- fen kann, ach
+	ſeht, ſeht, wie
+	er ihm hel -- fen kann. %28 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

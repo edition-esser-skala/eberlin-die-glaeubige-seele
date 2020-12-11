@@ -282,3 +282,46 @@ MoerderdazenViola = {
 		c,4 r8 \markDaCapo \bar "||" %126 finis
 	}
 }
+
+KaumAlsViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoKaumAls
+		R1*5 %5
+		r2 \tempoKaumAlsB \once \tieDashed g'~\pE
+		g c,8 a' a a
+		a4 r r8 d,\f es f
+		d4\p g, as8\pp as as as
+		g g g g \tempoKaumAlsC g4 r %10
+		R1*5 \bar "|" %15
+		\key d \major \tempoEySeht a'8\fE a g fis d h' a4 \noBreak
+		a8 fis d4 cis8 a h cis
+		d16 d d d gis, gis gis gis a4 r8 e'
+		fis g^\critnote g a a4 r8 fis
+		gis a a h gis4 r %20
+		gis r a r
+		gis8 gis gis gis a4 r
+		r2 r4 e
+		d8 cis h a gis4 r
+		r gis' a a8 a %25
+		g a g a a4 r
+		r a a r8 d,
+		d a' g a d,4 cis \noBreak
+		h a gis r \bar "|"
+		\key c \major \tempoUndEine r2 d'~\pE \noBreak %30
+		d1~
+		d
+		fis4 e! d cis
+		his16( his his his) his4 r2
+		a'1 %35
+		r8 cis(\p h\cresc a) gis( a fis dis)\!
+		e fis( d h) a4 r
+		r2 r8 a a16( cis) a( cis)
+		a8 a a16( e') a,( e') g,!8 g g16( e') g,( e')
+		f,4 r r8 d' d d %40
+		d4 r r8 d b16 d b d
+		gis,4 r r2
+		r8 a' d,4
+		f2 g4 c, r2\fermata \bar "|." %44 finis
+	}
+}

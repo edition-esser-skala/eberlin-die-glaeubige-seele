@@ -444,3 +444,41 @@ MoerderdazenViolinoII = {
 		R4. \markDaCapo \bar "||" %126 finis
 	}
 }
+
+KaumAlsViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoKaumAls
+		R1*5 %5
+		r2 \tempoKaumAlsB h'!~\pE
+		h es16( c) h!( c) d( c) es( d)
+		c4 r r8 h!\f c f,
+		r16 f\p es d c8 d r16 d\pp c h c8 c
+		c4 h! \tempoKaumAlsC c r %10
+		R1*5 \bar "|" %15
+		\key d \major \tempoEySeht fis8\fE fis g a g g' e4 \noBreak
+		d8 a d16 a fis' d e8 cis d e
+		d16 d d d d d d d cis4 r8 cis
+		d d e e d16 d, fis a d8 dis
+		e16 e e e fis fis fis fis h,4 h'16 gis fis e %20
+		d!4 h'16 d, cis h cis4 h'16 gis fis e
+		d4 h'16 d, cis h a4 cis
+		h8 a gis fis e4 r
+		r2 r4 cis'16( a) cis( a)
+		h4 d16( h) d( h) a4 e'16( cis) d( a) %25
+		h8 d e cis d4 d16( a) fis'( d)
+		cis4 e16( cis) e( cis) d4 r8 d
+		h d e cis d,4 cis \noBreak
+		h a gis r \bar "|"
+		\key c \major \tempoUndEine r2 gis''~\pE \noBreak %30
+		gis1~
+		gis
+		fis,4 e! d cis
+		his16( dis dis dis) dis4 r2
+		his'1 %35
+		r8 e(\p d!\cresc cis) h( cis a fis)\!
+		gis( cis, fis gis) a4 r
+		R1*6 %43
+		R1\fermataMarkup \bar "|." %44 finis
+	}
+}

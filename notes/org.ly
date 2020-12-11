@@ -957,6 +957,104 @@ MoerderdazenBassFigures = \figuremode {
 	r4. %126 finis
 }
 
+KaumAlsOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoKaumAls
+		b1~\pE
+		b
+		e!
+		f
+		fis %5
+		g4 r \tempoKaumAlsB f2~
+		f fis8 fis fis fis
+		fis4 r r8 g\f c,4
+		h!\p c f,8\pp f f f
+		g g g g \tempoKaumAlsC c4 r %10
+		d1\pE
+		d2 as'
+		g fis~
+		fis1~ \noBreak
+		fis2 g \bar "|" %15
+		\key d \major \tempoEySeht d8\fE d e fis g4 a \noBreak
+		d, r r8 a' h cis
+		d16 d d d gis, gis gis gis a4 r8 a
+		a g g fis fis4 r8 h
+		h a a gis gis4 r %20
+		e r a r8 e
+		e e e e a4 r
+		d, r e8 e e e
+		e e e e e e e e
+		e4 r a r8 fis %25
+		g! fis e a d,4 r
+		a r d h'
+		g8 fis e a d,4 cis \noBreak
+		h a gis r \bar "|"
+		\key c \major \tempoUndEine r2 eis'~\pE \noBreak %30
+		eis1~
+		eis
+		fis4 e d cis
+		his16( his his his) his4 r2
+		fis'1 %35
+		r8 cis'(\p h\cresc a) gis( a fis dis)\!
+		e fis( d h) a4 r
+		r2 r8 a a16( cis) a( cis)
+		a8 a a16( e') a,( e') g,!8 g g16( e') g,( e')
+		f,4 r r8 d' d d %40
+		d4 r r8 d b16 d b d
+		gis,4 r r2
+		r8 a' d,4
+		f2 g4 c, r2\fermata \bar "|." %44 finis
+	}
+}
+
+KaumAlsBassFigures = \figuremode {
+	r1
+	r
+	<6>2 <5->
+	r1
+	<6>2 <5> %5
+	<_-> <4! 2>
+	r <7->
+	r2 r8 <_!> <5 _-> <6- 4>
+	<7->4 <5 _->8 <4 2> <5 _->4. <6 5 \t>8
+	<4>4 <_!> <_->2 %10
+	<6->1
+	r2 <4 2->
+	<6- _-> <6>
+	<\t> <5>
+	<\t> <_-> %15
+	r4 <7>8 <6> r2
+	r2. <7>8 <6>
+	r4 <7>2.
+	<2>8 <5> <2> <7> <6>4. <_+>8
+	<6+ 4 2> <5> <4+ 2> <7 5+ 3> <6>2 %20
+	<7! _+>2.. <7 _+>8
+	<\t \t>1
+	<6>2 <_+>4 <8 6>
+	<7 5>8 <6 4> <5 _+> <4 2> <_+ 1>4 <8 6>
+	<7 _+>2.. <6>8 %25
+	r <6> r <7> r2
+	<7>1
+	r8 <6> r <7> r2
+	r1
+	r2 <7 _+> %30
+	r1
+	r
+	<5+ _!>4 <1> q q
+	<6+ _+>1
+	<6+ 4+ 3> %35
+	r8 <6> <6\\> <_+> <6\\> <6\\ _+> <6\\> <6\\ _+>
+	q <5+ _+> <6! _+> <6\\> <_+>2
+	r r8 <5 _+>4. \bassFigureExtendersOn
+	q2... q16 \bassFigureExtendersOff
+	<6>1 %40
+	r2. <5 3>4
+	<7 _!>1
+	r8 <_+>4. <4! 2>2
+	<6 4>8 <5 3> r2. %44 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

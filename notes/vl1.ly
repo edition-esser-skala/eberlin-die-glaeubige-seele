@@ -445,6 +445,44 @@ MoerderdazenViolinoI = {
 	}
 }
 
+KaumAlsViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoKaumAls
+		R1*5 %5
+		r2 \tempoKaumAlsB d'2~\pE
+		d es16( c) h!( c) d( c) es( d)
+		es4 r r8 d\f c as
+		r16 as\p g f es8 f r16 f\pp es d c8 d
+		d2\trill \tempoKaumAlsC c4 r %10
+		R1*5 \bar "|" %15
+		\key d \major \tempoEySeht d'8\fE d d a h4 cis \noBreak
+		d8 a fis'16 d a' fis e a, a' a a a a a
+		fis d fis fis fis fis fis fis e4 r8 a,
+		h h cis cis d16 d, fis a d8 h
+		cis16 cis cis cis dis dis dis dis e4 h'16 gis fis e %20
+		d4 h'16 d, cis h cis4 h'16 gis fis e
+		d4 h'16 d, cis h cis4 e
+		d8 cis h a gis4 r
+		r2 r4 e'16( cis) e( cis)
+		d4 h'16( d,) h'( d,) cis4 e16( cis) d( a) %25
+		h8 d g! e d4 fis16( d) a'( fis)
+		e4 g16( e) g( e) fis4 r8 d
+		h d g e d,4 cis \noBreak
+		h a gis r \bar "|"
+		\key c \major \tempoUndEine r2 h''~\pE \noBreak %30
+		h1~
+		h
+		fis,4 e! d cis
+		his16( dis gis gis) gis4 r2
+		dis'1 %35
+		r8 e(\p gis\cresc a) eis( fis dis his)\!
+		cis( ais h d) cis4 r
+		R1*6 %43
+		R1\fermataMarkup \bar "|." %44 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

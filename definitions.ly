@@ -682,6 +682,11 @@ tempoMeinSohn = \tempoMarkup "[Tempo deest]"
 tempoWeintMit = \tempoMarkup "[Tempo deest]"
 tempoSobaldDie = \tempoMarkup "[Tempo deest]"
 tempoMoerderdazen = \tempoMarkup "Allegro molto"
+tempoKaumAls = \tempoMarkup "[Accompagnato]"
+	tempoKaumAlsB = \tempoMarkup "Adagio"
+	tempoKaumAlsC = \tempoMarkup "[a tempo]"
+	tempoEySeht = \tempoMarkup "[Coro]"
+	tempoUndEine = \tempoMarkup "[Accompagnato]"
 
 
 markDaCapo = {

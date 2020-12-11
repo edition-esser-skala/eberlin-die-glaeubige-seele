@@ -296,6 +296,120 @@ MoerderdazenTenoreLyrics = \lyricmode {
 	ſeyn. %126 finis
 }
 
+KaumAlsEvangeliumNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoKaumAls
+		b4 b8 c d d c d
+		b b b4 r8 d d c
+		c c c b b b b a
+		a4 r8 a a a a a
+		d d d d c c c b %5
+		b b r4 \tempoKaumAlsB r8 d d d
+		h h16 h h8 c c c r4
+		r8 c h c c g r4
+		R1
+		r2\tempoKaumAlsC r8 c c b %10
+		b4 b b8 b b c
+		d d r f f d d es
+		es es r16 es es d d4 r8 d
+		d d d c c c r a \noBreak
+		c c c b b4 r \bar "|" %15
+		\key d \major \tempoEySeht R1*13 \noBreak
+		r2 r4 r8 h \bar "|" %29
+		\key c \major \tempoUndEine e e e d d8. d16 cis8 d \noBreak %30
+		h4 r8 h h h h cis
+		d d r d d d d cis
+		a4 r r2
+		r4 r8 gis his his his cis
+		dis dis r dis fis fis fis e %35
+		e e r4 r2
+		r r4 r8 e
+		e e d e cis4 r
+		R1
+		r4 r8 d a4 r %40
+		r4 r8 f' d4 r
+		r r8 d d d cis d
+		d a r d h! h h c
+		c g r4 r2\fermata \bar "|." %44 finis
+	}
+}
+
+KaumAlsEvangeliumLyrics = \lyricmode {
+	Kaum als das Kreu -- zi -- gen vo --
+	rü -- ber war, ſo warf die
+	Hen -- ker Schaar das Looß um ſein Ge --
+	wand, und ü -- ber ſei -- nem
+	Haub -- te ſtand der Ti -- tel ſo ge -- %5
+	ſchrie -- ben: Hier hän -- get
+	Je -- ſus der Na -- za -- re -- ner,
+	der Ju -- den Kö -- nig.
+
+	Drauf ha -- ben %10
+	al -- le, die vor -- bey ge --
+	gan -- gen, zu ſpot -- ten an -- ge --
+	fan -- gen, und auch die Zwey, ſo
+	gleich zur Sei -- te han -- gen, die
+	rie -- fen oh -- ne Scheu: %15
+
+	Und %29
+	ei -- ne düſ -- tre Fin -- ſter -- niß ent -- %30
+	ſtand hier in der ſech -- ſten
+	Stun -- de im ſel -- ben gan -- zen
+	Land.
+	Man ſah die Sonn er --
+	bla -- ßen biß auf die neun -- te %35
+	Stun -- de.
+	Da
+	rie -- fe Je -- ſus laut:
+
+	Mein Gott, %40
+	mein Gott,
+	wie haſt du mich ver --
+	la -- ßen? Dann ſa -- get er: Mich
+	dür -- ſtet. %44 finis
+}
+
+KaumAlsTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoKaumAls
+		R1*15 \bar "|" %15
+		\key d \major \tempoEySeht r8 a d4. h8 a g \noBreak
+		fis4 d' cis a
+		fis r r r8 cis'
+		d d e e fis4 r8 dis
+		e e fis fis h,4 r %20
+		h r cis r8 h
+		h h e e e4 r
+		r2 r4 e
+		d8 cis h a gis4 r
+		r h r cis8 fis %25
+		d a h cis d4 r
+		r cis d d
+		d8 a h cis d4 r \noBreak
+		R1 \bar "|"
+		\key c \major \tempoKaumAls R1*14 %43
+		R1\fermataMarkup \bar "|." %44 finis
+	}
+}
+
+KaumAlsTenoreLyrics = \lyricmode {
+	\xE Ey ſeht den Kö -- nig %16
+	an, ey ſeht, ey
+	ſeht! \x Du \xE
+	biſt ja Got -- tes Sohn, du
+	biſt ja Got -- tes Sohn, %20
+	du, du, du
+	biſt ja Got -- tes Sohn,
+	\x ſo
+	ſteig vom Keuz he -- rab.
+	Seht, \xE ſeht, wie %25
+	er ihm hel -- fen kann,
+	ach ſeht, wie
+	er ihm hel -- fen kann. %28 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -113,3 +113,20 @@ WeintMitTromboneI = {
     g4 r8 \bar "S-S" %168 finis
 	}
 }
+
+KaumAlsTromboneI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoKaumAls
+		R1*15 \bar "|" %15
+		\key d \major \tempoEySeht R1*14 \bar "|" %29
+		\key c \major \tempoUndEine R1*8 %37
+		r2 e~\pE
+		e1
+		f4 r r8 f f16 a f a %40
+		f4 r r8 f f f
+		f4 r r2
+		r8 e f4 r2
+		R1\fermataMarkup \bar "|." %44 finis
+	}
+}
