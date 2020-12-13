@@ -422,39 +422,90 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "R E C I T A T I V O"
+	% 		number = "9"
+	% 		title = "Sodann nahm jäh ein Knecht ein Rohr"
+	% 	}
+	% 	\paper {
+	% 		indent = 2\cm
+	% 		system-system-spacing.basic-distance = #23
+	% 		system-system-spacing.minimum-distance = #23
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "sodannnahm" "9" "Recitativo" "Sodann nahm jäh ein Knecht ein Rohr"
+	% 	\score {
+	% 		<<
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Evangelium"
+	% 					\new Voice = "Tenore" { \dynamicUp \SodannNahmTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SodannNahmTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SodannNahmOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SodannNahmBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "R E C I T A T I V O"
-			number = "9"
-			title = "Sodann nahm jäh ein Knecht ein Rohr"
+			genre = "A R I A"
+			number = "10"
+			title = "Es iſt vollbracht"
 		}
 		\paper {
-			indent = 2\cm
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "sodannnahm" "9" "Recitativo" "Sodann nahm jäh ein Knecht ein Rohr"
+		\tocLabelLong "vollbracht" "10" "Aria" "Es iſt vollbracht"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\VollbrachtViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\VollbrachtViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "vla"
+						\VollbrachtViola
+					}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Evangelium"
-						\new Voice = "Tenore" { \dynamicUp \SodannNahmTenoreNotes }
+						\set Staff.instrumentName = "Seele"
+						\new Voice = "Tenore" { \dynamicUp \VollbrachtTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SodannNahmTenoreLyrics
+					\new Lyrics \lyricsto Tenore \VollbrachtTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\SodannNahmOrgano
+						\VollbrachtOrgano
 					}
 				>>
-				\new FiguredBass { \SodannNahmBassFigures }
+				\new FiguredBass { \VollbrachtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

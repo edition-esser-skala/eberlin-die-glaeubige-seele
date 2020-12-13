@@ -587,3 +587,87 @@ WieDerHirschViolinoII = {
 		f-! f-! f-! f-! f4 r \markDaCapo \bar "||" %98 finis
 	}
 }
+
+VollbrachtViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoVollbracht
+		\partial 8 f'8\fE \appoggiatura g f4. es16 d \appoggiatura c4 b2~
+		b16 a d b b a d b g2~
+		g16 f e( f) \once \tieDashed c4~ c16 b es( d) c b d c
+		b1
+		a8 a a a a4 r %5
+		r8 d'(\p c d) r b\cresc b16( c) c( b)\!
+		b( c) c( b) b( c) c( d) es4. \once \tieDashed c,8~\p
+		c2 b4 r\fermata
+		\tempoVollbrachtB d'16 d d d d d d d c c d d c c d d
+		c c b b a a a a b b b b b b b b %10
+		b b b b b b b b b b b b b b b b
+		a c c c c8 r a16 c c c c8 r
+		f,16 f f f f f f f f f f f c' c c c
+		b4. c8 d4 r
+		f,16 f f f f f f f f f f f c' c c c %15
+		b8 r r4 r d,\f\fermata
+		b'8(\pE des b des) c( es c es)
+		b( des c des) es( des c des)
+		b( des b des) c( es c es)
+		b( des c des) es( des c des) %20
+		r b( a! b) c( b a b)
+		b16 b b b b b b b b b b b b b b b
+		b b b b b b b b b b b b b b b b
+		b b b b b b b b b b b b b b b b
+		b4 b b b %25
+		b1
+		a2\fermata \tempoVollbrachtC r4 r8 f'\f
+		\appoggiatura g f4. es16 d h8 es\p d h
+		c es d h c16 es,( f es) es( d) es( d)
+		c8 es c es c4 r\fermata %30
+		\tempoVollbrachtD r8 es' es es d16 d es es d d es es
+		d d c c b b b b b b b b b b a a
+		b d d d d d d d c c d d c c d d
+		c c b b a a a a b b b b b b b b
+		as c c c c c c c c as as as c as as as %35
+		c c c c c c c c c as as as c as as as
+		g g g g g g g g g g g g d' d d d
+		c4. d8 es4 r
+		f,16 f f f f f f f a a a a c c c c
+		b4\fermata r r b\fermata %40
+		es8( ges es ges) f( as f as)
+		es( ges f ges) as( ges f ges)
+		es( ges es ges) f( as f as)
+		es( ges f ges) as( ges f ges)
+		r es( d! es) f( es d es) %45
+		es16 es es es es es es es es es es es es es es es
+		es es es es es es es es es es es es es es es es
+		es es es es es es es es es es es es es es es es
+		es4 es es es
+		es1 %50
+		d2\fermata \tempoVollbrachtE r4 r8 f\f
+		\appoggiatura g f4. es16 d b8 d\pE c a
+		b d c a b b(\f a b)
+		g4( f) e2\trill
+		es d8 b\p b b \noBreak %55
+		b4 a b2\fermata \bar "||"
+		\time 3/8 \tempoDeineKraeften b'8 g a \noBreak
+		b g a
+		b g a
+		b g a %60
+		b r r
+		b r r
+		g b g
+		e f r
+		r as as %65
+		r h h
+		c r r
+		es,( f es)
+		d r r
+		h'( c h) %70
+		c r r
+		c4 d8~
+		d c h
+		c4 a!8
+		g4. %75
+		d8 r r
+		R4. \markDaCapo \bar "||" %77 finis
+	}
+}

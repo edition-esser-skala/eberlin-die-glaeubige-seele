@@ -430,3 +430,87 @@ WieDerHirschViola = {
 		\parOn f-\parenthesize-! f-! f-! \parOff f-\parenthesize-! f4 r \markDaCapo \bar "S-S" %98 finis
 	}
 }
+
+VollbrachtViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoVollbracht
+		\partial 8 r8 r d\fE c d r d d d
+		r f es d es2
+		c8 c c c f, f f f
+		f4 g2 g4
+		a8 f f f f4 r %5
+		r8 \once \slurDashed b'(\p a b) g r f r
+		es r d r r c c c
+		f,2 f4 r\fermata
+		\tempoVollbrachtB b'16 b b b b b b b a a b b a a b b
+		a a g g f f d d g g f f es es d d %10
+		\slurDashed g8( f es) r g( f es) r \slurSolid
+		c( b a) r c( b a) r
+		a( g f) r a( g f) r
+		f f f f f b d f
+		a,( g f) r a( g f) r %15
+		f r r4 r f'\f\fermata
+		des8(\pE b des b) a( f a f)
+		r b'( a b) c( b a b)
+		des,( b des b) a( f a f)
+		r b'( a b) c( b a b) %20
+		r ges( f ges) as( ges f ges)
+		r f( es f) ges( f es f)
+		r es( des es) f( es des es)
+		r des( c des) es( des c des)
+		ges4 ges ges ges %25
+		g1
+		c,2\fermata \tempoVollbrachtC r
+		r8 c'\f h c d, c\p d g
+		es c d g g r c, r
+		c r c r c4 r\fermata %30
+		\tempoVollbrachtD r8 c' c c h16 h c c h h c c
+		b b as as g g f f es es d d c c f f
+		f f f f b b b b a a b b a a b b
+		a a g g f f es es d d c c b b b b
+		c c c c c c c c c c c c c c c c %35
+		c c c c c c c c c c c c c c c c
+		h16 h h h h h h h h h h h h h h h
+		c c c c c c c c c c c c b b b b
+		a a a a a a a a f f f f f f f f
+		f4\fermata r r f'\fermata %40
+		ges8( es ges es) d( b d b)
+		r es( d es) f( es d es)
+		ges( es ges es) d( b d b)
+		r es( d es) f( es d es)
+		r ces( b ces) des( ces b ces) %45
+		r b( as b) ces( b as b)
+		r as( ges as) b( as ges as)
+		r ges( f ges) as( ges f ges)
+		ces4^\critnote ces ces ces
+		c1 %50
+		b2\fermata \tempoVollbrachtE r
+		r8 d\fE c b r b\pE g' f
+		d b g' f d b'(\f a b)
+		g4( f) e2\trill
+		es8 c a a b g\p f e \noBreak %55
+		f2 f\fermata \bar "||"
+		\time 3/8 \tempoDeineKraeften g8 b' a \noBreak
+		g b a
+		g b a
+		g b a %60
+		g4 r8
+		g b a
+		g g g
+		g f r
+		r f f %65
+		r g f
+		es r r
+		\once \slurDashed c( d c)
+		h r r
+		g( as g) %70
+		es' r r
+		as4( f8)
+		d g g,
+		c c' fis,
+		g es cis %75
+		d4.
+		g,4 r8 \markDaCapo \bar "||" %77 finis
+	}
+}

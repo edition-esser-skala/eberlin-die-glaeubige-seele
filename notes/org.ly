@@ -1281,6 +1281,170 @@ SodannNahmBassFigures = \figuremode {
 	<7> <_+> %5 finis
 }
 
+VollbrachtOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoVollbracht
+		\partial 8 r8 r b'\fE a b r g f g
+		r b, c b r es c b
+		a a a a a a a a
+		b d g, b e, e e e
+		f r f r f4 r %5
+		r8 b'\pE a b r g r d
+		r es r d r c c c
+		a2 b4 r\fermata
+		\tempoVollbrachtB b'8 b b b a b a b
+		a g f d g f es d %10
+		es( d c) r es( d c) r
+		c( b a) r c( b a) r
+		a( g f) r a( g f) r
+		f f f f f b d f
+		a,( g f) r a( g f) r %15
+		f4 r r b\fE\fermata
+		r4 des\pE r a
+		r8 b'( a b) c( b a b)
+		r4 des, r a
+		r8 b'( a b) c( b a b) %20
+		r ges( f ges) as( ges f ges)
+		r f( es f) ges( f es f)
+		r es( des es) f( es des es)
+		r des( c des) es( des c des)
+		es4 es es es %25
+		e1
+		f2\fermata \tempoVollbrachtC r
+		r8 as\f g as g es\p f g
+		as es f g c, r c r
+		c r c r c4 r\fermata %30
+		\tempoVollbrachtD r8 c' c c h c h c
+		b as g f es d c f
+		b, b' b b a b a b
+		a g f es d c b b
+		c c c c c c c c %35
+		c c c c c c c c
+		h16 h h h h h h h h h h h h h h h
+		c c c c c c c c c c c c b b b b
+		a a a a a a a a f f f f f f f f
+		f4\fermata r r b\fermata %40
+		r4 ges' r d
+		r8 es( d es) f( es d es)
+		r4 ges r d
+		r8 es( d es) f( es d es)
+		r ces'( b ces) des( ces b ces) %45
+		r b( as b) ces( b as b)
+		r as( ges as) b( as ges as)
+		r ges( f ges) as( ges f ges)
+		as4 as as as
+		a1 %50
+		b2\fermata \tempoVollbrachtE r
+		r8 b\fE a b r d,\pE es f
+		g d es f b, b'(\f a b)
+		g4( f) e2\trill
+		es8 c f f, g g\p f e \noBreak %55
+		f2 b\fermata \bar "||"
+		\time 3/8 \tempoDeineKraeften g8 b' a \noBreak
+		g b a
+		g b a
+		g b a %60
+		g4 r8
+		g b a
+		g g g
+		g f r
+		r f f %65
+		r g f
+		es r r
+		\once \slurDashed c( d c)
+		h r r
+		g( as g) %70
+		es' r r
+		as4( f8)
+		d g g,
+		c c' fis,
+		g es cis %75
+		d4.
+		g,4 r8 \markDaCapo \bar "||" %77 finis
+	}
+}
+
+VollbrachtBassFigures = \figuremode {
+	r8 r4 <6>2.
+	r4 <6> r4 <5 3>8 <\t \t>
+	<7 5>4 <6 \t>2.
+	<8 3>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r1 %5
+	r4 <6>2 r8 q
+	r4. q8 r2
+	<6 5>1
+	r2 <6>4 q
+	q8 <7>4. <5 3> \bassFigureExtendersOn <5 3>8 \bassFigureExtendersOff %10
+	<6 5>2 q
+	<6> q
+	q q
+	<6 4>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>2 q %15
+	<6 4>1
+	r4 <6>2 <6 5>4
+	r8 \bassFigureExtendersOn <5 _-> <5 3> <5 _-> <5 3> <5 _-> <5 3> <5 _->
+	r4 <6> r <6 5>
+	r8 <5 _-> <5 3> <5 _-> <5 3> <5 _-> <5 3> <5 _-> %20
+	r <6 3> <6 _!> <6 3> <6 3\!> q <6 _!> <6 3>
+	r <6- 4>2. q8
+	r <6 5 _->2. q8
+	r <6>2. q8 \bassFigureExtendersOff
+	<6 5 _->1 %25
+	<7- _!>
+	r
+	r8 <6> <7 _!> <6> <_!> <6> <6 _!> <_!>
+	<5> <6> <6 _!> <_!> r2
+	r1 %30
+	r2 <6>4 q
+	q8 <7> <5 _-> <\t \t> <5> <6> <7> q
+	r2 <6>4 q
+	q8 <7> r <2> <6> <7>4.
+	<6->1 %35
+	<\t>
+	<6>2. <5>4
+	r2. <2>4
+	<6>2 <8>4 <7>
+	<6 4>1 %40
+	r4 <6>2 <6 5->4
+	r8 <5 _-> \bassFigureExtendersOn <5 3> <5 _-> <5 _-\!> q <5 3> <5 _->
+	r4 <6> r <6 5->
+	r8 <5 _-> <5 3> <5 _-> <5 _-\!> q <5 3> <5 _->
+	r <6- 3> <6- _!> <6- 3> <6- 3\!> q <6- _!> <6- 3> %45
+	r <6- 4>2. q8
+	r <6 5 _->2. q8
+	r <6>2. q8 \bassFigureExtendersOff
+	<6 5 _->1
+	<7 _!> %50
+	r
+	r4 <6> r8 q q4
+	<5>8 <6 > q4 r8 <1> q q
+	q4 q q2
+	<6 5>4 <7> <8 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %55
+	<4>4 <3>2.
+	r8 <6> <6\\>
+	r <6> <6\\>
+	r <6> <6\\>
+	r <6> <6\\> %60
+	r4.
+	r8 <6> <6\\>
+	<5>4 <6!>8
+	<6! 4+ 2> <6>4
+	r8 <6 _->4 %65
+	r8 <_!> <\t>
+	<6>4.
+	r8 <6!>4
+	<6>4.
+	<_!>8 <6\\> <_!> %70
+	<6>4.
+	r4 <6 _->8
+	<\t \t> <6 4> <5 _!>
+	r4 <7- _!>8
+	<8 _->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff %75
+	<_+>4
+	r %77 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

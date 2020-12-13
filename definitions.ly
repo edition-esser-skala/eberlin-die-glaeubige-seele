@@ -689,6 +689,12 @@ tempoKaumAls = \tempoMarkup "[Accompagnato]"
 	tempoUndEine = \tempoMarkup "[Accompagnato]"
 tempoWieDerHirsch = \tempoMarkup "[Tempo deest]"
 tempoSodannNahm = \tempoMarkup "[Tempo deest]"
+tempoVollbracht = \tempoMarkup "Adagio"
+	tempoVollbrachtB = \tempoMarkup "Allegro"
+	tempoVollbrachtC = \tempoMarkup "Adagio"
+	tempoVollbrachtD = \tempoMarkup "Allegro"
+	tempoVollbrachtE = \tempoMarkup "Adagio"
+	tempoDeineKraeften = \tempoMarkup "[Allegro]"
 
 
 markDaCapo = {

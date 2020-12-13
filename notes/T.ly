@@ -430,6 +430,160 @@ SodannNahmTenoreLyrics = \lyricmode {
 	Es iſt voll -- bracht. %5 finis
 }
 
+VollbrachtTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoVollbracht
+		\partial 8 r8 R1*4
+		r2 r4 r8 f %5
+		\appoggiatura g f4. es16([ d)] b4 r
+		r2 r4 r8 c
+		c4. es,8 d4 r\fermata
+		\tempoVollbrachtB b'4 d f f
+		f f b, r %10
+		c es8([ c)] c4 r
+		c es8([ c)] c4 r
+		f, a c es
+		d4. es8 f4 r
+		f, a c es %15
+		d4.\fermata c8 b4 r\fermata
+		b2 c
+		des r4 f
+		b,2 c
+		des4 r r2 %20
+		b1
+		b
+		b
+		b
+		b~ %25
+		b2 b
+		a\fermata \tempoVollbrachtC r
+		r r8 g a! h
+		c g a! h c4 r
+		R1\fermataMarkup %30
+		\tempoVollbrachtD c4 es g g
+		g g, c r
+		b d f f
+		f f, b r
+		as c8([ as)] as4 r %35
+		as c8([ as)] as4 r
+		g h d f
+		es4. f8 g4 r
+		f, a c es
+		\appoggiatura es d4.\fermata c8 b4 r\fermata %40
+		b2 b
+		es4 r r b
+		b2 b
+		es4 r r2
+		es1 %45
+		es
+		es
+		es
+		es~
+		es2 es %50
+		d\fermata \tempoVollbrachtE r
+		r r8 b g a
+		b d16([ b)] g8 a b4 r
+		R1*2 \noBreak %55
+		R1\fermataMarkup \bar "||"
+		\time 3/8 \tempoDeineKraeften d4 d8 \noBreak
+		g16([ d)] d4
+		d d8
+		g16([ d]) d4 %60
+		g,8([ b)] a
+		g([ d')] c
+		b([ g')] e
+		cis d r
+		d4 f16([ d)] %65
+		h8 r r
+		g as g
+		c r r
+		g as g
+		d' r r %70
+		g4 es8
+		c r r
+		f g, h
+		c es4
+		b!4. %75
+		a
+		g4 r8 \markDaCapo \bar "||" %77 finis
+	}
+}
+
+VollbrachtTenoreLyrics = \lyricmode {
+	Es %5
+	iſt voll -- bracht,
+	es
+	iſt voll -- bracht!
+	Wü -- te nur, du
+	Höl -- len -- macht, %10
+	dei -- ne Wuth,
+	dei -- ne Wuth,
+	dei -- ne Wuth wird
+	izt ver -- lacht,
+	dei -- ne Wuth wird %15
+	izt ver -- lacht.
+	Hö -- reſt
+	du die
+	Stim -- me
+	nicht, %20
+	die
+	Gott
+	ſelbſt
+	am
+	Kreu -- %25
+	ze
+	ſpricht?
+	Es iſt voll --
+	bracht, es iſt voll -- bracht!
+	%30
+	Wü -- te nur, du
+	Höl -- len -- macht,
+	wü -- te nur, du
+	Höl -- len -- macht,
+	dei -- ne Wuth, %35
+	dei -- ne Wuth,
+	dei -- ne Wuth wird
+	izt ver -- lacht,
+	dei -- ne Wuth wird
+	izt ver -- lacht. %40
+	Hö -- reſt
+	du die
+	Stim -- me
+	nicht,
+	die %45
+	Gott
+	ſelbſt
+	am
+	Kreu --
+	ze %50
+	ſpricht?
+	Es iſt voll --
+	bracht, es iſt voll -- bracht!
+
+	Dei -- ne %57
+	Kräf -- ten
+	ſind ge --
+	bro -- chen, %60
+	mei -- ne
+	Laſ -- ter
+	ſind ge --
+	ro -- chen,
+	denn das %65
+	Wort,
+	das al -- les
+	macht,
+	das al -- les
+	macht, %70
+	ſa -- get
+	izt:
+	Es iſt voll --
+	bracht, es
+	iſt %75
+	voll --
+	bracht. %77 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
