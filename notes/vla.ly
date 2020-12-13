@@ -514,3 +514,67 @@ VollbrachtViola = {
 		g,4 r8 \markDaCapo \bar "||" %77 finis
 	}
 }
+
+SiehOSchnoederViola = {
+	\relative c' {
+		\clef alto
+		\key a \major \time 4/4 \tempoSiehOSchnoeder
+		a'2~\fE a8 fis e d
+		a' a a gis a4 r
+		r8 d, r e r a, cis'[ cis]
+		h h h h a a r4
+		gis8 gis gis gis gis a e e %5
+		r gis fis e e r e e
+		a, r e' r r gis fis e
+		e r e e e4 r
+		cis8\p d e fis e fis e d
+		e fis e e e4 r %10
+		r8 d r e r a, r a'
+		dis,2 e8 e e e
+		c c c c h4 c(
+		h) c( h) r
+		r8 dis fis dis r h h h %15
+		c c c c c16( c c c c c c c)
+		d d d d d d d d e e e e e e e e
+		d4 r8 cis( d) r r a
+		d4 r r8 dis fis dis
+		r h h h fis' fis fis fis %20
+		d16( d d d d d d d) e( e e e e e e e)
+		fis^\critnote fis fis fis fis fis fis fis h,4 r8 dis(
+		e) r r h e4 r
+		r8 a, r h r e g![\fE g]
+		fis fis fis fis e e r4 %25
+		dis8 dis dis e h4 r
+		h8 cis h h h\pE h h h
+		g e' e g fis g fis fis
+		fis4 r r8 e r fis
+		r h, r fis' gis! gis a! h %30
+		e, e gis, gis a fis' fis fis
+		h,4 r cis8 d e fis
+		e fis e d e fis e e
+		e4 r gis8 gis gis a
+		e4 r a8 r c r %35
+		gis r a r f r e r
+		dis2 d\fermata
+		a8(\pp cis!) d( h) a( a) a( a)
+		\slurDashed a( cis) d( h) a4 r
+		r8 gis'\pE a h e, fis e e %40
+		a, r e' r r gis fis e
+		a4.\f gis8 fis e\p d dis
+		e4 r r2
+		r8 d r e r a, cis'[\f cis]
+		h h h h a a r4 %45
+		gis8 gis gis a e e gis, gis
+		a fis' e e e4 r\fermata \bar "||"
+		\key a \minor c8\p d e f e f e d \noBreak
+		e f e e e4 r
+		a,8 a a a d4 r %50
+		d8 d d d h! c r4
+		r8 c c c h h h h
+		e e e e d! d d d
+		cis cis cis cis fis fis fis fis
+		fis fis fis fis gis r fis r %55
+		gis a fis gis e a gis fisis
+		gis2 cis,4 r \markDaCapo \bar "||" %57 finis
+	}
+}

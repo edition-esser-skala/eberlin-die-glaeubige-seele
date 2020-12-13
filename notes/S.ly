@@ -349,6 +349,104 @@ HoelleMachtSopranoLyrics = \lyricmode {
 	wor -- ben. %3 finis
 }
 
+SiehOSchnoederSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoSiehOSchnoeder
+		R1*8 %8
+		a'2 a
+		\tuplet 3/2 8 { cis16([ h a] fis'[ e)] d } cis8 h a4 r %10
+		d r cis r8 fis
+		fis8. e32([ dis)] \appoggiatura cis16 h8 a gis16([ a )] h8 h h
+		e8. d32([ c)] h8 ais h r e16([ c)] h([ ais)]
+		h8 r e16([ c)] h([ ais)] h8 r r4
+		a8 r r4 gis8 r r e' %15
+		e8. d32([ c)] \appoggiatura h16 a8 a a2
+		b cis
+		d4 a8 a a g' f16([ e)] d([ cis)]
+		d4 r h8 r r4
+		h8 r r e e8. d32([ cis)] h8 ais %20
+		h2 c
+		dis e4 h8 h
+		h a' g16([ fis)] e([ dis)] e4 r
+		R1*3 %26
+		r2 e
+		cis \tuplet 3/2 8 { ais16([ gis fis] g'[ fis)] e } d8 cis
+		h4 r e r
+		d r8 d d8. cis32([ h)] a8 gis %30
+		a16([ cis)] h8 d4 cis8 cis cis4
+		h4 r a2
+		a a8 \tuplet 3/2 8 { fis'16([ e d)] } cis8 h
+		a4 r gis r8 cis
+		cis h r4 a c %35
+		gis a f e
+		dis2 d\fermata
+		R1*2
+		e4 d' cis8 \tuplet 3/2 8 { fis16([ e d)] } cis8 h %40
+		a r r4 e r8 d'
+		cis h a a a2~
+		a4 h a r
+		R1*3 \noBreak %46
+		R1\fermataMarkup \bar "||"
+		\key a \minor a2 a \noBreak
+		\tuplet 3/2 8 { c16([ h a] f'[ e)] d } c8 h \tuplet 3/2 8 { c16([ h a)] } a8 r4
+		e'4~ e16[ c] h([ a)] b([ a)] b8 r4 %50
+		d4. c16([ b)] \appoggiatura a gis8 a r4
+		a4. a8 dis dis dis dis
+		e4 r h4. h8
+		eis eis eis eis fis4 r
+		fis4. e16([ dis)] \appoggiatura cis8 his4 fis'8 e16([ dis)] %55
+		\appoggiatura cis his8 cis dis his cis cis cis4~
+		cis dis cis r\fermata \markDaCapo \bar "||" %57 finis
+	}
+}
+
+SiehOSchnoederSopranoLyrics = \lyricmode {
+	Sieh, o %9
+	ſchnö -- der Sün -- den -- knecht! %10
+	Sieh, ſieh! wie
+	Gott die Sün -- den ha -- ßet, denn dein
+	Blut war viel zu ſchlecht, viel zu
+	ſchlecht, viel zu ſchlecht.
+	Gott, Gott, Gott %15
+	ſel -- ber iſt er -- bla --
+	_ _
+	ßet, denn dein Blut war viel zu
+	ſchlecht, Gott,
+	Gott, Gott ſel -- ber iſt er -- %20
+	bla -- _
+	_ ßet, denn dein
+	Blut war viel zu ſchlecht.
+
+	Sieh, %27
+	o ſchnö -- der Sün -- den --
+	knecht! Sieh,
+	ſieh! wie Gott die Sün -- den %30
+	ha -- ßet, die Sün -- den ha --
+	ßet, denn
+	dein Blut war viel zu
+	ſchlecht. Gott, Gott
+	ſel -- ber iſt er -- %35
+	bla -- ßet, iſt er --
+	bla -- ßet,
+
+	denn dein Blut war viel zu %40
+	ſchlecht, Gott, Gott
+	ſel -- ber iſt er -- bla --
+	_ ßet.
+
+	Ach, es %48
+	ſpal -- ten ſich die Stei -- ne,
+	wein, o Sün -- der, %50
+	Strö -- me wei -- ne,
+	die -- ſer Tod die Fel -- ſen --
+	bruſt, die -- ſer
+	Tod die Fel -- ſen -- bruſt,
+	nur dein Herz, nur dein %55
+	Herz be -- wegt er nicht, be -- wegt __
+	er nicht. %57 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

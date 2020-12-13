@@ -508,45 +508,110 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "R E C I T A T I V O"
+	% 		number = "11"
+	% 		title = "Izt iſt der Hölle Macht beſinget"
+	% 	}
+	% 	\paper {
+	% 		indent = 2\cm
+	% 		system-system-spacing.basic-distance = #23
+	% 		system-system-spacing.minimum-distance = #23
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "hoellemacht" "11" "Recitativo" "Izt iſt der Hölle Macht beſinget"
+	% 	\score {
+	% 		<<
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
+	% 					\new Voice = "Soprano" { \dynamicUp \HoelleMachtSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \HoelleMachtSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Evangelist"
+	% 					\new Voice = "Tenore" { \dynamicUp \HoelleMachtTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \HoelleMachtTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\HoelleMachtOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \HoelleMachtBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "R E C I T A T I V O"
-			number = "11"
-			title = "Izt iſt der Hölle Macht beſinget"
+			genre = "A R I A"
+			number = "12"
+			title = "Sieh, o ſchnöder Sündenknecht!"
 		}
 		\paper {
-			indent = 2\cm
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
+			indent = 1.5\cm
+			system-system-spacing.basic-distance = #17
+			system-system-spacing.minimum-distance = #17
 			systems-per-page = #2
 		}
-		\tocLabelLong "hoellemacht" "11" "Recitativo" "Izt iſt der Hölle Macht beſinget"
+		\tocLabelLong "siehoschnoeder" "12" "Aria" "Sieh, o ſchnöder Sündenknecht!"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "fl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\SiehOSchnoederFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\SiehOSchnoederFlautoII
+						}
+					>>
+				>>
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\SiehOSchnoederViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\SiehOSchnoederViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "vla"
+						\SiehOSchnoederViola
+					}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
-						\new Voice = "Soprano" { \dynamicUp \HoelleMachtSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SiehOSchnoederSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \HoelleMachtSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Evangelist"
-						\new Voice = "Tenore" { \dynamicUp \HoelleMachtTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \HoelleMachtTenoreLyrics
+					\new Lyrics \lyricsto Soprano \SiehOSchnoederSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\HoelleMachtOrgano
+						\SiehOSchnoederOrgano
 					}
 				>>
-				\new FiguredBass { \HoelleMachtBassFigures }
+				\new FiguredBass { \SiehOSchnoederBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 65 }
 		}
 	}
 }

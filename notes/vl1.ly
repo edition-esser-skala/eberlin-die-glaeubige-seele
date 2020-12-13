@@ -672,6 +672,70 @@ VollbrachtViolinoI = {
 	}
 }
 
+SiehOSchnoederViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoSiehOSchnoeder
+		a'2\fE a
+		\tuplet 3/2 8 { cis16[ h a] fis' e d } cis8 h a4 r
+		r8 d, r e r a, \tuplet 3/2 8 { a''16 gis a fis[ e fis] }
+		dis8 e \tuplet 3/2 8 { g16[ fis g] e dis e } cis8 d? fis4~
+		fis16\trill e32 fis e16\trill d32 e e16\trill d32 e d16\trill cis32 d d16\trill cis32 d cis16\trill h32 cis cis8\trill h %5
+		d2 \tuplet 3/2 8 { cis16[ a' gis] fis e d } cis8 h
+		a r r4 d2
+		\tuplet 3/2 8 { cis16[ a' gis] fis e d } cis8 h a4 r
+		a2\p a
+		\tuplet 3/2 8 { cis16[ h a] fis' e d } cis8 h a4 r %10
+		r8 d, r e r a, r fis''
+		fis8.(\trill e32 dis) \appoggiatura cis16 h8 a gis16 a h8 h h
+		e2 dis8 r e4(
+		dis8) r e4( dis8) r r4
+		r8 a'! a a r gis gis gis %15
+		a e \appoggiatura d16 c8 a a16( a a a a a a a)
+		b b b b b b b b cis cis cis cis cis cis cis cis
+		d4 r8 g?( f) r r e
+		d4 r r8 a' a a
+		r g g g r cis, d cis %20
+		h16( h h h h h h h) c( c c c c c c c)
+		dis dis dis dis dis dis dis dis e4 r8 a(
+		g8) r r fis e4 r
+		r8 a,, r h r e \tuplet 3/2 8 { e'16[\fE dis? e] cis h cis }
+		ais8 h \tuplet 3/2 8 { d16[ cis d] h ais h } gis8 a? cis'4 %25
+		cis16\trill h32 cis h16\trill a32 h a16\trill gis32 a gis16\trill fis32 gis gis8 fis a,4
+		\tuplet 3/2 8 { gis16[ e' dis] cis h a } gis8 fis e\pE gis gis h
+		e16\trill cis32 d cis16\trill e32 fis e16\trill cis32 d cis16 h \tuplet 3/2 8 { ais[ gis fis] g' fis e } d8 cis
+		h4 r r8 e, r fis
+		r h, r d' d d cis h %30
+		cis h d4 cis8 cis cis4\trill
+		h r a2
+		a \tuplet 3/2 8 { cis16[ h a] fis' e d } cis8 h
+		a4 fis' fis16\trill e32 fis e16\trill d32 e d16\trill cis32 d cis16\trill h32 cis
+		cis8 h r4 r8 a r c %35
+		r gis r a r f r e
+		dis2 d\fermata
+		cis!8(\pp a) h( gis) a( a) a( a)
+		cis( a) h( gis) a4 r
+		d'2\pE \tuplet 3/2 8 { cis16[ a' gis] fis e d } cis8 h %40
+		a r r4 d2
+		cis16(\f d) d( e) e( fis) fis( gis) a8 a\p a a
+		a4 r r2
+		r8 d,, r e r a, \tuplet 3/2 8 { a''16[\f gis a] fis e fis }
+		dis8 e \tuplet 3/2 8 { g16[ fis g] e dis e } cis8 d? fis4~ %45
+		fis16\trill e32 fis e16\trill d32 e d16\trill cis32 d cis16\trill h32 cis cis8 h d4 \noBreak
+		\tuplet 3/2 8 { cis16[ a' gis] fis e d } cis8 h a4 r\fermata \bar "||"
+		\key a \minor a2\p a \noBreak
+		\tuplet 3/2 8 { c16[ h a] f' e d } c8 h \tuplet 3/2 8 { c16[ h a] } a8 r4
+		e'~ e16 c h a b a b8 r4 %50
+		d4. c16 b \appoggiatura a gis8 a r4
+		a4. a8 dis dis dis dis
+		e4 r h4. h8
+		eis eis eis eis fis4 r
+		r8 fis fis fis \appoggiatura e dis8 r fis r %55
+		dis cis dis his e e4\f e8~
+		e4 r r2 \markDaCapo \bar "||" %57 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

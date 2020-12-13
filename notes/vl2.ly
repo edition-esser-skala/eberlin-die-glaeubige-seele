@@ -671,3 +671,67 @@ VollbrachtViolinoII = {
 		R4. \markDaCapo \bar "||" %77 finis
 	}
 }
+
+SiehOSchnoederViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoSiehOSchnoeder
+		a'2\fE a
+		\tuplet 3/2 8 { cis16[ h a] fis' e d } cis8 h a4 r
+		r8 d, r e r a, \tuplet 3/2 8 { a''16 gis a fis[ e fis] }
+		dis8 e \tuplet 3/2 8 { g16[ fis g] e dis e } cis8 d? d4~
+		d16\trill cis32 d cis16\trill h32 cis cis16\trill h32 cis h16\trill a32 h h16\trill a32 h a16\trill gis32 a a8\trill gis %5
+		h2 \tuplet 3/2 8 { a16 fis' e d[ cis h] } a8 gis
+		a8 r r4 h2
+		\tuplet 3/2 8 { a16 fis' e d[ cis h] } a8 gis a4 r
+		a2\p a~
+		a8 a a gis a4 r %10
+		r8 d, r e r a, r cis'
+		cis h \appoggiatura a16 gis8 fis e16 fis gis8 gis gis
+		ais2 h8 r ais4(
+		h8) r ais4( h8) r r4
+		r8 fis' fis fis r e e e %15
+		c c \appoggiatura h16 a8 a a16( a a a a a a a)
+		a a a a a a a a g? g g g g g g g
+		f4 r8 e'( d) r r cis
+		d4 r r8 fis! fis fis
+		r e e e r ais, h ais %20
+		h16( h h h h h h h) h( h h h h h h h)
+		a! a a a a a a a g4 r8 fis'(
+		e) r r dis e4 r
+		r8 a,, r h r e \tuplet 3/2 8 { e'16[\fE dis? e] cis h cis }
+		ais8 h \tuplet 3/2 8 { d16 cis d h[ ais h] } gis8 a? a'4 %25
+		a16\trill gis32 a gis16\trill fis32 gis fis16\trill e32 fis e16\trill dis32 e e8 dis fis,4
+		\tuplet 3/2 8 { e16 cis' h a[ gis fis] } e8 dis e\pE e e g
+		g16\trill e32 fis e16\trill g32 a g16\trillE e32 fis e16 d cis8 \tuplet 3/2 8 { e'16[ d cis] } h8 ais
+		h4 r r8 e, r fis
+		r h, r h' h h a! gis %30
+		a gis h4 a8 a a4\trill
+		gis r a2
+		a~ a8 a a gis
+		a4 d d16\trill cis32 d cis16\trill h32 cis h16\trill a32 h a16\trill gis32 a
+		a8 gis r4 r8 a r c %35
+		r gis r a r f r e
+		dis2 d\fermata
+		cis!8(\pp a) h( gis) a( a) a( a)
+		cis( a) h( gis) a4 r
+		h'2\pE \tuplet 3/2 8 { a16[ fis' e] d cis h } a8 gis %40
+		a r r4 h2
+		a16(\f h) h( cis) cis( d) d( e) fis8 cis\p cis cis
+		cis4 r r2
+		r8 d, r e r a, \tuplet 3/2 8 { a''16[\f gis a] fis e fis }
+		dis8 e \tuplet 3/2 8 { g16[ fis g] e dis e } cis8 d? \once \tieDashed d4~ %45
+		d16\trill cis32 d cis16\trill h32 cis h16\trill a32 h a16\trill gis32 a a8 gis h4 \noBreak
+		\tuplet 3/2 8 { a16[ fis' e] d cis h } a8 gis a4 r\fermata \bar "||"
+		\key a \minor a2\p a \noBreak
+		a8 a a gis a4 r
+		c8 c c a f4 r %50
+		f8 f f f e e r4
+		r8 e e e fis fis fis fis
+		g!4 r fis4. fis8
+		gis gis gis gis a4 r
+		r8 a' a a \appoggiatura cis,16 his8^\critnote r dis r %55
+		his cis fis dis cis cis4\f cis8~
+		cis4 r r2 \markDaCapo \bar "||" %57 finis
+	}
+}

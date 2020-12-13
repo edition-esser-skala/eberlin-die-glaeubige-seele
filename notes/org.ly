@@ -1463,6 +1463,130 @@ HoelleMachtBassFigures = \figuremode {
 	<4+ 2>2 <6+ 4>8 <5 _+> <_+>4 %4 finis
 }
 
+SiehOSchnoederOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoSiehOSchnoeder
+		a'8\fE fis e d cis d cis h
+		a d e e, a4 r
+		r2 r4 a'8 a
+		a g g g g fis r4
+		e8 e e e e e e e %5
+		r e fis gis a r e e,
+		r e' r a r e fis gis
+		a r e e, a4 r
+		a'8\pE fis e d cis d cis h
+		a d e e, a4 r %10
+		r2 r8 a' fis a
+		dis,2 e8 e e e
+		c c c c h4 c(
+		h) c( h) r
+		r8 h dis h r e gis e %15
+		a a a a a16( a a a a a a a)
+		a a a a a a a a a a a a a a a a
+		d,4 r8 cis( d) r r a
+		d d c c r h dis h
+		r e g e fis fis fis fis %20
+		h16( h h h h h h h) h( h h h h h h h)
+		h h h h h h h h e,4 r8 dis(
+		e) r r h e4 r
+		r2 r4 e8\fE e
+		e d! d d d cis r4 %25
+		h8 h h h h4 r
+		e8 a h h, e\pE e e e
+		e e e e fis e fis fis,
+		h4 r r2
+		r8 h' gis h e, e e e %30
+		e e e e e dis dis dis
+		e4 r a8 fis e d
+		cis d cis h a d e e,
+		a4 r e'8 e e e
+		e e, r4 a'8 r c r %35
+		gis r a r f r e r
+		dis2 d\fermata
+		a8(\pp cis!) d( h) a( a) a( a)
+		\slurDashed a( cis) d( h) a4 r
+		r8 e'\pE fis gis a d, e e, %40
+		r e' r a r e fis gis
+		a4.\f gis8 fis e\p d dis
+		e2 a,4 r
+		r2 r4 a'8\f a
+		a g g g g fis r4 %45
+		e8 e e e e e e e \noBreak
+		a, d e e, a4 r\fermata \bar "||"
+		\key a \minor a'8\pE f e d c d c h \noBreak
+		a d e e, a a a a
+		a a a a d d d d %50
+		d d d d d c r4
+		r8 c c c h h h h
+		e e e e d! d d d
+		cis cis cis cis fis fis fis fis
+		fis fis fis fis gis r fis r %55
+		gis a fis gis e a gis fisis
+		gis2 cis,4 r \markDaCapo \bar "||" %57 finis
+	}
+}
+
+SiehOSchnoederBassFigures = \figuremode {
+	<8 3>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4 <6 4>8 <5 3> r2
+	r2. <5>8 <6>
+	<4+ 2> <6>4. <4 2>8 <6!>4.
+	<9 7>8 <8 6> <\t \t> <7 5> <\t \t> <6 4> <\t \t> <5 3> %5
+	r8 <7>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6 4>8 <5 3>
+	r2 r8 <7>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4 <6 4>8 <5 3> r2
+	<8 3>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4 <6 4>8 <5 3> r2 %10
+	r2.. <6>8
+	<7> <6>4 <5>8 r2
+	<6\\ 5!> <_+>4 <6\\ 5!>
+	<_+> <6\\ 5!> <_+>2
+	r8 <7! _+>2.. %15
+	<_!>1
+	<6! 4 2->2 <7! 5 _+>
+	<_!>4. <6 5!>8 <_!>2
+	<_!>4 <6>4. <7 5+ _+>
+	r8 <_!>4. <5 _+>4 <6 4>8 <5 _+> %20
+	r2 <6! 4 2!>
+	<7! _+> <_!>4. <6 5>8
+	<_!>4. <_+>8 <_!>2
+	r2. <8 _!>8 <6\\ \t>
+	<4+ 2> <6>4. <4+ 2>8 <6!>4. %25
+	<9 7 _+>8 \bassFigureExtendersOn <8 6 _+> <7 5 _+> \bassFigureExtendersOff <6 4> <\t \t> <5 _+>4.
+	r4 <6 4>8 <5 _+> r4. <_!>8
+	<6 _!>2 <_+>8 <_!> <6 4> <5 _+>
+	r1
+	r4 <6 5>8 <\t \t> <7 _+>4 <6 4!>8 <5 3> %30
+	<6 4> <5 3> <7>4 <6 4>8 <7>4.
+	r2 <8 3> \bassFigureExtendersOn
+	q4. q8 \bassFigureExtendersOff r4 <6 4>8 <5 3>
+	r2 <9 7>8 <8 6> <7 5> <6 4>
+	<\t \t> <5 3> r4 <8 _!>2 \bassFigureExtendersOn %35
+	q1
+	q2 \bassFigureExtendersOff <2>
+	<_+>8 <6> q q r2
+	r8 <6> q q r2
+	r8 <7>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6 4>8 <5 3> %40
+	r2 r8 <7>4 \bassFigureExtendersOn q8
+	<8 3>2.. q8 \bassFigureExtendersOff
+	<6 4>4 <5 3>2.
+	r <5>8 <6>
+	<4+ 2> <6>4. <4 2>8 <6!>4. %45
+	<9 7>8 <8 6> <7 5> <6 4> <\t \t> <5 3> <7>4
+	r4 <6 4>8 <5 3> r2
+	<8 3>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4 <6 4>8 <5 _+> r2
+	r <6-> %50
+	<\t> <6! 4+ 2>8 <6>4.
+	r8 <6>4. <7 5+ _+>2
+	<_!> <6 _+>
+	<7 5+ _+> <5+ _!>
+	<5+>4. <6\\>8 <6 4+>16 <5+ _+> r8 <6+ 5+>4 %55
+	<5+ _+>8 <_+> <6+ 5+> <5+ _+> <6+ _+> <8 _+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6 4+>4 <5+ _+> <5+>2 %57 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
