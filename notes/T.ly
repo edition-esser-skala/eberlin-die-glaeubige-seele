@@ -410,6 +410,26 @@ KaumAlsTenoreLyrics = \lyricmode {
 	er ihm hel -- fen kann. %28 finis
 }
 
+SodannNahmTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSodannNahm
+		r8 a a a d d d d
+		h4 r16 e e d d8 d d c
+		c c c4 r8 e e d
+		cis cis cis d d4 r
+		r8 d cis d a4 r\fermata \bar "|." %5 finis
+	}
+}
+
+SodannNahmTenoreLyrics = \lyricmode {
+	So -- dann nahm jäh ein Knecht ein
+	Rohr und hielt ihm ei -- nen Schwamm mit
+	E -- ßig vor, und Je -- ſus
+	rief aus gan -- zer Kraft:
+	Es iſt voll -- bracht. %5 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

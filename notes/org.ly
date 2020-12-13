@@ -1261,6 +1261,26 @@ WieDerHirschBassFigures = \figuremode {
 	r %98 finis
 }
 
+SodannNahmOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSodannNahm
+		d1
+		gis,
+		a2 g'!~
+		g f
+		gis a4 d,\fermata \bar "|." %5 finis
+	}
+}
+
+SodannNahmBassFigures = \figuremode {
+	r1
+	<6>
+	r2 <4+ 2>
+	r <6>
+	<7> <_+> %5 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

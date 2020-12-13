@@ -355,71 +355,106 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A R I A"
+	% 		number = "8"
+	% 		title = "Wie der Hirſch ganz ſchnelle"
+	% 	}
+	% 	\paper { indent = 1.5\cm }
+	% 	\tocLabelLong "wiederhirsch" "8" "Aria" "Wie der Hirſch ganz ſchnelle"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WieDerHirschOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WieDerHirschOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+	% 					% \transpose c f,
+	% 					\partcombine \WieDerHirschCornoI \WieDerHirschCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WieDerHirschViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WieDerHirschViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\WieDerHirschViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
+	% 					\new Voice = "Soprano" { \dynamicUp \WieDerHirschSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \WieDerHirschSopranoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\WieDerHirschOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \WieDerHirschBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 120 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A R I A"
-			number = "8"
-			title = "Wie der Hirſch ganz ſchnelle"
+			genre = "R E C I T A T I V O"
+			number = "9"
+			title = "Sodann nahm jäh ein Knecht ein Rohr"
 		}
-		\paper { indent = 1.5\cm }
-		\tocLabelLong "wiederhirsch" "8" "Aria" "Wie der Hirſch ganz ſchnelle"
+		\paper {
+			indent = 2\cm
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #2
+		}
+		\tocLabelLong "sodannnahm" "9" "Recitativo" "Sodann nahm jäh ein Knecht ein Rohr"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "ob"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\WieDerHirschOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\WieDerHirschOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
-						% \transpose c f,
-						\partcombine \WieDerHirschCornoI \WieDerHirschCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\WieDerHirschViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\WieDerHirschViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\WieDerHirschViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
-						\new Voice = "Soprano" { \dynamicUp \WieDerHirschSopranoNotes }
+						\set Staff.instrumentName = "Evangelium"
+						\new Voice = "Tenore" { \dynamicUp \SodannNahmTenoreNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WieDerHirschSopranoLyrics
+					\new Lyrics \lyricsto Tenore \SodannNahmTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\WieDerHirschOrgano
+						\SodannNahmOrgano
 					}
 				>>
-				\new FiguredBass { \WieDerHirschBassFigures }
+				\new FiguredBass { \SodannNahmBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }
