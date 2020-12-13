@@ -332,6 +332,23 @@ WieDerHirschSopranoLyrics = \lyricmode {
 	ich mich. %91 finis
 }
 
+HoelleMachtSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHoelleMacht
+		r8 d' d c c c c b
+		g g r16 d' d c h8 h h c
+		c c r4 r2
+		R1\fermataMarkup \bar "|." %4 finis
+	}
+}
+
+HoelleMachtSopranoLyrics = \lyricmode {
+	Izt iſt der Höl -- le Macht be --
+	ſin -- get, izt iſt der Men -- ſchen Heil er --
+	wor -- ben. %3 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

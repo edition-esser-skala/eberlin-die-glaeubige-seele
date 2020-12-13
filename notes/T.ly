@@ -584,6 +584,21 @@ VollbrachtTenoreLyrics = \lyricmode {
 	bracht. %77 finis
 }
 
+HoelleMachtTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoHoelleMacht
+		R1*2
+		r4 r8 c e e e d
+		cis cis cis d d a r4\fermata \bar "|." %4 finis
+	}
+}
+
+HoelleMachtTenoreLyrics = \lyricmode {
+	Und er iſt mit ge -- %3
+	neig -- tem Haubt ge -- ſtor -- ben. %4 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

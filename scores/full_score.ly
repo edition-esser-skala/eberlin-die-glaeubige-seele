@@ -457,55 +457,96 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A R I A"
+	% 		number = "10"
+	% 		title = "Es iſt vollbracht"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "vollbracht" "10" "Aria" "Es iſt vollbracht"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\VollbrachtViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\VollbrachtViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\VollbrachtViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Seele"
+	% 					\new Voice = "Tenore" { \dynamicUp \VollbrachtTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \VollbrachtTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\VollbrachtOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \VollbrachtBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A R I A"
-			number = "10"
-			title = "Es iſt vollbracht"
+			genre = "R E C I T A T I V O"
+			number = "11"
+			title = "Izt iſt der Hölle Macht beſinget"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			indent = 2\cm
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
 			systems-per-page = #2
 		}
-		\tocLabelLong "vollbracht" "10" "Aria" "Es iſt vollbracht"
+		\tocLabelLong "hoellemacht" "11" "Recitativo" "Izt iſt der Hölle Macht beſinget"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\VollbrachtViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\VollbrachtViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\VollbrachtViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Seele"
-						\new Voice = "Tenore" { \dynamicUp \VollbrachtTenoreNotes }
+						\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
+						\new Voice = "Soprano" { \dynamicUp \HoelleMachtSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \VollbrachtTenoreLyrics
+					\new Lyrics \lyricsto Soprano \HoelleMachtSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Evangelist"
+						\new Voice = "Tenore" { \dynamicUp \HoelleMachtTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \HoelleMachtTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\VollbrachtOrgano
+						\HoelleMachtOrgano
 					}
 				>>
-				\new FiguredBass { \VollbrachtBassFigures }
+				\new FiguredBass { \HoelleMachtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

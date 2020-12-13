@@ -1445,6 +1445,24 @@ VollbrachtBassFigures = \figuremode {
 	r %77 finis
 }
 
+HoelleMachtOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoHoelleMacht
+		fis1
+		g2 f
+		e1
+		g2 a4 d,\fermata \bar "|." %4 finis
+	}
+}
+
+HoelleMachtBassFigures = \figuremode {
+	<6>2 <5>
+	<_-> <4! 2>
+	<6>1
+	<4+ 2>2 <6+ 4>8 <5 _+> <_+>4 %4 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
