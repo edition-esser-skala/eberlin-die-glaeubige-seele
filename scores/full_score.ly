@@ -549,69 +549,121 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A R I A"
+	% 		number = "12"
+	% 		title = "Sieh, o ſchnöder Sündenknecht!"
+	% 	}
+	% 	\paper {
+	% 		indent = 1.5\cm
+	% 		system-system-spacing.basic-distance = #17
+	% 		system-system-spacing.minimum-distance = #17
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "siehoschnoeder" "12" "Aria" "Sieh, o ſchnöder Sündenknecht!"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "fl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SiehOSchnoederFlautoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SiehOSchnoederFlautoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SiehOSchnoederViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SiehOSchnoederViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\SiehOSchnoederViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
+	% 					\new Voice = "Soprano" { \dynamicUp \SiehOSchnoederSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SiehOSchnoederSopranoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SiehOSchnoederOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SiehOSchnoederBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 65 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A R I A"
-			number = "12"
-			title = "Sieh, o ſchnöder Sündenknecht!"
+			genre = "A C C O M P A G N A T O"
+			number = "13"
+			title = "O theurer Sünden Zahl"
 		}
 		\paper {
 			indent = 1.5\cm
-			system-system-spacing.basic-distance = #17
-			system-system-spacing.minimum-distance = #17
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "siehoschnoeder" "12" "Aria" "Sieh, o ſchnöder Sündenknecht!"
+		\tocLabelLong "otheurer" "13" "Accompagnato" "O theurer Sünden Zahl"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "fl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\SiehOSchnoederFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\SiehOSchnoederFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\SiehOSchnoederViolinoI
+							\OTheurerViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\SiehOSchnoederViolinoII
+							\OTheurerViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\SiehOSchnoederViola
+						\OTheurerViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tochter" "Zion" }
-						\new Voice = "Soprano" { \dynamicUp \SiehOSchnoederSopranoNotes }
+						\set Staff.instrumentName = "[Seele]"
+						\new Voice = "Tenore" { \dynamicUp \OTheurerTenoreNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SiehOSchnoederSopranoLyrics
+					\new Lyrics \lyricsto Tenore \OTheurerTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\SiehOSchnoederOrgano
+						\OTheurerOrgano
 					}
 				>>
-				\new FiguredBass { \SiehOSchnoederBassFigures }
+				\new FiguredBass { \OTheurerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 65 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

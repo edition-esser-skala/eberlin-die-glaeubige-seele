@@ -578,3 +578,38 @@ SiehOSchnoederViola = {
 		gis2 cis,4 r \markDaCapo \bar "||" %57 finis
 	}
 }
+
+OTheurerViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoOTheurer
+		d4\fE r r8 g(\p b g)
+		e1~\f
+		e2 r8 d(\p f d)
+		e1~\f
+		e2 r %5
+		r8 a(\p h c) dis,2\f
+		r c'~\pE
+		c h~
+		h r4 h
+		g8 e cis dis h4 r %10
+		r2 f'!~
+		f r8 e f!16( e dis e)
+		fis8( e dis e) a2~
+		a1
+		r8 g,(\p as\cresc g) es'( c as' g)\! %15
+		fis( g f d) as'2~
+		as1~
+		as4 r r8 g c,16( es f g)
+		c,( des c b) c4~ c2
+		r r8 b es16( g as f) %20
+		g(\p es as f) g(\f es as f) g4\ff r
+		r2 fis\pE
+		r8 \once \slurDashed g( a b) \once \tieDashed g2~
+		g r8 \once \slurDashed es( d c)
+		d2 c~ %25
+		c1~
+		c2 r4 r8 h!
+		c4 r r2\fermata \bar "|." %28 finis
+	}
+}

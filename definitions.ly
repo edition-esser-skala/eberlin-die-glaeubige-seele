@@ -697,6 +697,7 @@ tempoVollbracht = \tempoMarkup "Adagio"
 	tempoDeineKraeften = \tempoMarkup "[Allegro]"
 tempoHoelleMacht = \tempoMarkup "[Tempo deest]"
 tempoSiehOSchnoeder = \tempoMarkup "Adagio"
+tempoOTheurer = \tempoMarkup "[Tempo deest]"
 
 
 markDaCapo = {

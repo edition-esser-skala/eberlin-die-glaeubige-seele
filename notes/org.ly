@@ -1587,6 +1587,72 @@ SiehOSchnoederBassFigures = \figuremode {
 	<6 4+>4 <5+ _+> <5+>2 %57 finis
 }
 
+OTheurerOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoOTheurer
+		d4\fE r r8 e(\p g e)
+		cis1~\f
+		cis2 r8 d(\p f d)
+		gis,1~\f
+		gis2 r %5
+		r8 a'(\p h c) dis,2\f
+		r dis~\pE
+		dis1~
+		dis2 r4 e
+		e8 e e e e4 r %10
+		r2 f!~
+		f r8 e f!16( e dis e)
+		fis8( e dis e) a,2~
+		a1
+		r8 g(\p as\cresc g) es'( c as' g)\! %15
+		fis( g f d) as'2~
+		as1~
+		as4 r r8 g c,16( es f g)
+		as( e f g) as4~ as2
+		r r8 b, es16( g as f) %20
+		g(\p es as f) g(\f es as f) g4\ff r
+		g2\pE fis
+		r8 \once \slurDashed g( a b) f2~
+		f r8 es( d c)
+		f4 g as2~ %25
+		\once \tieDashed as1~
+		as2 r4 r8 g
+		c,4 r r2\fermata \bar "|." %28 finis
+	}
+}
+
+OTheurerBassFigures = \figuremode {
+	r2 r8 <6\\ 5->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7->1
+	r
+	<6 5>
+	r %5
+	r4 <6\\>8 <6> <6 _+>2
+	r <7 _+>
+	<\t \t> <6 \t>
+	r2. <5>4
+	<6!> <6+ 4+ 2+>8 <7+ 4! \t> r2 %10
+	r <6! _!>
+	r1
+	<6\\>4 <7 _+> <6\\>2
+	r1
+	r4 <6\\> <6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %15
+	<6 5>8 <\t \t> <4 2> <\t \t> <6\\ 5->2
+	r1
+	r2 r8 <7 _!> <_->16 <6> <6- _-> <7 _!>
+	<5- 3> <7- 5-> <_-> <6! _-> <6>2.
+	r2 r8 <7-> <5->16 <6- _-> <6> <6 _-> %20
+	<6- _-> <5-> <6> <6 _-> <6- _-> <5-> <6> <6 _-> <6- _->2
+	q <6 5 _!>
+	r8 <_-> <6\\> <6> <4! 2>2
+	r r8 <6> <6!> <_->
+	<6 5 _->4 <_!> <6\\>2 %25
+	r1
+	r2.. <7 _!>8
+	<_->1 %28 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

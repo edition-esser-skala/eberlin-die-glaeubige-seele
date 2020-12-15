@@ -599,6 +599,71 @@ HoelleMachtTenoreLyrics = \lyricmode {
 	neig -- tem Haubt ge -- ſtor -- ben. %4 finis
 }
 
+OTheurerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoOTheurer
+		r8 d f d cis cis cis4
+		r r8 e e4 g,
+		r g8 f f f r4
+		r r8 h gis4 r8 gis
+		h h h c d16 d d8 d d16 c %5
+		a16 a a8 r4 r r8 h
+		h h h c c c r16 c h c
+		a8 a h c h h r h
+		a a a g g g g4
+		r2 r8 h h h %10
+		e e e d! d d r a
+		d d d a h h r4
+		r2 r4 a8 h
+		c4 r8 e c c c h
+		d d r4 r2 %15
+		r r8 c c d
+		es4 es es8 es d es
+		c c h c c g r4
+		r r8 c f f f es
+		d d d es es b r4 %20
+		r2 r4 r8 es
+		es es es d d d d a
+		b4 r r r8 d
+		h h h c c16 c c8 r4
+		r2 r4 r8 c %25
+		c c c d es4 es8 c
+		c c h c c g g4
+		R1\fermataMarkup \bar "|." %28 finis
+	}
+}
+
+OTheurerTenoreLyrics = \lyricmode {
+	O theu -- rer Sün -- den Zahl,
+	o Je -- ſus!
+	ach Er -- lö -- ſer,
+	du ſtirbſt, daß
+	ich ver -- ruch -- tes Laſ -- ter -- kind doch e -- wig %5
+	le -- ben ſoll. O
+	ſchmer -- zen -- rei -- che Stun -- den, die mei -- nem
+	Gott ſo vie -- le Wun -- den und
+	mir durch ſie das Heil ge -- bracht.
+	Wie kann ich %10
+	wohl ge -- kränk -- te See -- le nach
+	mei -- nem To -- de le -- ben?
+	Was kann
+	ich für die -- ſe Lie -- be
+	ge -- ben? %15
+	Für die -- ſe
+	Lie -- be lieb ich dich, mein
+	Gott! mit gro -- ßen Kräf -- ten.
+	Mein Herz will ich zu
+	dir ans Kreu -- ze hef -- ten, %20
+	mir
+	win -- ket ja dein halb ge -- neig -- tes
+	Haubt. Du
+	la -- deſt mich ja ſel -- ber ein,
+	drum %25
+	ſollſt auch nach dem To -- de das
+	beſ -- te mei -- ner See -- le ſeyn. %27 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

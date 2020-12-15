@@ -735,3 +735,38 @@ SiehOSchnoederViolinoII = {
 		cis4 r r2 \markDaCapo \bar "||" %57 finis
 	}
 }
+
+OTheurerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoOTheurer
+		f'4\fE r r8 e(\p cis e)
+		g1~\f
+		g2 r8 f,(\p a d)
+		h1~\f
+		h2 r %5
+		r8 c(\p d e) fis,2\f
+		r fis'~\pE
+		fis1~
+		fis2 r4 r16 g( fis g)
+		e8 g, fis fis e4 r %10
+		r2 d'!~
+		d r8 e, f!16( e dis e)
+		a8( g fis g) c2~
+		c1
+		r8 h(\p c\cresc h) c16 c c c c c c c %15
+		c c c c h! h h h c2~
+		c1~
+		c4 r r8 h c16( g) as( f)
+		es g f e f4~ f2
+		r r8 d' es16( b c as) %20
+		b(\p es c as) b(\f es c as) b4\ff r
+		r2 c\pE
+		r8 b( c d) h2~
+		h r8 g( f es)
+		f4 h,! c2~ %25
+		c1~
+		c2 r4 r8 d
+		c4 r r2\fermata \bar "|." %28 finis
+	}
+}

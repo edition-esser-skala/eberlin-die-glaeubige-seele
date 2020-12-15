@@ -736,6 +736,41 @@ SiehOSchnoederViolinoI = {
 	}
 }
 
+OTheurerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoOTheurer
+		a''4\fE r r8 g(\p e g)
+		b1~\f
+		b2 r8 a,(\p d f)
+		e1~\f
+		e2 r %5
+		r8 a(\p gis a) h,2\f
+		r a'~\pE
+		a1~
+		a2 r4 r16 g( fis g)
+		e( c! h c) ais( h a fis) g4 r %10
+		r2 a'!~
+		a r8 e, f!16( e dis e)
+		dis'8( e c h) fis'2~
+		fis1
+		r8 g(\p fis\cresc g) c,16 c c c c c c c\! %15
+		d d d d d d d d fis2~
+		fis1~
+		fis4 r r8 f es16( c) des( h!)
+		c b as g f4~ f2
+		r r8 as' g16( es f d) %20
+		es(\p g f d) es(\f g f d) es4\ff r
+		r2 a!\pE
+		r8 g( fis g) d2~
+		d r8 c( h! c)
+		as4 g fis2~ %25
+		fis1~
+		fis2 r4 r8 f
+		es4 r r2\fermata \bar "|." %28 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
