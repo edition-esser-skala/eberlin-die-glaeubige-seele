@@ -770,3 +770,150 @@ OTheurerViolinoII = {
 		c4 r r2\fermata \bar "|." %28 finis
 	}
 }
+
+JesuMeinesViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoJesuMeines
+		c'4\fE h8
+		e16 d c8 h
+		c16 c c c c c
+		c8 h r
+		R4.*4 %8
+		g8( as g)
+		c d es %10
+		f16 d \appoggiatura c8 h!4
+		c8 r r
+		es r r
+		as r r
+		h,! r r %15
+		R4.*3
+		r16 c,32[ d] e16 f g a
+		f'16 d \appoggiatura c8 h4 %20
+		c16[ c,32 d] es16 f g as
+		f'16 d \appoggiatura c8 h!4
+		c16[ c,32 d] e!16 f g a
+		f'4.
+		e8 d c %25
+		a16 d \appoggiatura c8 h4 \noBreak
+		c4 r8
+		\time 4/4 R1\fermataMarkup \noBreak
+		\time 3/8 r8 c\p h \noBreak
+		e16 d c8 h %30
+		c16 c c c c c
+		c8 h r
+		R4.*4 %36
+		g8 as g
+		c d es
+		f16 d \appoggiatura c8 h!4
+		c8 r r %40
+		R4.*3
+		r16 c,32[\f d] e!16 f g a
+		f'16( d) \appoggiatura c8 h4 %45
+		c r8
+		r e\pE e
+		r a a
+		a16 a a a a a
+		g8 g g %50
+		g,4.
+		a8 h c
+		c16 a g8 fis
+		g r r
+		h r r %55
+		g fis g
+		g h c
+		r h h
+		c h c
+		r h h %60
+		c-! c-! c-!
+		c-! c-! c-!
+		c-! c-! c-!
+		fis,-! fis-! fis-!
+		g4 r8 %65
+		R4.*4
+		g8 a g %70
+		c d e
+		c16( a) g8 fis
+		g r r
+		R4.*3 %76
+		e8\f d cis
+		d4.
+		h''
+		a %80
+		g8 r r
+		e16 a g8 fis
+		g g16 g g g
+		g4 fis8
+		g4 r8 %85
+		R4.*5 %90
+		es4.\pE
+		d
+		c
+		d8 c h!
+		c4 r8 %95
+		g as g
+		c d es
+		f16 d \appoggiatura c8 h!4
+		c8 r r
+		g as g %100
+		c d es
+		f16 d \appoggiatura c8 h!4
+		c r8
+		R4.*3 %106
+		h8 d h
+		c h16 c h8
+		h d h
+		c h16 c h8 %110
+		g a h
+		c h c
+		d c h
+		c r r
+		c r r %115
+		e, f d
+		e d c
+		r b' b
+		a r r
+		r c c %120
+		h! r r
+		g-! g-! g-!
+		g-! es-! es-!
+		c'-! c-! c-!
+		h!-! h-! h-! %125
+		c-! c-! c-!
+		c4.
+		h!4 r8\fermata
+		R4.*4 %132
+		g8 a g
+		c h c
+		a16 f e8 d %135
+		e r r
+		R4.*3
+		a8\f g fis %140
+		g4.
+		r16 c,32[ d] e16 f g a
+		d16[ d,32 e] f16 g a h
+		c[ e,32 f] g16 a h c
+		h8 r r %145
+		R4.*3
+		r16 c,32[ d] es16 f g as
+		f' d \appoggiatura c8 h!4 %150
+		c16[ c,32 d] e!16 f g a
+		f'4.
+		e8 d c
+		a16 d \appoggiatura c8 h4 \noBreak
+		c r8\fermata \bar "||" %155
+		\time 4/4 e4\p d16( c h a) \appoggiatura a8 gis4 a
+		e8 h'16( a) h8 h a h c4
+		gis16( a h a) h8 h a e e c
+		c4 r cis'4. d8
+		e4 cis d r %160
+		h4. c8 d4 h
+		c r r8 b d b
+		r b d b r f f f
+		e e e e e e e e
+		e e e e e e e e %165
+		e4 a2 gis4
+		a8 a\f g fis e4. c8
+		h4 r r2 \markDaCapo \bar "||" %168 finis %168 finis
+	}
+}

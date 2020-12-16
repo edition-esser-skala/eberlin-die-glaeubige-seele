@@ -614,56 +614,122 @@
 	% 		\midi { \tempo 4 = 65 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A C C O M P A G N A T O"
+	% 		number = "13"
+	% 		title = "O theurer Sünden Zahl"
+	% 	}
+	% 	\paper {
+	% 		indent = 1.5\cm
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "otheurer" "13" "Accompagnato" "O theurer Sünden Zahl"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\OTheurerViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\OTheurerViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\OTheurerViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "[Seele]"
+	% 					\new Voice = "Tenore" { \dynamicUp \OTheurerTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \OTheurerTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\OTheurerOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \OTheurerBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A C C O M P A G N A T O"
-			number = "13"
-			title = "O theurer Sünden Zahl"
+			genre = "A R I A"
+			number = "14"
+			title = "Jeſu! meines Lebens Quelle"
 		}
-		\paper {
-			indent = 1.5\cm
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
-		\tocLabelLong "otheurer" "13" "Accompagnato" "O theurer Sünden Zahl"
+		\paper { indent = 1.5\cm }
+		\tocLabelLong "jesumeines" "14" "Aria" "Jeſu! meines Lebens Quelle"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "fag"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\JesuMeinesFagottoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\JesuMeinesFagottoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "cor (C)" "1, 2" }
+						\partcombine \JesuMeinesCornoI \JesuMeinesCornoII
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\OTheurerViolinoI
+							\JesuMeinesViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\OTheurerViolinoII
+							\JesuMeinesViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\OTheurerViola
+						\JesuMeinesViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "[Seele]"
-						\new Voice = "Tenore" { \dynamicUp \OTheurerTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \JesuMeinesTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \OTheurerTenoreLyrics
+					\new Lyrics \lyricsto Tenore \JesuMeinesTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\OTheurerOrgano
+						\JesuMeinesOrgano
 					}
 				>>
-				\new FiguredBass { \OTheurerBassFigures }
+				\new FiguredBass { \JesuMeinesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 50 }
 		}
 	}
 }

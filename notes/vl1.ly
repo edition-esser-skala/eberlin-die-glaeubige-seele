@@ -771,6 +771,153 @@ OTheurerViolinoI = {
 	}
 }
 
+JesuMeinesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoJesuMeines
+		c'8.(\fE d32 e) d8
+		g16 f e8 d
+		c4 d16( f)
+		\appoggiatura f e8 d r
+		R4.*4 %8
+		g,8( as g)
+		c d es %10
+		f16 d \appoggiatura c8 h!4
+		c8 r r
+		es r r
+		as r r
+		h,! r r %15
+		R4.*3
+		r16 c,32[ d] e16 f g a
+		f'16 d \appoggiatura c8 h4 %20
+		c16[ c,32 d] es16 f g as
+		as'16 f \appoggiatura es8 d4
+		c16[ c,32 d] e!16 f g a
+		f'4.
+		e8 d c %25
+		a16 d \appoggiatura c8 h4 \noBreak
+		c4 r8
+		\time 4/4 R1\fermataMarkup \noBreak
+		\time 3/8 r8 e\p d \noBreak
+		g16 f e8 d %30
+		c4 d16 f
+		e8 d r
+		R4.*4 %36
+		g,8 as g
+		c d es
+		f16 d \appoggiatura c8 h!4
+		c8 r r %40
+		R4.*3
+		r16 c,32[\f d] e!16 f g a
+		f'16( d) \appoggiatura c8 h4 %45
+		c r8
+		r e\pE e
+		e16 e e e e e
+		r8 d d
+		d16 d d d d d %50
+		g,8 a h
+		c d e
+		e16 c h8 a
+		h r r
+		g' r r %55
+		g, a h
+		c d e
+		r d d
+		c d e
+		r d d %60
+		e-! e-! e-!
+		fis-! fis-! fis-!
+		a4 \appoggiatura g16 fis8
+		\appoggiatura e d4 c8
+		h4 r8 %65
+		R4.*4
+		g8 a g %70
+		c d e
+		e16( c) h8 a
+		h r r
+		R4.*3 %76
+		e,8\f d cis
+		d4.
+		d''
+		c %80
+		h8 r r
+		a16 c h8 a
+		h16 a g g g g
+		g4 a8
+		g4 r8 %85
+		R4.*5 %90
+		g4.\pE
+		f
+		es
+		f8 es d
+		c4 r8 %95
+		g as g
+		c d es
+		f16 d \appoggiatura c8 h!4
+		c8 r r
+		g as g %100
+		c d es
+		f16 d \appoggiatura c8 h!4
+		c r8
+		R4.*3 %106
+		d8 f d
+		e! d16 e d8
+		d f d
+		e d16 e d8 %110
+		g, a h
+		c d e
+		f e d
+		c r r
+		e r r %115
+		g, a h
+		c d e
+		g g g
+		f r r
+		a a a %120
+		g r r
+		es-! es-! es-!
+		c-! c-! c-!
+		fis-! fis-! fis-!
+		g-! g-! g-! %125
+		es-! es-! es-!
+		es4.
+		d4 r8\fermata
+		R4.*4 %132
+		g,8 a g
+		c d e
+		f16 d c8 h %135
+		c r r
+		R4.*3
+		a8\f g fis %140
+		g4.
+		r16 c,32[ d] e16 f g a
+		f'16[ d,32 e] f16 g a h
+		e[ e,32 f] g16 a h c
+		h8 r r %145
+		R4.*3
+		r16 c,32[ d] es16 f g as
+		as' f \appoggiatura es8 d4 %150
+		c16[ c,32 d] e!16 f g a
+		f'4.
+		e8 d c
+		a16 d \appoggiatura c8 h4 \noBreak
+		c r8\fermata \bar "||" %155
+		\time 4/4 e4\p d16( c h a) \appoggiatura a8 gis4 a
+		h16( c d cis) d8 d c d e4
+		h16( c d cis) d8 d c2
+		a4 r e'4. f8
+		g4 e d r %160
+		d4. e8 f4 d
+		c r r8 d f d
+		r d f d f( d) b( a)
+		gis4 a h c16( h) e( h)
+		c8 r r4 h c16( h) e( h) %165
+		c2 h
+		a8 c\f h a g!4 r8 e
+		h4 r r2 \markDaCapo \bar "||" %168 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

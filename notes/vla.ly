@@ -613,3 +613,144 @@ OTheurerViola = {
 		c4 r r2\fermata \bar "|." %28 finis
 	}
 }
+
+JesuMeinesViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/8 \tempoJesuMeines
+		g'4\fE g8
+		r g g
+		e4 a8
+		g g r
+		R4.*4 %8
+		h,8 c h
+		g'4. %10
+		as16 f \appoggiatura es8 d4
+		es8 r r
+		g r r
+		f r r
+		d r r %15
+		R4.*3
+		r16 c32[ d] e16 f g a
+		a f \appoggiatura e8 d4 %20
+		r16 c32[ d] es16 f g as
+		f8 g g,
+		r16 c32[ d] e!16 f g a
+		r d,32[ e] f16 g a h
+		c8 h a %25
+		f g g, \noBreak
+		c4 r8
+		\time 4/4 R1\fermataMarkup \noBreak
+		\time 3/8 r8 g'\p g \noBreak
+		r g g %30
+		e g a
+		g4 r8
+		R4.*4 %36
+		h,8 c h
+		g'4.
+		as16 f \appoggiatura es8 d4
+		c8 r r %40
+		R4.*3
+		r16 c32[\fE d] e!16 f g a
+		a f d4 %45
+		e4 r8
+		r g\pE c
+		r c a
+		fis r r
+		r h g %50
+		e4 d8
+		c h a
+		r d d
+		g, r r
+		e' r r %55
+		h a g
+		e' d c
+		f r r
+		e d c
+		f r r %60
+		g-! g-! g-!
+		a-! a-! a-!
+		fis-! fis-! a-!
+		a-! a-! a-!
+		g4 r8 %65
+		R4.*5 %70
+		g8 fis g
+		r d d
+		d r r
+		R4.*3 %76
+		e8\f d cis
+		d4.
+		r16 g,32[ a] h16 c d e
+		r a,32[ h] c16 d e fis %80
+		g8 fis e
+		c d d
+		d16 c h h h h
+		e8 h a
+		h4 r8 %85
+		R4.*10 %95
+		r8 h!(\pE c)
+		r \once \slurDashed h'!( c)
+		as16 f \appoggiatura es8 d4
+		c8 r r
+		r h!( c) %100
+		r h'!( c)
+		as16 f \appoggiatura es8 d4
+		c4 r8
+		R4.*3 %106
+		g8 g g
+		g g g
+		g g g
+		g g g %110
+		g'4 f8
+		e d c
+		f g g,
+		c r r
+		c r r %115
+		c c c
+		c r r
+		r c c
+		c r r
+		r d d %120
+		d r r
+		c-! c-! c-!
+		c-! c-! c-!
+		c-! c-! c-!
+		d-! d-! d-! %125
+		g-! g-! g-!
+		a!4.
+		d,4 r8\fermata
+		R4.*5 %133
+		g8 f g
+		f16 a g8 g %135
+		g r r
+		R4.*3
+		a8\fE g fis %140
+		g4.
+		r16 c,32[ d] e16 f g a
+		r d,32[ e] f16 g a h
+		c[ c,32 d] e16 f g a
+		g8 r r %145
+		R4.*3
+		r16 c,32[ d] es16 f g as
+		f8 g g, %150
+		r16 c32[ d] e!16 f g a
+		r d,32[ e] f16 g a h
+		c8 h a
+		f g g, \noBreak
+		c4 r8\fermata \bar "||" %155
+		\time 4/4 \newSpacingSection
+			a4\pE r e' d16 c h a \noBreak
+		gis4 e a4. c8
+		e e e e a, a a a
+		a4 r g'!4. f8
+		e g a a, d4 r %160
+		f4. e8 d f g g,
+		c4 r d d
+		d r d d
+		h c h gis
+		a8 c e c h4 gis %165
+		a e'8 f h,4 e
+		e h\f h4. c8
+		h4 r r2 \markDaCapo \bar "||" %168 finis
+	}
+}

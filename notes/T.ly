@@ -664,6 +664,252 @@ OTheurerTenoreLyrics = \lyricmode {
 	beſ -- te mei -- ner See -- le ſeyn. %27 finis
 }
 
+JesuMeinesTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/8 \autoBeamOff \tempoJesuMeines
+		R4.*27 %27
+		\time 4/4 c2 g \noBreak
+		\time 3/8 c8.([ d32 e)] d8 \noBreak
+		g16([ f e8)] d %30
+		c4 d16([ f)]
+		e8 d r
+		c8.([ d32 e)] d8
+		g16([ f e8)] d
+		c4 d16([ f)] %35
+		e8 d r
+		g, r r
+		c r r
+		R4.*2 %40
+		g8([ as)] g
+		c([ d)] es
+		f16([ d)] \appoggiatura c8 h!4
+		c r8
+		R4.*2 %46
+		e!8 e e
+		e a,16([ h)] a8
+		d d d
+		d g,16([ a)] g8 %50
+		g a h
+		c([ d)] e
+		e16([ c)] h8([ a)]
+		h r r
+		R4. %55
+		g8 a h
+		c[ d e]
+		r f32([ d16.) c32( h16.)]
+		c8[ d e]
+		r f32([ d16.) c32( h16.)] %60
+		c8[-! c-! c]-!
+		fis[-! fis-! fis]-!
+		a4 \appoggiatura g16 fis8
+		\appoggiatura e d4^\critnote c8
+		h4 r8 %65
+		h16([ d)] c([ h)] a([ g)]
+		d'8 r r
+		d4.
+		\appoggiatura d8 c4.
+		h8 r r %70
+		R4.
+		e16([ c)] h8 a
+		h r r
+		R4.*2 %75
+		e16([ c)] h8 a
+		g g4
+		g a8
+		g4 r8
+		R4.*6 %85
+		d'4.
+		c
+		b8([ a)] g
+		a16([ c)] g8([ fis)]
+		g16([ b)] g8 r %90
+		g'4.
+		f
+		es8([ d)] c
+		d16([ f)] c8([ h)]
+		c16([ es)] d8 r %95
+		g, r r
+		c r r
+		R4.*2
+		g8([ as)] g %100
+		c([ d)] es
+		f16([ d)] \appoggiatura c8 h!4
+		c r8
+		R4.*3 %106
+		d8 f16([ d)] c([ h)]
+		c8 d16([ e!)] d8
+		d f16([ d)] c([ h)]
+		c8 d16([ e)] d8 %110
+		g, a h
+		c([ d)] e
+		f16([ d)] c8([ h)]
+		c r r
+		R4. %115
+		g8 a h
+		c[ d e]
+		r g32([ b,16.) a32( g16.)]
+		a8[ h c]
+		r a'32([ c,16.) h32( a16.)] %120
+		h8[ c d]
+		es[-! es-! es]-!
+		c[-! c-! c]-!
+		fis4.
+		g %125
+		es~
+		es4 es8
+		d4 r8\fermata
+		c16([ e!)] d([ c)] h([ c)]
+		g8 r r %130
+		c4.
+		f
+		e8 r r
+		R4.
+		f16([ d)] c8 h %135
+		c r r
+		R4.*2
+		f16([ d)] c8 h
+		c c4 %140
+		c d8
+		c4 r8
+		R4.*12 \noBreak %154
+		R4.\fermataMarkup \bar "||" %155
+		\time 4/4 e4 d16([ c)] h([ a)] \appoggiatura a8 gis4^\critnote a \noBreak
+		h16([ c d cis] d8) d c([ d)] e4
+		h16([ c d cis] d8) d c2
+		a4 r8 e' cis([ d)] e f
+		g4 cis, d r8 d %160
+		h([ c)] d e f4 h,
+		c r8 c b4 b
+		b r8 d f([ d)] b([ a)]
+		gis4 a h c16([ h)] e([ h)]
+		c4 r h c16([ h)] e([ h)] %165
+		c8 h a2 h4
+		a8 c h a g! h e4~
+		e fis e2 \markDaCapo \bar "||" %168 finis
+	}
+}
+
+JesuMeinesTenoreLyrics = \lyricmode {
+	Je -- ſu! %28
+	Je -- ſu!
+	mei -- nes %30
+	Le -- bens
+	Quel -- le
+	du ge --
+	lieb -- ter
+	mei -- ner %35
+	See -- le,
+	ach,
+	ach,
+
+	ach, dein %41
+	Haubt iſt
+	ſchon ge --
+	neigt.
+
+	Die Bruſt er -- %47
+	öff -- net ſich,
+	die Händ um --
+	fan -- gen mich, %50
+	das off -- ne
+	Herz nur
+	Lie -- be
+	zeigt,
+	%55
+	das off -- ne
+	Herz __
+	_
+	_
+	_ %60
+	_
+	_
+	_ nur
+	Lie -- be
+	zeigt, %65
+	das off -- ne
+	Herz
+	nur
+	Lie --
+	be, %70
+
+	nur Lie -- be
+	zeigt,
+
+	das off -- ne %76
+	Herz nur
+	Lie -- be
+	zeigt.
+
+	Je -- %86
+	ſu!
+	mei -- nes
+	Le -- bens
+	Quel -- le %90
+	du
+	ge --
+	lieb -- ter
+	mei -- ner
+	See -- le, %95
+	ach,
+	ach,
+
+	ach, dein %100
+	Haubt iſt
+	ſchon ge --
+	neigt.
+
+	Die Bruſt er -- %107
+	öff -- net ſich,
+	die Händ um --
+	fan -- gen mich, %110
+	das off -- ne
+	Herz nur
+	Lie -- be
+	zeigt,
+	%115
+	das off -- ne
+	Herz __
+	_
+	_
+	_ %120
+	_
+	_
+	_
+	_
+	nur %125
+	Lie --
+	be
+	zeigt,
+	das off -- ne
+	Herz %130
+	nur
+	Lie --
+	be,
+
+	nur Lie -- be %135
+	zeigt,
+
+	das off -- ne %139
+	Herz nur %140
+	Lie -- be
+	zeigt.
+
+	In dei -- ner Sei -- te %156
+	wei -- chen Klüf -- te,
+	wei -- chen Klüf --
+	te ſchleuß ich mich ganz
+	ſanft hi -- nein, ſchleuß %160
+	ich mich ganz ſanft hi --
+	nein, ſo wird mein
+	Herz dir ſtatt der
+	Krüf -- te, und dei -- ne
+	Bruſt, und dei -- ne %165
+	Bruſt mein Grab -- mahl
+	ſeyn, und dei -- ne Bruſt mein Grab --
+	mahl ſeyn. %168 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

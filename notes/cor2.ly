@@ -132,3 +132,101 @@ WieDerHirschCornoII = {
 		c c c c c4 r \markDaCapo \bar "||" %98 finis
 	}
 }
+
+JesuMeinesCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoJesuMeines
+		R4.*4
+		e4\fE g8 %5
+		e'16 d c8 g
+		e c'4
+		c8 g r
+		R4.*3 %11
+		c,4.~
+		c~
+		c
+		g'4 r8 %15
+		g4.
+		e4 c8
+		r g' g
+		c, r r
+		R4.*3 %22
+		e'4.
+		d
+		c~ %25
+		c8 g g \noBreak
+		e4 r8
+		\time 4/4 R1\fermataMarkup \noBreak
+		\time 3/8 R4.*4 %32
+		r8 c'\pE g
+		e r r
+		e c'4 %35
+		c8 g r
+		R4.*5 %41
+		c4.~
+		c8 g4
+		c4.~\fE
+		c8 g4 %45
+		e r8
+		R4.*7 %53
+		g4.~\pE
+		g %55
+		g8 r r
+		e'4.(
+		d8) r r
+		e4.(
+		d8) r r %60
+		R4.*5 %65
+		g,4.~
+		g~
+		g4 r8
+		R4.*12 %80
+		g4.\fE
+		e'8 d d
+		d g,4
+		e'8 d4
+		d r8 %85
+		R4.*17 %102
+		e,4\pE g8
+		e'16 d c8 g
+		e c'4 %105
+		c8 g r
+		R4.*7 %113
+		c16( e d c g e)
+		c'( e d c g e) %115
+		R4.
+		c'4.~
+		c~
+		c
+		d~ %120
+		d
+		c~
+		c~
+		c
+		g8 r r %125
+		R4.*2
+		R4.\fermataMarkup
+		R
+		c16( e d c g e) %130
+		c'( e d c g e)
+		r8 c' d
+		c r r
+		R4.*8 %141
+		e4.\fE
+		d
+		c
+		g8 r r %145
+		g4.
+		e4 c8
+		r g' g
+		c, r r
+		R4. %150
+		e'
+		d
+		c~
+		c8 g g \noBreak
+		e4 r8\fermata \bar "||" %155
+		\time 4/4 R1*13 \markDaCapo \bar "||" %168 finis
+	}
+}
