@@ -284,11 +284,11 @@
 	\bookpart {
 		\header {
 			genre = "A C C O M P A G N A T O   /   C O R O"
-			number = "7"
+			number = "6"
 			title = "Kaum als das Kreuzigen vorüber war"
 		}
 		\paper { indent = 2\cm }
-		\tocLabelLong "kaumals" "7" "Accompagnato/Coro" "Kaum als das Kreuzigen vorüber war"
+		\tocLabelLong "kaumals" "6" "Accompagnato/Coro" "Kaum als das Kreuzigen vorüber war"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -369,7 +369,7 @@
 	\bookpart {
 		\header {
 			genre = "A R I A"
-			number = "8"
+			number = "7"
 			title = "Wie der Hirſch ganz ſchnelle"
 		}
 		\paper {
@@ -384,7 +384,7 @@
 			system-system-spacing.minimum-distance = #15
 			systems-per-page = #2
 		}
-		\tocLabelLong "wiederhirsch" "8" "Aria" "Wie der Hirſch ganz ſchnelle"
+		\tocLabelLong "wiederhirsch" "7" "Aria" "Wie der Hirſch ganz ſchnelle"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -447,7 +447,7 @@
 	\bookpart {
 		\header {
 			genre = "R E C I T A T I V O"
-			number = "9"
+			number = "8"
 			title = "Sodann nahm jäh ein Knecht ein Rohr"
 		}
 		\paper {
@@ -456,7 +456,7 @@
 			system-system-spacing.minimum-distance = #23
 			systems-per-page = #2
 		}
-		\tocLabelLong "sodannnahm" "9" "Recitativo" "Sodann nahm jäh ein Knecht ein Rohr"
+		\tocLabelLong "sodannnahm" "8" "Recitativo" "Sodann nahm jäh ein Knecht ein Rohr"
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -482,7 +482,7 @@
 	\bookpart {
 		\header {
 			genre = "A R I A"
-			number = "10"
+			number = "9"
 			title = "Es iſt vollbracht"
 		}
 		\paper {
@@ -490,7 +490,7 @@
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "vollbracht" "10" "Aria" "Es iſt vollbracht"
+		\tocLabelLong "vollbracht" "9" "Aria" "Es iſt vollbracht"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -533,7 +533,7 @@
 	\bookpart {
 		\header {
 			genre = "R E C I T A T I V O"
-			number = "11"
+			number = "10"
 			title = "Izt iſt der Hölle Macht beſinget"
 		}
 		\paper {
@@ -542,7 +542,7 @@
 			system-system-spacing.minimum-distance = #23
 			systems-per-page = #2
 		}
-		\tocLabelLong "hoellemacht" "11" "Recitativo" "Izt iſt der Hölle Macht beſinget"
+		\tocLabelLong "hoellemacht" "10" "Recitativo" "Izt iſt der Hölle Macht beſinget"
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -574,7 +574,7 @@
 	\bookpart {
 		\header {
 			genre = "A R I A"
-			number = "12"
+			number = "11"
 			title = "Sieh, o ſchnöder Sündenknecht!"
 		}
 		\paper {
@@ -583,7 +583,7 @@
 			system-system-spacing.minimum-distance = #17
 			systems-per-page = #2
 		}
-		\tocLabelLong "siehoschnoeder" "12" "Aria" "Sieh, o ſchnöder Sündenknecht!"
+		\tocLabelLong "siehoschnoeder" "11" "Aria" "Sieh, o ſchnöder Sündenknecht!"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -639,7 +639,7 @@
 	\bookpart {
 		\header {
 			genre = "A C C O M P A G N A T O"
-			number = "13"
+			number = "12"
 			title = "O theurer Sünden Zahl"
 		}
 		\paper {
@@ -648,7 +648,7 @@
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "otheurer" "13" "Accompagnato" "O theurer Sünden Zahl"
+		\tocLabelLong "otheurer" "12" "Accompagnato" "O theurer Sünden Zahl"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -691,7 +691,7 @@
 	\bookpart {
 		\header {
 			genre = "A R I A"
-			number = "14"
+			number = "13"
 			title = "Jeſu! meines Lebens Quelle"
 		}
 		\paper {
@@ -706,7 +706,7 @@
 			system-system-spacing.minimum-distance = #15
 			systems-per-page = #2
 		}
-		\tocLabelLong "jesumeines" "14" "Aria" "Jeſu! meines Lebens Quelle"
+		\tocLabelLong "jesumeines" "13" "Aria" "Jeſu! meines Lebens Quelle"
 		\score {
 			<<
 				\new StaffGroup  <<
@@ -768,10 +768,10 @@
 	\bookpart {
 		\header {
 			genre = "C O R O"
-			number = "15"
+			number = "14"
 			title = "In deiner Seite weichen Klüfte"
 		}
-		\tocLabelLong "indeiner" "15" "Coro" "In deiner Seite weichen Klüfte"
+		\tocLabelLong "indeiner" "14" "Coro" "In deiner Seite weichen Klüfte"
 		\score {
 			<<
 				\new StaffGroup <<
