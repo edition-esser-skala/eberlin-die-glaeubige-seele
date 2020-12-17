@@ -467,7 +467,7 @@ bc =
 	\context {
 		\Score
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t)
+		% \override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup
@@ -687,7 +687,7 @@ tempoKaumAls = \tempoMarkup "[Accompagnato]"
 	tempoKaumAlsC = \tempoMarkup "[a tempo]"
 	tempoEySeht = \tempoMarkup "[Coro]"
 	tempoUndEine = \tempoMarkup "[Accompagnato]"
-tempoWieDerHirsch = \tempoMarkup "[Tempo deest]"
+tempoWieDerHirsch = \tempoMarkup "[Allegro]"
 tempoSodannNahm = \tempoMarkup "[Tempo deest]"
 tempoVollbracht = \tempoMarkup "Adagio"
 	tempoVollbrachtB = \tempoMarkup "Allegro"
