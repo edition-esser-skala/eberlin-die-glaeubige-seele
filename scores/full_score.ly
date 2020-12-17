@@ -288,7 +288,7 @@
 			title = "Kaum als das Kreuzigen vorüber war"
 		}
 		\paper { indent = 2\cm }
-		\tocLabelLong "kaumals" "6" "Accompagnato/Coro" "Kaum als das Kreuzigen vorüber war"
+		\tocLabelLong "kaumals" "6" "Acc./Coro" "Kaum als das Kreuzigen vorüber war"
 		\score {
 			<<
 				\new StaffGroup <<
