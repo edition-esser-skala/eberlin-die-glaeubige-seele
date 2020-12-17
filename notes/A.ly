@@ -338,13 +338,69 @@ KaumAlsAltoLyrics = \lyricmode {
 	er ihm hel -- fen kann. %28 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+InDeinerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \autoBeamOff \tempoInDeiner
+		R2.*9 %9
+		g'4 g g %10
+		g2 as4~
+		as g g
+		g8([ f)] g4 r
+		g( as) g
+		f2. %15
+		f4 g f
+		es2 r4
+		es( f) g
+		as( g) f
+		as2 g4 %20
+		g r r
+		g g16([ es8.)] f16([ d8.)]
+		es4 r r
+		g g16([ es8.)] f16([ d8.)]
+		es4 d r %25
+		es es es
+		es r r
+		as g g
+		g2 r4
+		R2.*4 %33
+		es4 f g
+		as( g) f %35
+		as2 g4
+		g fis2
+		g g4
+		g2 r4
+		R2. %40
+		R\fermataMarkup \bar "|." %41 FINIS
+	}
+}
+
+InDeinerAltoLyrics = \lyricmode {
+	\xE In dei -- ner %10
+	Sei -- te __
+	wei -- chen
+	Klüf -- te
+	\x ſchleuß ich
+	mich %15
+	ganz ſanft hi --
+	nein,
+	\xE ſchleuß ich
+	mich ganz
+	ſanft hi -- %20
+	nein,
+	ſo wird mein
+	Herz
+	dir ſtatt der
+	Krüf -- te, %25
+	und dei -- ne
+	Bruſt
+	mein Grab -- mahl
+	ſeyn,
+
+	und dei -- ne %34
+	Bruſt mein %35
+	Grab -- mahl
+	ſeyn, mein
+	Grab -- mahl
+	ſeyn. %39 FINIS
+}

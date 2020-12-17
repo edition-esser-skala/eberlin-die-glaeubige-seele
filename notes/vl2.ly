@@ -917,3 +917,47 @@ JesuMeinesViolinoII = {
 		h4 r r2 \markDaCapo \bar "||" %168 finis %168 finis
 	}
 }
+
+InDeinerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \tempoInDeiner
+		R2.
+		r4 r8 c'16(\fE d es f g as)
+		h,4 r r
+		r r8 c16( d es f g as)
+		\appoggiatura c,8 h4 h16( c) h( c) b( c) b( c) %5
+		\appoggiatura b8 as4 as16( b) as( b) g( as) g( as)
+		f4 f16( g) f( g) es( f) es( f)
+		es4 d r
+		g as g
+		c2.~ %10
+		c4 h d~
+		d c h
+		c8 h c4 r
+		R2.*4 %17
+		c8 c c c c c
+		c c c c c c
+		d4 c h %20
+		c r r
+		es es16( c8.) d16( h8.)
+		c4 r r
+		es es16( c8.) d16( h8.)
+		c4 r8 g16( a h c d es) %25
+		c8 c c c c c
+		c c c c c c
+		f4 es d
+		c~ c16 h c as g f es d
+		c4 r r %30
+		R2.*2
+		r4 r8 g' a! h
+		c c c c c c
+		c c c c c c %35
+		d4 c h
+		c es16( c8.) es16( c8.)
+		c2 h4
+		c g g
+		g es es %40
+		es2.\fermata \bar "|." %41 FINIS
+	}
+}

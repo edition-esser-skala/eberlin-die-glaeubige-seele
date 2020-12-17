@@ -910,13 +910,69 @@ JesuMeinesTenoreLyrics = \lyricmode {
 	mahl ſeyn. %168 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+InDeinerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 3/4 \autoBeamOff \tempoInDeiner
+		R2.*9 %9
+		es4 es es %10
+		d2 f4~
+		f es d
+		c8([ d)] es4 r
+		es( f) es
+		d2. %15
+		d4 es d
+		c2 r4
+		g2 c4
+		as r r
+		f' es d %20
+		c r r
+		R2.*4 %25
+		g4 g g
+		c r r
+		c c h
+		c2 r4
+		es8([ d)] d([ c)] c([ b!)] %30
+		b4 r r
+		c8([ b)] b([ as)] as([ g)]
+		g([ as)] b4 r
+		g g c
+		as r r %35
+		f' es d
+		c c2
+		d d4
+		c2 r4
+		R2.
+		R\fermataMarkup \bar "|."
+	}
+}
+
+InDeinerTenoreLyrics = \lyricmode {
+	\xE In dei -- ner %10
+	Sei -- te __
+	wei -- chen
+	Klüf -- te
+	\x ſchleuß ich
+	mich %15
+	ganz ſanft hi --
+	nein,
+	\xE ſchleuß ich
+	mich
+	ganz ſanft hi -- %20
+	nein,
+
+	und dei -- ne %26
+	Bruſt
+	mein Grab -- mahl
+	ſeyn,
+	\x ſo wird mein %30
+	Herz
+	dir ſtatt der
+	Krüf -- te,
+	\xE und dei -- ne
+	Bruſt mein %35
+	Grab -- mahl
+	ſeyn, mein
+	Grab -- mahl
+	ſeyn. %39 FINIS
+}

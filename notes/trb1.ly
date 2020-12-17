@@ -130,3 +130,51 @@ KaumAlsTromboneI = {
 		R1\fermataMarkup \bar "|." %44 finis
 	}
 }
+
+InDeinerTromboneI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \tempoInDeiner
+		g'4\fE f g
+		as g2
+		f4. d16 es f8 f
+		f4 es r
+		R2. %5
+		f2 es4
+		d2 c4
+		c h r
+		R2.
+		g'4 g g %10
+		g2 as4~
+		as g g
+		g8 f g4 r
+		R2.
+		r8 f-! f( g) f( g) %15
+		f4 r r
+		r g f
+		es f g
+		as g f
+		as2 g4 %20
+		g r r
+		R2.
+		r8 g-! g( f) f( es)
+		es4 r r
+		R2. %25
+		g4 g g
+		es r8 es f g
+		as4 g g
+		g2 r4
+		R2. %30
+		r8 b! b as as g
+		as4 r r
+		R2.
+		es4 f g
+		as g f %35
+		as2 g4
+		g fis2
+		g2 g4
+		g es es
+		es c c %40
+		c2.\fermata \bar "|." %41 FINIS
+	}
+}

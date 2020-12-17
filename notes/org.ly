@@ -1972,13 +1972,94 @@ JesuMeinesBassFigures = \figuremode {
 	<6 4>4 <5+ _+>2. %168 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+InDeinerOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 3/4 \tempoInDeiner
+		c4\fE r r
+		r r8 c16 h c d es f
+		g4 g, r
+		c r8 c16 h c d es f
+		g4( e) r %5
+		f( d) es-!
+		d( h) c
+		g' g, r
+		R2.
+		c4 es c %10
+		g'2 f4~
+		f g f
+		es8 d c4 r
+		R2.
+		r4 g g %15
+		g r r
+		c r r
+		c d es
+		f g as
+		f2 g4 %20
+		c, r r
+		r c g
+		c r r
+		r c g
+		g g r %25
+		c es c
+		as' r r
+		f g g,
+		c c c
+		c r r %30
+		es r r
+		as, r b
+		es r8 es f d
+		c4 d es
+		f g as %35
+		f2 g4
+		c, as'2
+		g2.
+		c,4 c c
+		c c c %40
+		c2.\fermata \bar "|." %41 FINIS
+	}
+}
+
+InDeinerBassFigures = \figuremode {
+	r2.
+	r
+	<7 _!>
+	<9 4>4 <8 3>2
+	<4>8 <_!> <6>2 %5
+	<4>8 <_-> <6 5->2
+	<5->4 <6 5>2
+	<6 4>4 <5 _!>2
+	r2.
+	r4 <6>2 %10
+	<4>4 <_!> <6 _->
+	r <6 4> <4! 2>
+	<6>8 <6!> r2
+	r2.
+	r4 <7 _!>2 %15
+	r2.
+	r
+	r4 <7> <6>
+	<_-> <6 4> <6>
+	<8 6 _-> <7 5 \t> <5 _!> %20
+	r2.
+	r2 <_!>4
+	r2.
+	r2 <_!>4
+	<6 4> <5 _!>2 %25
+	r4 <6>2
+	r2.
+	<_->4 <6 4> <5 _!>
+	r2.
+	r %30
+	r
+	<6>2 <7->4
+	r2 <_!>8 <6!>
+	r4 <7> <6>
+	<_-> <6 4> <6> %35
+	<8 6 _-> <7 5 \t> <5 _!>
+	r <6\\>2
+	<4>2 <_!>4
+	r2.
+	r %40
+	r %41 FINIS
+}

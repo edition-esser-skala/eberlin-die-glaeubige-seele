@@ -666,70 +666,143 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		genre = "A R I A"
+	% 		number = "14"
+	% 		title = "Jeſu! meines Lebens Quelle"
+	% 	}
+	% 	\paper { indent = 1.5\cm }
+	% 	\tocLabelLong "jesumeines" "14" "Aria" "Jeſu! meines Lebens Quelle"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "fag"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JesuMeinesFagottoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JesuMeinesFagottoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (C)" "1, 2" }
+	% 					\partcombine \JesuMeinesCornoI \JesuMeinesCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JesuMeinesViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JesuMeinesViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\JesuMeinesViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "[Seele]"
+	% 					\new Voice = "Tenore" { \dynamicUp \JesuMeinesTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JesuMeinesTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\JesuMeinesOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JesuMeinesBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4. = 50 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			genre = "A R I A"
-			number = "14"
-			title = "Jeſu! meines Lebens Quelle"
+			genre = "C O R O"
+			number = "15"
+			title = "In deiner Seite weichen Klüfte"
 		}
-		\paper { indent = 1.5\cm }
-		\tocLabelLong "jesumeines" "14" "Aria" "Jeſu! meines Lebens Quelle"
+		\tocLabelLong "indeiner" "15" "Coro" "In deiner Seite weichen Klüfte"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "fag"
+						\set GrandStaff.instrumentName = "trb"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JesuMeinesFagottoI
+							\InDeinerTromboneI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JesuMeinesFagottoII
+							\InDeinerTromboneII
 						}
 					>>
 				>>
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "cor (C)" "1, 2" }
-						\partcombine \JesuMeinesCornoI \JesuMeinesCornoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
+					\new GrandStaff  <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JesuMeinesViolinoI
+							\InDeinerViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JesuMeinesViolinoII
+							\InDeinerViolinoII
 						}
 					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\JesuMeinesViola
-					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "[Seele]"
-						\new Voice = "Tenore" { \dynamicUp \JesuMeinesTenoreNotes }
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \InDeinerSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \JesuMeinesTenoreLyrics
+					\new Lyrics \lyricsto Soprano \InDeinerSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \InDeinerAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \InDeinerAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \InDeinerTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \InDeinerTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \InDeinerBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \InDeinerBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\JesuMeinesOrgano
+						\InDeinerOrgano
 					}
 				>>
-				\new FiguredBass { \JesuMeinesBassFigures }
+				\new FiguredBass { \InDeinerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 50 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

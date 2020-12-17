@@ -699,6 +699,7 @@ tempoHoelleMacht = \tempoMarkup "[Tempo deest]"
 tempoSiehOSchnoeder = \tempoMarkup "Adagio"
 tempoOTheurer = \tempoMarkup "[Tempo deest]"
 tempoJesuMeines = \tempoMarkup "[Tempo deest]"
+tempoInDeiner = \tempoMarkup "[Tempo deest]"
 
 
 markDaCapo = {

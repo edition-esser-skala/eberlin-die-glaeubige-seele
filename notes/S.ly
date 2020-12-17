@@ -447,13 +447,65 @@ SiehOSchnoederSopranoLyrics = \lyricmode {
 	er nicht. %57 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+InDeinerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \autoBeamOff \tempoInDeiner
+		R2.*8 %8
+		g'4 as g
+		c2.~ %10
+		c4 h d~
+		d c h
+		c8([ h)] c4 r
+		R2.*4 %17
+		c2 c4
+		c2.
+		d4 c h %20
+		c r r
+		es es16([ c8.)] d16([ h8.)]
+		c4 r r
+		es es16([ c8.)] d16([ h8.)]
+		c4 h r %25
+		c c c
+		c r r
+		f es d
+		c2 r4
+		R2.*4 %33
+		c4 c c
+		c2. %35
+		d4 c h
+		c c2
+		c h4
+		c2 r4
+		R2. %40
+		R\fermataMarkup \bar "|." %41 FINIS
+	}
+}
+
+InDeinerSopranoLyrics = \lyricmode {
+	In dei -- ner %9
+	Sei -- %10
+	te wei --
+	_ chen
+	Klüf -- te
+
+	ſchleuß ich %18
+	mich
+	ganz ſanft hi -- %20
+	nein,
+	ſo wird mein
+	Herz
+	dir ſtatt der
+	Krüf -- te, %25
+	und dei -- ne
+	Bruſt
+	mein Grab -- mahl
+	ſeyn,
+
+	und dei -- ne %34
+	Bruſt %35
+	mein Grab -- mahl
+	ſeyn, mein
+	Grab -- mahl
+	ſeyn. %39 FINIS
+}
