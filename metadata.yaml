@@ -1,0 +1,17 @@
+composer: Eberlin, Johann Ernst
+title: Die gläubige Seele
+id: (F-P MS-2008)
+genre: oratorium
+scoring: S, A, T, (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 fag, 2 cor (C/F), 2 trb, 2 vl, vla, b, org
+sources:
+  1:
+    siglum: F-Pn
+    shelfmark: MS-2008
+    type: autograph manuscript
+    date: 1740–1760
+    rism: 840014522
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10537269n
+github: eberlin-die-glaeubige-seele
+imslp: Die_gläubige_Seele_(Eberlin%2C_Johann_Ernst)
+notes:
+
