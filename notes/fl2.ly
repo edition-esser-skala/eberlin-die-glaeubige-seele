@@ -1,13 +1,9 @@
-% (c) 2020 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 SiehOSchnoederFlautoII = {
-	\relative c' {
-		\clef treble
-		\key a \major \time 4/4 \tempoSiehOSchnoeder
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoSiehOSchnoeder
     R1
     r2 r4 cis'16\fE d32 cis e16 cis
     \appoggiatura cis8 d4 gis,16 a32 gis h16 gis \appoggiatura gis8 a4 r
@@ -37,7 +33,7 @@ SiehOSchnoederFlautoII = {
     R1
     r8 gis' \tuplet 3/2 8 { gis16[ a gis] h a gis } a4 r
     R1*4 %36
-    R1\fermataMarkup
+    R1\fermata
     R1*3 %40
     \tuplet 3/2 8 { a16[\pE gis a] } gis8-! \tuplet 3/2 8 { gis16[ a h] } a8-! r2
     R1
@@ -45,8 +41,8 @@ SiehOSchnoederFlautoII = {
     \appoggiatura cis8 d4 gis,16 a32 gis h16 gis \appoggiatura gis8 a4 r
     dis8\fE e r4 cis8 d d4~ %45
     d16\trill cis32 d cis16\trill h32 cis h16\trill a32 h a16\trill gis32 a a8 gis h4 \noBreak
-		\tuplet 3/2 8 { a16[ fis' e] d cis h } a8 gis a4 r\fermata \bar "||"
-		\key a \minor R1 \noBreak
+    \tuplet 3/2 8 { a16[ fis' e] d cis h } a8 gis a4 r\fermata \bar "||"
+    \key a \minor R1 \noBreak
     r2 r8 c\pE c16\trill h32 c h16\trill a32 h
     a4 r r8 d d16\trill c32 d c16\trill b32 c %50
     b4 r r8 c c16\trill h?32 c h16 a32 h
@@ -55,5 +51,5 @@ SiehOSchnoederFlautoII = {
     gis'2( fis8) a a16\trill gis32 a gis16\trill fis32 gis
     fis4 r r2 %55
     R1*2 \markDaCapo \bar "||" %57 finis
-	}
+  }
 }

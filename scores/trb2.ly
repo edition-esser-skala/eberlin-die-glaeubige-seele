@@ -1,79 +1,41 @@
-% (c) 2020 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-	indent = 1\cm
-	top-margin = 1.5\cm
-	system-separator-markup = ##f
-	system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-	markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-	\context {
-		\Staff
-		instrumentName = "trb 2"
-	}
-}
+#(define option-instrument-name "trb 2")
+\include "score_settings/one-staff.ly"
 
 \book {
-	\bookpart {
-		\header {
-			genre = "A C C O M P A G N A T O   /   C O R O"
-			number = "6"
-			title = "Kaum als das Kreuzigen vorüber war"
-		}
-		\paper { indent = 2\cm systems-per-page = #2 }
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = "Trombone II"
-					\KaumAlsTromboneII
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "C O R O"
-			number = "14"
-			title = "In deiner Seite weichen Klüfte"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new Staff { \InDeinerTromboneII }
-			>>
-		}
-	}
+  \bookpart {
+    \section "6" "Acc., Coro" "Kaum als das Kreuzigen vorüber war"
+    \addTocEntry
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Evangelium"
+            \new Voice = "Evangelium" { \dynamicUp \KaumAlsEvangeliumNotes }
+          }
+          \new Lyrics \lyricsto Evangelium \KaumAlsEvangeliumLyrics
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "Trombone II"
+          \KaumAlsTromboneII
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "14" "Coro" "In deiner Seite weichen Klüfte"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \InDeinerTromboneII }
+      >>
+    }
+  }
 }

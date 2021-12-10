@@ -1,189 +1,145 @@
-% (c) 2020 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-	indent = 1\cm
-	top-margin = 1.5\cm
-	system-separator-markup = ##f
-	system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-	markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-	\context {
-		\Staff
-		instrumentName = "vl 2"
-	}
-}
+#(define option-instrument-name "vl 2")
+\include "score_settings/one-staff.ly"
 
 \book {
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "1"
-			title = "Izt komm, o rauher Sünder"
-		}
-		\paper { indent = 2\cm }
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\ItztKommViolinoII
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "3"
-			title = "Weint mit mir, ihr frommen Seelen"
-		}
-		\score {
-			<<
-				\new Staff { \WeintMitViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A C C O M P A G N A T O"
-			number = "4"
-			title = "Sobald die Juden nun auf Golgatha gekommen"
-		}
-		\paper { systems-per-page = #8 }
-		\score {
-			<<
-				\new Staff { \SobaldDieViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "5"
-			title = "Mörderdazen, Mörderklauen"
-		}
-		\score {
-			<<
-				\new Staff { \MoerderdazenViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A C C O M P A G N A T O   /   C O R O"
-			number = "6"
-			title = "Kaum als das Kreuzigen vorüber war"
-		}
-		\score {
-			<<
-				\new Staff { \KaumAlsViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "7"
-			title = "Wie der Hirſch ganz ſchnelle"
-		}
-		\score {
-			<<
-				\new Staff { \WieDerHirschViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "9"
-			title = "Es iſt vollbracht"
-		}
-		\score {
-			<<
-				\new Staff { \VollbrachtViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "11"
-			title = "Sieh, o ſchnöder Sündenknecht!"
-		}
-		\score {
-			<<
-				\new Staff { \SiehOSchnoederViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A C C O M P A G N A T O"
-			number = "12"
-			title = "O theurer Sünden Zahl"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new Staff { \OTheurerViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "A R I A"
-			number = "13"
-			title = "Jeſu! meines Lebens Quelle"
-		}
-		\score {
-			<<
-				\new Staff { \JesuMeinesViolinoII }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			genre = "C O R O"
-			number = "14"
-			title = "In deiner Seite weichen Klüfte"
-		}
-		\paper { systems-per-page = #6 }
-		\score {
-			<<
-				\new Staff { \InDeinerViolinoII }
-			>>
-		}
-	}
+  \bookpart {
+    \section "1" "Aria" "Izt komm, o rauher Sünder"
+    \addTocEntry
+    \paper { indent = 2\cm }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "Violino II"
+          \ItztKommViolinoII
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Aria" "Weint mit mir, ihr frommen Seelen"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \WeintMitViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Accompagnato" "Sobald die Juden nun auf Golgatha gekommen"
+    \addTocEntry
+    \paper {
+      systems-per-page = #5
+      indent = 3\cm
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Evangelium" "Die gläubige Seele" }
+            \new Voice = "Tenore" { \dynamicUp \SobaldDieTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \SobaldDieTenoreLyrics
+        >>
+        \new Staff { \SobaldDieViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Aria" "Mörderdazen, Mörderklauen"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \MoerderdazenViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Acc., Coro" "Kaum als das Kreuzigen vorüber war"
+    \addTocEntry
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Evangelium"
+            \new Voice = "Evangelium" { \dynamicUp \KaumAlsEvangeliumNotes }
+          }
+          \new Lyrics \lyricsto Evangelium \KaumAlsEvangeliumLyrics
+        >>
+        \new Staff { \KaumAlsViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "7" "Aria" "Wie der Hirſch ganz ſchnelle"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \WieDerHirschViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "9" "Aria" "Es iſt vollbracht"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \VollbrachtViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "11" "Aria" "Sieh, o ſchnöder Sündenknecht!"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \SiehOSchnoederViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "12" "Accompagnato" "O theurer Sünden Zahl"
+    \addTocEntry
+    \paper {
+      systems-per-page = #5
+      indent = 1.5\cm
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Seele"
+            \new Voice = "Tenore" { \dynamicUp \OTheurerTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \OTheurerTenoreLyrics
+        >>
+        \new Staff { \OTheurerViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "13" "Aria" "Jeſu! meines Lebens Quelle"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \JesuMeinesViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "14" "Coro" "In deiner Seite weichen Klüfte"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \InDeinerViolinoII }
+      >>
+    }
+  }
 }
